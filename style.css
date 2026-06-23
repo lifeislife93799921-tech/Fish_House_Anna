@@ -239,3 +239,97 @@ a {
         font-size: 16px; /* Логотип компактнее на маленьких экранах */
     }
 }
+/* Отступ всей новой страницы от шапки */
+.main {
+    padding-top: 30px;
+}
+
+/* Создаем сетку из 3 колонок */
+.hero__grid {
+    display: grid;
+    grid-template-columns: 1fr 340px 1fr; /* Бока делят место поровну, центр строго 340px под мобильное видео */
+    gap: 20px;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Боковые пустые пространства под будущие карточки */
+.hero__side {
+    width: 100%;
+    min-height: 200px;
+}
+
+/* Центральная часть */
+.hero__center {
+    width: 100%;
+}
+
+/* Коробка для вертикального видео 9:16 */
+.hero__video-box {
+    position: relative;
+    width: 100%;
+    padding-top: 177.77%; /* Держит пропорции под вертикальное видео 720x1280 */
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background-color: #000;
+}
+
+/* Само видео внутри коробки */
+.hero__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* Слой для затемнения видео */
+.hero__video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* 0.3 — это степень затемнения. Нужна больше темнота — ставь 0.4 или 0.5 */
+    z-index: 2; /* Сидит строго над видео */
+    pointer-events: none; /* Чтобы клики проходили сквозь слой */
+}
+
+/* Контейнер для логотипа (позиционирование сверху по центру) */
+.hero__logo-overlay {
+    position: absolute;
+    top: 20px; /* Отступ логотипа от верхнего края видео */
+    left: 50%;
+    transform: translateX(-50%); /* Центровка по горизонтали */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 3; /* Поверх затемнения и видео */
+    pointer-events: none;
+}
+
+/* Сам логотип */
+.hero__logo {
+    max-width: 90%; /* Логотип занимает 90% ширины видео. Уменьшай проценты, если захочешь сделать его меньше */
+    height: auto;
+    object-fit: contain;
+}
+
+/* Адаптив для мобилок */
+@media (max-width: 992px) {
+    .hero__grid {
+        grid-template-columns: 1fr;
+    }
+    .hero__side {
+        display: none; /* Прячем пустые боковые зоны на телефонах, чтобы не мешались */
+    }
+    .hero__center {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+}
