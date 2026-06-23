@@ -333,3 +333,281 @@ a {
         margin: 0 auto;
     }
 }
+/* ==========================================================================
+   4. АВТОНОМНЫЙ ФУТЕР С ПОДГОНКОЙ PNG ИКОНОК (БЭМ)
+   ========================================================================== */
+.footer {
+    background-color: #161b22;
+    color: #ffffff;
+    padding: 60px 0 20px 0;
+    margin-top: 60px;
+    border-top: 1px solid rgba(255, 110, 0, 0.2);
+}
+
+.footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Сетка из 4 колонок слева направо */
+.footer__grid {
+    display: grid;
+    grid-template-columns: 1fr 2.2fr 1fr 1.5fr;
+    gap: 30px;
+    align-items: start;
+    margin-bottom: 40px;
+}
+
+.footer__logo-zone {
+    width: 100%;
+}
+
+.footer__logo {
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+.footer__col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ff6e00;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Центрирование заголовка над двумя колонками каталога */
+.footer__title--center {
+    text-align: center;
+    position: relative;
+    right: 40px;
+}
+
+.footer__catalog-center {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Двухколоночный список товаров */
+.footer__catalog-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.footer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__list li {
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 13.5px;
+    line-height: 1.4;
+    transition: color 0.2s ease;
+}
+
+.footer__link:hover {
+    color: #ff6e00;
+}
+
+.footer__link--sale {
+    color: #ff4444;
+    font-weight: 700;
+}
+
+.footer__link--sale:hover {
+    color: #ff6666;
+}
+
+/* Правая колонка контактов */
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.footer__contact-block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer__contact-label {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+}
+
+.footer__contact-item {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.2s ease;
+}
+
+.footer__contact-item:hover {
+    color: #ff6e00;
+}
+
+.footer__phone-icon {
+    color: #ff6e00;
+    font-size: 16px;
+}
+
+/* Вертикальный список соцсетей */
+.footer__socials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__social-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.footer__social-row:hover {
+    color: #ff6e00;
+}
+
+/* ЖЕСТКАЯ ПОДГОНКА PNG ИКОНОК — СЮДА ВСТАНЕТ ЛЮБОЙ РАЗМЕР ИЗ КАТАЛОГА */
+.footer__social-img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain; /* Чтобы картинка не сжималась и не деформировалась */
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+
+.footer__social-row:hover .footer__social-img {
+    transform: scale(1.08); /* Легкий интерактивный зум при наведении */
+}
+
+/* Нижняя часть с картой */
+.footer__address-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding-top: 15px;
+}
+
+.footer__address-text {
+    font-size: 13.5px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.4;
+}
+
+.footer__map-btn {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 110, 0, 0.1);
+    border: 1px solid rgba(255, 110, 0, 0.4);
+    border-radius: 6px;
+    padding: 6px 14px;
+    color: #ff6e00;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.footer__map-btn:hover {
+    background: #ff6e00;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(255, 110, 0, 0.3);
+}
+
+.footer__bottom {
+    grid-column: span 4;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer__bottom p {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 13px;
+    margin: 0;
+}
+
+/* ==========================================================================
+   АДАПТИВНОСТЬ ФУТЕРА ПОД МОБИЛКИ С КАРТИНКАМИ
+   ========================================================================== */
+@media (max-width: 1024px) {
+    .footer__grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+    }
+    .footer__logo-zone {
+        grid-column: span 2;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .footer__bottom {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__catalog-columns {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 40px 0 20px 0;
+    }
+    .footer__grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        text-align: center;
+    }
+    .footer__logo-zone,
+    .footer__bottom {
+        grid-column: span 1;
+    }
+    .footer__title--center {
+        text-align: center;
+        
+    }
+    .footer__catalog-columns {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .footer__social-row,
+    .footer__contact-item {
+        justify-content: center;
+    }
+    .footer__map-btn {
+        align-self: center;
+    }
+}
