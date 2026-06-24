@@ -621,7 +621,7 @@ a {
 
 .footer__title--clients {
     position: relative;
-    left: 10px; /* Меняй эту цифру, чтобы двигать слово влево или вправо */
+    left: 50px; /* Меняй эту цифру, чтобы двигать слово влево или вправо */
 }
 .footer__list--clients {
     text-align: center;
