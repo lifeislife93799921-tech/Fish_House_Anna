@@ -587,38 +587,6 @@ a {
         gap: 15px;
     }
 }
-
-@media (max-width: 576px) {
-    .footer {
-        padding: 40px 0 20px 0;
-    }
-    .footer__grid {
-        grid-template-columns: 1fr;
-        gap: 35px;
-        text-align: center;
-    }
-    .footer__logo-zone,
-    .footer__bottom {
-        grid-column: span 1;
-    }
-    .footer__title--center {
-        text-align: center;
-        
-        
-    }
-    .footer__catalog-columns {
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
-    .footer__social-row,
-    .footer__contact-item {
-        justify-content: center;
-    }
-    .footer__map-btn {
-        align-self: center;
-    }
-}
-
 .footer__title--clients {
     position: relative;
     left: 50px; /* Меняй эту цифру, чтобы двигать слово влево или вправо */
@@ -626,3 +594,60 @@ a {
 .footer__list--clients {
     text-align: center;
 }
+@media (max-width: 576px) {
+
+    .footer {
+        padding: 40px 0 20px 0;
+    }
+
+    .footer__grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        text-align: center;
+    }
+
+    .footer__logo-zone,
+    .footer__bottom {
+        grid-column: span 1;
+    }
+
+    /* КАТАЛОГ */
+    .footer__title--center {
+        text-align: center;
+        position: static;
+        right: 0;
+    }
+
+    /* КЛІЄНТАМ */
+    .footer__title--clients {
+        position: static;
+        left: 0;
+        text-align: center;
+    }
+
+    .footer__catalog-columns {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    /* Контакты */
+    .footer__contacts {
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .footer__contact-block,
+    .footer__address-block {
+        align-items: center;
+    }
+
+    .footer__social-row,
+    .footer__contact-item {
+        justify-content: center;
+    }
+
+    .footer__map-btn {
+        align-self: center;
+    }
+}
+
