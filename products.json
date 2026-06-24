@@ -1,0 +1,1484 @@
+[
+  {
+    "id": 1,
+    "name": "Ікра Кети нова партія",
+    "type": "ikra",
+    "price": 812,
+    "oldPrice": null,
+    "unit": "100г",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/ikra/ikra_kety.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ікра осетра чорна (ВАГОВА)",
+    "type": "ikra",
+    "price": 3850,
+    "oldPrice": null,
+    "unit": "100г",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/ikra/ikra_osetra.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ікра форелі ПРЕМІУМ (вагова)",
+    "type": "ikra",
+    "price": 535,
+    "oldPrice": null,
+    "unit": "100г",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/ikra/ikra_foreli.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ікра червона імітація 115 грамів",
+    "type": "ikra",
+    "price": 55,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/ikra/ikra_imitaciya.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Ікра щуки 100 г",
+    "type": "ikra",
+    "price": 535,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/ikra/ikra_shchuki_ba.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ікра гольця вагова",
+    "type": "ikra",
+    "price": 450,
+    "oldPrice": null,
+    "unit": "100г",
+    "step": 1,
+    "available": false,
+    "missingText": "Тимчасово немає",
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/ikra/ikra_golca.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ікра щуки (вагова)",
+    "type": "ikra",
+    "price": 475,
+    "oldPrice": null,
+    "unit": "100г",
+    "step": 1,
+    "available": false,
+    "missingText": "Тимчасово немає",
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/ikra/ikra_shchuki_vag.jpg"
+  }
+,
+  {
+    "id": 8,
+    "name": "Аджика гостра від Ані 0,5",
+    "type": "gotov_prod",
+    "price": 115,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/adzhika_gostra.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Аджика не гостра від Ані 0,5",
+    "type": "gotov_prod",
+    "price": 115,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/adzhika_ne_gostra.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Дунайка слабо солона",
+    "type": "gotov_prod",
+    "price": 700,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/dunajka_ss.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Ікра мойви солона 0,3",
+    "type": "gotov_prod",
+    "price": 320,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/ikra_mojvy.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Ікра тріски солона 0,3",
+    "type": "gotov_prod",
+    "price": 320,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/ikra_triski.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Лосось дикий з лимоном с/с 0,500 Г",
+    "type": "gotov_prod",
+    "price": 300,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/losos_dykyj.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Масло з ікрою тріски від Ані 500гр",
+    "type": "gotov_prod",
+    "price": 370,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/maslo_ikra_triski.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Масло з ікрою мойви від т. Ані",
+    "type": "gotov_prod",
+    "price": 370,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/maslo_ikra_mojvy.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Мідія в мушлі в/м у вершковому соусі.",
+    "type": "gotov_prod",
+    "price": 175,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/midiya_v_mushli.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Оселедець вершкове масло від Ані",
+    "type": "gotov_prod",
+    "price": 190,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/oseledec_maslo.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Оселедець слабо солоний 450+",
+    "type": "gotov_prod",
+    "price": 215,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/oseledec_ss.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Пресерва дунайка",
+    "type": "gotov_prod",
+    "price": 180,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/preserva_dunajka.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Пресерва Оселедець від т. Ані 0,5",
+    "type": "gotov_prod",
+    "price": 135,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/preserva_oseledec.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Пресерва скумрія від т. Ані 0,5",
+    "type": "gotov_prod",
+    "price": 275,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/preserva_skumbriya.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Сік томатний від т. Ані 1л",
+    "type": "gotov_prod",
+    "price": 95,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/sik_tomatnyj.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Слабосолоне філе лосося на шкірі",
+    "type": "gotov_prod",
+    "price": 1250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/file_lososya_na_shkiri.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Соус чілі солодкий 0,500",
+    "type": "gotov_prod",
+    "price": 115,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/sous_chili.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Сьомга-Форель слабосолона, смужки ВАГОВА ВАКУУМ",
+    "type": "gotov_prod",
+    "price": 905,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/somga_forel_smuzhky.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Філе с/с преміум зачистка, фірмове від Ані",
+    "type": "gotov_prod",
+    "price": 1250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/file_ss_premium.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Філе с/с преміум зачистка з апельсином від Ані",
+    "type": "gotov_prod",
+    "price": 1400,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/gotov_prod/file_ss_apelsyn.jpg"
+  }
+,
+  {
+    "id": 28,
+    "name": "Бендерики з м'ясом від т. Ані",
+    "type": "napivfab",
+    "price": 220,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/benderiki_z_myasom.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Варенеки з капустою від Ані",
+    "type": "napivfab",
+    "price": 165,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/varenyky_z_kapustoyu.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Варенеки з картоплею від Ані",
+    "type": "napivfab",
+    "price": 157,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/varenyky_z_kartopleyu.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Варенеки з картоплею та грибами від Ані",
+    "type": "napivfab",
+    "price": 172,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/varenyky_kartoplya_gryby.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Вареники з вишнею",
+    "type": "napivfab",
+    "price": 230,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/varenyky_z_vyshneyu.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Вареники з картоплею та м'ясом від Ані",
+    "type": "napivfab",
+    "price": 195,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/varenyky_kartoplya_myaso.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Вареники з картоплею та печінкою від т. Ані",
+    "type": "napivfab",
+    "price": 165,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/varenyky_kartoplya_pechinka.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Вареники з куркою від т. Ані",
+    "type": "napivfab",
+    "price": 270,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/varenyky_z_kurkoyu.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Вареники з солодким сиром від Ані",
+    "type": "napivfab",
+    "price": 185,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/varenyky_solodkyj_syr.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Вареники з солоним сиром від Ані",
+    "type": "napivfab",
+    "price": 185,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/varenyky_solonyj_syr.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Вареники ліниві від т. Ані",
+    "type": "napivfab",
+    "price": 220,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/varenyky_linyvi.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Голубці від Ані",
+    "type": "napivfab",
+    "price": 240,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/golubci.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Дорадо по Грецьки МАРИНОВАНА (напівфабрикат) 400-600г",
+    "type": "napivfab",
+    "price": 680,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/dorado_grecky_marynovana.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Дорадо по Грецьки заморожена МАРИНОВАНА (напівфабрикат) 400-600г",
+    "type": "napivfab",
+    "price": 680,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/dorado_grecky_zamorozhena.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Дорадо тушка заморожена МАРИНОВАНА (напівфабрикат) 400-600г",
+    "type": "napivfab",
+    "price": 680,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/dorado_tushka_zamorozhena.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Дорадо тушка МАРИНОВАНА (напівфабрикат) 400-600г",
+    "type": "napivfab",
+    "price": 680,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/dorado_tushka_marynovana.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Ковбаски гриль з курки від т. Ані",
+    "type": "napivfab",
+    "price": 295,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/kovbasky_gryl_kurka.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Коробка для піци",
+    "type": "napivfab",
+    "price": 0.01,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/korobka_dlya_picy.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Котлети із щуки від Ані",
+    "type": "napivfab",
+    "price": 398,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/kotlety_shchuka.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Котлети курячі від Ані",
+    "type": "napivfab",
+    "price": 288,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/kotlety_kuryachi.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Котлети рибні з начінкою від Ані",
+    "type": "napivfab",
+    "price": 290,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/kotlety_rybni_nachinka.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Котлети рибні з Хека від Ані",
+    "type": "napivfab",
+    "price": 290,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/kotlety_rybni_heka.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Круасан з креветки від Ані.",
+    "type": "napivfab",
+    "price": 680,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/kruasan_z_krevetky.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Курчата в сметанному соусі маріновані.",
+    "type": "napivfab",
+    "price": 190,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/kurchata_smetannyj_sous.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Курчата з соєвим соусом маріновані.",
+    "type": "napivfab",
+    "price": 190,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/kurchata_sojevyj_sous.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Курчата Том ям маріновані.",
+    "type": "napivfab",
+    "price": 190,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/kurchata_tom_yam.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Лазання від Ані. 750 г",
+    "type": "napivfab",
+    "price": 280,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/lazanya.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Люля-кебаб із курки",
+    "type": "napivfab",
+    "price": 305,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/lula_kebab_kurka.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Млинці з Бананом та маком",
+    "type": "napivfab",
+    "price": 250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_banan_mak.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Млинці з ВИШНЕЮ і сиром від Ані",
+    "type": "napivfab",
+    "price": 250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_vyshnya_syr.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Млинці з куркою від Ані",
+    "type": "napivfab",
+    "price": 297,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_z_kurkoyu.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Млинці з лаймом та м'ятой від Ані.",
+    "type": "napivfab",
+    "price": 250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_laym_myata.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Млинці з манго та маракуя від Ані",
+    "type": "napivfab",
+    "price": 250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_mango_marakuya.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Млинці з ПЕРСИКОМ ТА МАРАКУЄЮ і сиром",
+    "type": "napivfab",
+    "price": 250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_persyk_marakuya.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Млинці з ПОЛУНИЦЕЮ і сиром від Ані",
+    "type": "napivfab",
+    "price": 250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_polunycya_syr.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Млинці з сиром БЕЗ РОДЗИНОК від Ані",
+    "type": "napivfab",
+    "price": 225,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_syr_bez_rodzynok.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Млинці з сиром та родзинками від Ані",
+    "type": "napivfab",
+    "price": 225,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_syr_rodzynky.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Млинці з яблуком від т. Ані",
+    "type": "napivfab",
+    "price": 250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_z_yablukom.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Млинці картопля+гриби",
+    "type": "napivfab",
+    "price": 145,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_kartoplya_gryby.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Млинці шинка, курка, сир від Ані",
+    "type": "napivfab",
+    "price": 297,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_shynka_kurka_syr.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Морський окунь маринований від Ані.",
+    "type": "napivfab",
+    "price": 425,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/morskyj_okun_marynovanyj.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Пельмені свинячі від Ані",
+    "type": "napivfab",
+    "price": 240,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/pelmeni_svynyaci.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Пельмені куряче свинячі від Ані",
+    "type": "napivfab",
+    "price": 240,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/pelmeni_kuryache_svynyaci.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Перець фарширований з куркою від Ані",
+    "type": "napivfab",
+    "price": 240,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/perec_farshyrovanyj.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Сирники без родзинок від т. Ані",
+    "type": "napivfab",
+    "price": 240,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/syrnyky_bez_rodzynok.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Сирники з родзинками від Ані",
+    "type": "napivfab",
+    "price": 240,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/syrnyky_z_rodzynkamy.jpg"
+  },
+  {
+    "id": 74,
+    "name": "Сібас тушка МАРИНОВАНА (заморозка) 400-600г",
+    "type": "napivfab",
+    "price": 680,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/sibas_tushka_zamorozheny_marynovanyj.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Сібас тушка МАРИНОВАНА (напівфабрикат) 400-600г",
+    "type": "napivfab",
+    "price": 680,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/sibas_tushka_marynovana.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Скумбрія маринована від Ані (ЗАМОРОЗКА)",
+    "type": "napivfab",
+    "price": 490,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/skumbriya_marynovana_zamorozka.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Скумбрія маринована від Ані (напівфабрикат)",
+    "type": "napivfab",
+    "price": 490,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/skumbriya_marynovana.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Фарш із червоної риби фірмовий від Ані",
+    "type": "napivfab",
+    "price": 270,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/farsh_chervona_ryba.jpg"
+  },
+  {
+    "id": 79,
+    "name": "Філе сібаса мариноване від Ані",
+    "type": "napivfab",
+    "price": 1120,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/file_sibasa_marynovane.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Хінкалі зі свинини від т. Ані (ВАГОВІ)",
+    "type": "napivfab",
+    "price": 245,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/hinkali_svynyna.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Чебурек з м'ясом",
+    "type": "napivfab",
+    "price": 210,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/cheburek_z_myasom.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Чебурек з сиром",
+    "type": "napivfab",
+    "price": 220,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/cheburek_z_syrom.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Бендерики з сиром та кропом від т. Ані",
+    "type": "napivfab",
+    "price": 200,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": false,
+    "missingText": "Тимчасово немає",
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/benderiki_syr_krip.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Котлета куряча Бургер 4*100 г",
+    "type": "napivfab",
+    "price": 120,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": false,
+    "missingText": "Тимчасово немає",
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/kotleta_burger.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Котлети по-київськи від Ані.",
+    "type": "napivfab",
+    "price": 350,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": false,
+    "missingText": "Тимчасово немає",
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/kotlety_po_kyivsky.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Млинці з лівером",
+    "type": "napivfab",
+    "price": 210,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": false,
+    "missingText": "Тимчасово немає",
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/mlynci_z_liverom.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Рулет з лосося с/м для запікання",
+    "type": "napivfab",
+    "price": 400,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": false,
+    "missingText": "Тимчасово немає",
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "img": "images/napivfab/rulet_z_lososya.jpg"
+  }
+
+]

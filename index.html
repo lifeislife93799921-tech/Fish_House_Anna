@@ -72,7 +72,85 @@
             </div>
         </div>
     </section>
+    <section class="catalog-section">
+    <div class="catalog-container">
+        
+        <!-- Мобильная кнопка для вызова сайдбара фильтров -->
+        <button class="catalog__mobile-filter-btn" id="mobileFilterBtn">
+            <i class="fa-solid fa-sliders"></i> Фільтри та категорії
+        </button>
+
+        <!-- Левая колонка: Сайдбар управления (Фильтры) -->
+        <aside class="catalog__sidebar" id="catalogSidebar">
+            <div class="catalog__sidebar-close" id="sidebarCloseBtn">&times;</div>
+            
+            <!-- Блок фильтра цены -->
+            <div class="catalog__filter-group">
+                <h3 class="catalog__filter-title">Фільтр по ціні</h3>
+                <div class="catalog__price-range">
+                    <div class="catalog__price-inputs">
+                        <label>Від: <input type="number" id="priceMin" value="0"></label>
+                        <label>До: <input type="number" id="priceMax" value="5000"></label>
+                    </div>
+                    <input type="range" id="priceRangeSlider" min="0" max="5000" value="5000" class="catalog__slider">
+                </div>
+            </div>
+
+            <!-- Блок категорий (Табы) -->
+            <div class="catalog__filter-group">
+                <h3 class="catalog__filter-title">Категорії</h3>
+                <div class="catalog__categories-list">
+                    <button class="catalog__category-btn catalog__category-btn--active" data-category="all">Всі товари</button>
+                    <button class="catalog__category-btn" data-category="akciya">Акція</button>
+                    <button class="catalog__category-btn" data-category="novinka">Новинка</button>
+                    <button class="catalog__category-btn" data-category="napivfab">Напівфабрикати</button>
+                    <button class="catalog__category-btn" data-category="gotov_prod">Готова продукція</button>
+                    <button class="catalog__category-btn" data-category="ikra">Ікра</button>
+                    <button class="catalog__category-btn" data-category="krevetki">Креветки</button>
+                    <button class="catalog__category-btn" data-category="kopch_sol">Копцена та солона риба</button>
+                    <button class="catalog__category-btn" data-category="vyal_sush">В'ялена та сушена риба</button>
+                    <button class="catalog__category-btn" data-category="myaso">М'ясна продукція</button>
+                    <button class="catalog__category-btn" data-category="konserva">Консерва</button>
+                    <button class="catalog__category-btn" data-category="preserva">Пресерва</button>
+                    <button class="catalog__category-btn" data-category="sira_marin">Риба для запікання</button>
+                    <button class="catalog__category-btn" data-category="moreprod">Морепродукти</button>
+                    <button class="catalog__category-btn" data-category="sushi">Товари для суші</button>
+                    <button class="catalog__category-btn" data-category="sneki">Снеки</button>
+                    <button class="catalog__category-btn" data-category="bakaleya">Бакалея</button>
+                    <button class="catalog__category-btn" data-category="inshe">Інше</button>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Правая колонка: Каталог -->
+        <div class="catalog__content-wrapper">
+            
+            <div class="catalog__top-bar">
+                <div class="catalog__count-info" id="catalogCountInfo">Знайдено: 0 товарів</div>
+                <div class="catalog__sort">
+                    <label for="catalogSortSelect">Сортування:</label>
+                    <select id="catalogSortSelect" class="catalog__sort-select">
+                        <option value="default">За замовчуванням</option>
+                        <option value="price-asc">Ціна: від дешевшої</option>
+                        <option value="price-desc">Ціна: від дорожчої</option>
+                        <option value="name-asc">Назва: А-Я</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="catalog__grid" id="catalogGrid">
+                <!-- Сюда JS рендерит карточки -->
+            </div>
+
+            <div class="catalog__pagination" id="catalogPagination">
+                <!-- Сюда JS генерирует кнопки страниц -->
+            </div>
+
+        </div>
+    </div>
+</section>
 </main>
+
 <footer class="footer" id="footer-contacts">
     <div class="footer__container">
         <div class="footer__grid">
