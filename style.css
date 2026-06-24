@@ -435,10 +435,16 @@ a {
 }
 
 /* Правая колонка контактов */
+.footer__col-contacts {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer__contacts {
     display: flex;
     flex-direction: column;
     gap: 22px;
+    margin-left: 50px;
 }
 
 .footer__contact-block {
@@ -598,6 +604,7 @@ a {
     .footer__title--center {
         text-align: center;
         
+        
     }
     .footer__catalog-columns {
         grid-template-columns: 1fr;
@@ -610,4 +617,12 @@ a {
     .footer__map-btn {
         align-self: center;
     }
+}
+
+.footer__title--clients {
+    position: relative;
+    left: 10px; /* Меняй эту цифру, чтобы двигать слово влево или вправо */
+}
+.footer__list--clients {
+    text-align: center;
 }
