@@ -4,15 +4,15 @@
     "name": "Ікра Кети нова партія",
     "type": "ikra",
     "price": 812,
-    "oldPrice": null,
+    "oldPrice": 900,
     "unit": "100г",
     "step": 1,
     "available": true,
     "missingText": null,
     "badges": [
-      { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
-      { "type": "new", "text": "Новинка", "active": false }
+      { "type": "sale", "text": "Акція %", "active": true },
+      { "type": "hit", "text": "Хіт", "active": true },
+      { "type": "new", "text": "Новинка", "active": true }
     ],
     "description": "",
     "img": "images/ikra/ikra_kety.jpg"
@@ -1564,5 +1564,2492 @@
     ],
     "description": "",
     "img": "images/napivfab/rulet_z_lososya.jpg"
+  },
+
+  {
+    "id": 88,
+    "name": "Восминіг Королівський PULO сирий цілий",
+    "type": "moreprod",
+    "price": 1115,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/vosminig_korolevskiy.jpg"
+  },
+  {
+    "id": 89,
+    "name": "Восмініг бебі 20/40 с/м глазур 20%",
+    "type": "moreprod",
+    "price": 490,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/vosminig_baby_20_40.jpg"
+  },
+  {
+    "id": 90,
+    "name": "Восмініг бебі 40/60 с/м глазур 20%",
+    "type": "moreprod",
+    "price": 490,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/vosminig_baby_40_60.jpg"
+  },
+  {
+    "id": 91,
+    "name": "Вугор смаж/морож в соусі унагі (ваговий)",
+    "type": "moreprod",
+    "price": 844,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/ugor_unagi.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Гребінець в пол. мушлі, с/м з ікрою",
+    "type": "moreprod",
+    "price": 1000,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/grebinets_mushla.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Гребінець морський 20/30",
+    "type": "moreprod",
+    "price": 765,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/grebinets_20_30.jpg"
+  },
+  {
+    "id": 94,
+    "name": "Гребінець морський 60/80",
+    "type": "moreprod",
+    "price": 600,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/grebinets_60_80.jpg"
+  },
+  {
+    "id": 95,
+    "name": "Гребінець різаний гл 15%",
+    "type": "moreprod",
+    "price": 190,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/grebinets_rizaniy.jpg"
+  },
+  {
+    "id": 96,
+    "name": "Кальмар кільце гл. 25%",
+    "type": "moreprod",
+    "price": 348,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/kalmar_kiltsya.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Кальмар НЕ ОЧИЩЕНИЙ рожевий тушка",
+    "type": "moreprod",
+    "price": 225,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/kalmar_neochisheniy.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Кальмар рожевий тушка",
+    "type": "moreprod",
+    "price": 370,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/kalmar_rozhevui_tushka.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Кальмар туби білі гл. 25%",
+    "type": "moreprod",
+    "price": 348,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/kalmar_tubi_bili.jpg"
+  },
+  {
+    "id": 100,
+    "name": "Кільця кальмару в паніровці",
+    "type": "moreprod",
+    "price": 540,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/kalmar_panir.jpg"
+  },
+  {
+    "id": 101,
+    "name": "Клешні краба в/м (+220) БЕЗ ЗНИЖОК",
+    "type": "moreprod",
+    "price": 850,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/krab_kleshni.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Крабове м'ясо",
+    "type": "moreprod",
+    "price": 290,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/krab_myaso.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Крабові палички Латвія уп. 200 гр",
+    "type": "moreprod",
+    "price": 61,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/krab_palichki_latvia_200.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Крабові палички Латвія уп. 250 гр",
+    "type": "moreprod",
+    "price": 76.5,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/krab_palichki_latvia_250.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Крабові палички ТМ Водний мир (вага)",
+    "type": "moreprod",
+    "price": 310,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/krab_palichki_vodniy_mir.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Мідії в/м Чілі 200/300 (вага)",
+    "type": "moreprod",
+    "price": 398,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/midii_chili.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Мідія в мушлі, варена",
+    "type": "moreprod",
+    "price": 245,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/midii_mushla.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Мідія в половині мушлі, варена, Чилі Велика",
+    "type": "moreprod",
+    "price": 340,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/midii_polovina_mushli.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Морський коктейль Іспанія",
+    "type": "moreprod",
+    "price": 398,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/morskiy_cocktail_ispania.jpg"
+  },
+  {
+    "id": 110,
+    "name": "МОРСЬКИЙ КОКТЕЙЛЬ с/м гл 25% (креветка, кальмар, мідія, осминіг)",
+    "type": "moreprod",
+    "price": 245,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/morskiy_cocktail_mix.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Равлики Сет \"Hot\"",
+    "type": "moreprod",
+    "price": 365,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/ravliki_hot.jpg"
+  },
+  {
+    "id": 112,
+    "name": "Равлики Сет \"NEW\"",
+    "type": "moreprod",
+    "price": 365,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/ravliki_new.jpg"
+  },
+  {
+    "id": 113,
+    "name": "Равлики Сет \"Стандарт\"",
+    "type": "moreprod",
+    "price": 365,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/ravliki_standart.jpg"
+  },
+  {
+    "id": 114,
+    "name": "Рак в/м 0,5 кг",
+    "type": "moreprod",
+    "price": 615,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/rak_vm_05.jpg"
+  },
+  {
+    "id": 115,
+    "name": "Черенки с/м Нідерланди",
+    "type": "moreprod",
+    "price": 560,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/cherenki.jpg"
+  },
+  {
+    "id": 116,
+    "name": "Щупальці восминіга в/м",
+    "type": "moreprod",
+    "price": 2925,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/shupaltsi_vosminiga.jpg"
+  },
+  
+  {
+    "id": 117,
+    "name": "Ананас шматки 580 мл",
+    "type": "bakaleya",
+    "price": 87,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/ananas.jpg"
+  },
+  {
+    "id": 118,
+    "name": "Анчоуси 80грамів",
+    "type": "bakaleya",
+    "price": 120,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/anchousi.jpg"
+  },
+  {
+    "id": 119,
+    "name": "Арахіс Кранч солодеий перець чілі",
+    "type": "bakaleya",
+    "price": 205,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/arachis_crunch.jpg"
+  },
+  {
+    "id": 120,
+    "name": "Арахіс Кранч супер Бекон",
+    "type": "bakaleya",
+    "price": 205,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/arachis_bacon.jpg"
+  },
+  {
+    "id": 121,
+    "name": "Горошек Щедра Нива",
+    "type": "bakaleya",
+    "price": 51,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/goroshek.jpg"
+  },
+  {
+    "id": 122,
+    "name": "Гриби печериці Pio Rio 280/170",
+    "type": "bakaleya",
+    "price": 92,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/gribi_rio.jpg"
+  },
+  {
+    "id": 123,
+    "name": "Гриби печериці Pio Rio 690/415",
+    "type": "bakaleya",
+    "price": 160,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/gribi_rio_large.jpg"
+  },
+  {
+    "id": 124,
+    "name": "Грінки телятина-аджика 0,5",
+    "type": "bakaleya",
+    "price": 156,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/grinki_telyatina.jpg"
+  },
+  {
+    "id": 125,
+    "name": "Грінки холодець з хроном 0,5",
+    "type": "bakaleya",
+    "price": 156,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/grinki_holodets.jpg"
+  },
+  {
+    "id": 126,
+    "name": "Грінки часник 0,5",
+    "type": "bakaleya",
+    "price": 156,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/grinki_chasnik.jpg"
+  },
+  {
+    "id": 127,
+    "name": "Згущене молоко 1 кг",
+    "type": "bakaleya",
+    "price": 349,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sgushenka_1kg.jpg"
+  },
+  {
+    "id": 128,
+    "name": "Згущене молоко ж/б 0,370 г",
+    "type": "bakaleya",
+    "price": 148,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sgushenka_banka.jpg"
+  },
+  {
+    "id": 129,
+    "name": "Каперси Bernal 130/210",
+    "type": "bakaleya",
+    "price": 115,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/kapersi_bernal.jpg"
+  },
+  {
+    "id": 130,
+    "name": "Каперси малі 60/100гр",
+    "type": "bakaleya",
+    "price": 66,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/kapersi_mali.jpg"
+  },
+  {
+    "id": 131,
+    "name": "Капуста квашенная",
+    "type": "bakaleya",
+    "price": 76,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/kapusta.jpg"
+  },
+  {
+    "id": 132,
+    "name": "Крупа кускус Бісан 800 г",
+    "type": "bakaleya",
+    "price": 156,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/kuskus.jpg"
+  },
+  {
+    "id": 133,
+    "name": "Кукурудза Щедра Нива",
+    "type": "bakaleya",
+    "price": 48,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/kukuruza.jpg"
+  },
+  {
+    "id": 134,
+    "name": "Кунжутна паста тахіні 470г",
+    "type": "bakaleya",
+    "price": 318,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/tahini.jpg"
+  },
+  {
+    "id": 135,
+    "name": "Локшина ш/п курка та крем карбонара гостра 130 г",
+    "type": "bakaleya",
+    "price": 168,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/lokshina_carbonara.jpg"
+  },
+  {
+    "id": 136,
+    "name": "Локшина ш/п сир 120 г",
+    "type": "bakaleya",
+    "price": 155,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/lokshina_sir.jpg"
+  },
+  {
+    "id": 137,
+    "name": "Майонез Оліс 40% 300г",
+    "type": "bakaleya",
+    "price": 36.8,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/mayonez_olis.jpg"
+  },
+  {
+    "id": 138,
+    "name": "Майонез ХЕЛМАНС 340 г",
+    "type": "bakaleya",
+    "price": 160,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/mayonez_hellmans.jpg"
+  },
+  {
+    "id": 139,
+    "name": "Макарони barilla Fettuccine 500грам",
+    "type": "bakaleya",
+    "price": 165,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_fettuccine.jpg"
+  },
+  {
+    "id": 140,
+    "name": "Макарони barilla № 44",
+    "type": "bakaleya",
+    "price": 85,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_44.jpg"
+  },
+  {
+    "id": 141,
+    "name": "Макарони barilla № 59",
+    "type": "bakaleya",
+    "price": 85,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_59.jpg"
+  },
+  {
+    "id": 142,
+    "name": "Макарони barilla № 65",
+    "type": "bakaleya",
+    "price": 95,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_65.jpg"
+  },
+  {
+    "id": 143,
+    "name": "Макарони barilla № 73",
+    "type": "bakaleya",
+    "price": 95,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_73.jpg"
+  },
+  {
+    "id": 144,
+    "name": "Макарони barilla № 85",
+    "type": "bakaleya",
+    "price": 95,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_85.jpg"
+  },
+  {
+    "id": 145,
+    "name": "Макарони barilla № 91",
+    "type": "bakaleya",
+    "price": 95,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_91.jpg"
+  },
+  {
+    "id": 146,
+    "name": "Макарони barilla № 93",
+    "type": "bakaleya",
+    "price": 85,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_93.jpg"
+  },
+  {
+    "id": 147,
+    "name": "Макарони barilla № 98",
+    "type": "bakaleya",
+    "price": 85,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_98.jpg"
+  },
+  {
+    "id": 148,
+    "name": "Макарони barilla вермишельі №30",
+    "type": "bakaleya",
+    "price": 95,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_vermicelli.jpg"
+  },
+  {
+    "id": 149,
+    "name": "Макарони barilla спагеті №1",
+    "type": "bakaleya",
+    "price": 95,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_spaghetti_1.jpg"
+  },
+  {
+    "id": 150,
+    "name": "Макарони barilla спагеті №5",
+    "type": "bakaleya",
+    "price": 92,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_spaghetti_5.jpg"
+  },
+  {
+    "id": 151,
+    "name": "Макарони barilla шнеки № 34",
+    "type": "bakaleya",
+    "price": 85,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_shneki.jpg"
+  },
+  {
+    "id": 152,
+    "name": "Макарони канелоні Barilla №88 250 г",
+    "type": "bakaleya",
+    "price": 155,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/barilla_cannelloni.jpg"
+  },
+  {
+    "id": 153,
+    "name": "Маслини Б / КІСТОЧКИ Athena 700грамм",
+    "type": "bakaleya",
+    "price": 185,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/maslini_athena.jpg"
+  },
+  {
+    "id": 154,
+    "name": "МАСЛИНИ Б/К HUTESA 0,350 г",
+    "type": "bakaleya",
+    "price": 110,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/maslini_hutesa.jpg"
+  },
+  {
+    "id": 155,
+    "name": "Маслини б/кісточки Бернал 150/350 г",
+    "type": "bakaleya",
+    "price": 137,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/maslini_bernal.jpg"
+  },
+  {
+    "id": 156,
+    "name": "Маслини в'ялені Юнус 1кг(Ж/Б)",
+    "type": "bakaleya",
+    "price": 499,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/maslini_yunus_1kg.jpg"
+  },
+  {
+    "id": 157,
+    "name": "Маслини в'ялені Юнус 200грам",
+    "type": "bakaleya",
+    "price": 146,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/maslini_yunus_200.jpg"
+  },
+  {
+    "id": 158,
+    "name": "Масло вершкове 82,5% 200 гр",
+    "type": "bakaleya",
+    "price": 125,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/maslo_vershkove.jpg"
+  },
+  {
+    "id": 159,
+    "name": "Масло селянське 73% вагове ( Кам'янка)",
+    "type": "bakaleya",
+    "price": 500,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/maslo_vagove.jpg"
+  },
+  {
+    "id": 160,
+    "name": "Огірки пікулі марин 255 гр",
+    "type": "bakaleya",
+    "price": 96,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/ogirki_pikuli.jpg"
+  },
+  {
+    "id": 161,
+    "name": "Оливки BERNA з мігдалем 180 г",
+    "type": "bakaleya",
+    "price": 224,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/olivki_migdal.jpg"
+  },
+  {
+    "id": 162,
+    "name": "Оливки BERNAL гіганти з кісточкою 225/436 г",
+    "type": "bakaleya",
+    "price": 213,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/olivki_giganti.jpg"
+  },
+  {
+    "id": 163,
+    "name": "Оливки BERNAL з анчоусами 292 г",
+    "type": "bakaleya",
+    "price": 105,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/olivki_anchous.jpg"
+  },
+  {
+    "id": 164,
+    "name": "Оливки BERNAL з апельсином 250/436 г",
+    "type": "bakaleya",
+    "price": 192,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/olivki_apelsin.jpg"
+  },
+  {
+    "id": 165,
+    "name": "Оливки BERNAL з васабі 120/292г",
+    "type": "bakaleya",
+    "price": 105,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/olivki_wasabi.jpg"
+  },
+  {
+    "id": 166,
+    "name": "ОЛИВКИ Б/К HUTESA 0.9 г",
+    "type": "bakaleya",
+    "price": 224,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/olivki_hutesa_09.jpg"
+  },
+  {
+    "id": 167,
+    "name": "ОЛИВКИ Б/К HUTESA 350 г",
+    "type": "bakaleya",
+    "price": 113,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/olivki_hutesa_350.jpg"
+  },
+  {
+    "id": 168,
+    "name": "Оливки б/кісточки ATHENA 700 г",
+    "type": "bakaleya",
+    "price": 174,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/olivki_athena.jpg"
+  },
+  {
+    "id": 169,
+    "name": "Оливки гриль Юнус 230Г",
+    "type": "bakaleya",
+    "price": 193,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/olivki_grill.jpg"
+  },
+  {
+    "id": 170,
+    "name": "Оливки із кісточкою гігант Браво1000/550 скло",
+    "type": "bakaleya",
+    "price": 385,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/olivki_bravo.jpg"
+  },
+  {
+    "id": 171,
+    "name": "Оливкова олія Vesuvio 1л (пластик)",
+    "type": "bakaleya",
+    "price": 198,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/oliva_oil.jpg"
+  },
+  {
+    "id": 172,
+    "name": "Олія соняшникова 5 л Господиня",
+    "type": "bakaleya",
+    "price": 349,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/olia_soniashnik.jpg"
+  },
+  {
+    "id": 173,
+    "name": "Оцет Бальзамічний Менгазоллі 500мл",
+    "type": "bakaleya",
+    "price": 135,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/otset_balsam.jpg"
+  },
+  {
+    "id": 174,
+    "name": "Оцет виноградний червоний Верна 1л",
+    "type": "bakaleya",
+    "price": 60,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/otset_vinograd.jpg"
+  },
+  {
+    "id": 175,
+    "name": "Перець чилі Ігоеті 60г",
+    "type": "bakaleya",
+    "price": 50,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/perec_chili.jpg"
+  },
+  {
+    "id": 176,
+    "name": "Пляшка для соусів 260 мл",
+    "type": "bakaleya",
+    "price": 55,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/plyashka.jpg"
+  },
+  {
+    "id": 177,
+    "name": "Рис Басматі 800 г",
+    "type": "bakaleya",
+    "price": 170,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/ris_basmati.jpg"
+  },
+  {
+    "id": 178,
+    "name": "Сир \"Баварія Блу\" ваг (Німеччина)",
+    "type": "bakaleya",
+    "price": 870,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_bavaria.jpg"
+  },
+  {
+    "id": 179,
+    "name": "Сир \"Козій\" Фріко (ваговий) (Голландія)",
+    "type": "bakaleya",
+    "price": 1023,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_kozii.jpg"
+  },
+  {
+    "id": 180,
+    "name": "Сир Вершковий Млейковіта 1кг",
+    "type": "bakaleya",
+    "price": 404,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_vershkoviy.jpg"
+  },
+  {
+    "id": 181,
+    "name": "Сир Гауда витриманий 52 тижні",
+    "type": "bakaleya",
+    "price": 595,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_gauda_52.jpg"
+  },
+  {
+    "id": 182,
+    "name": "сир Гауда Єкстра 24 мес 48%",
+    "type": "bakaleya",
+    "price": 940,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_gauda_24.jpg"
+  },
+  {
+    "id": 183,
+    "name": "Сир Гауда Міні, (ваговий) Польща",
+    "type": "bakaleya",
+    "price": 419,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_gauda_mini.jpg"
+  },
+  {
+    "id": 184,
+    "name": "сир Дор Блу 100 г",
+    "type": "bakaleya",
+    "price": 119,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_dorblu.jpg"
+  },
+  {
+    "id": 185,
+    "name": "сир йоркшир манго апельсін",
+    "type": "bakaleya",
+    "price": 1094,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_york_mango.jpg"
+  },
+  {
+    "id": 186,
+    "name": "сир йоркшир манго імбірь",
+    "type": "bakaleya",
+    "price": 1080,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_york_imbir.jpg"
+  },
+  {
+    "id": 187,
+    "name": "Сир КАМАМБЕР 125г Німеччина",
+    "type": "bakaleya",
+    "price": 143,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_kamamber.jpg"
+  },
+  {
+    "id": 188,
+    "name": "Сир нарізка 0,500 г",
+    "type": "bakaleya",
+    "price": 284,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_narizka.jpg"
+  },
+  {
+    "id": 189,
+    "name": "Сир пармезан брусок 100 гр",
+    "type": "bakaleya",
+    "price": 150,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_parmezan.jpg"
+  },
+  {
+    "id": 190,
+    "name": "Сир пармезан Гран Мондора Беннучі, (ваговий) Італія",
+    "type": "bakaleya",
+    "price": 783,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_parmezan_gran.jpg"
+  },
+  {
+    "id": 191,
+    "name": "Сир Примодонна витриманий 24м Нідерланди",
+    "type": "bakaleya",
+    "price": 920,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_primodonna.jpg"
+  },
+  {
+    "id": 192,
+    "name": "Сир Салямі - Серенада (ваговий), Польща",
+    "type": "bakaleya",
+    "price": 460,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_salami.jpg"
+  },
+  {
+    "id": 193,
+    "name": "Сир Сенатор Гауда, 50% (ваговій) Польща",
+    "type": "bakaleya",
+    "price": 470,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_senator.jpg"
+  },
+  {
+    "id": 194,
+    "name": "Сир Фета 270 гр Польща",
+    "type": "bakaleya",
+    "price": 84,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_feta.jpg"
+  },
+  {
+    "id": 195,
+    "name": "Сир філадельфія 195 г",
+    "type": "bakaleya",
+    "price": 117,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_philadelphia.jpg"
+  },
+  {
+    "id": 196,
+    "name": "Сир філодельфія зі смаками 175 г",
+    "type": "bakaleya",
+    "price": 65,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sir_phil_taste.jpg"
+  },
+  {
+    "id": 197,
+    "name": "Сирок CAPRESI ваниль 150 г",
+    "type": "bakaleya",
+    "price": 78,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sirok_vanil.jpg"
+  },
+  {
+    "id": 198,
+    "name": "Сирок CAPRESI з полуницею 150 г",
+    "type": "bakaleya",
+    "price": 78,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sirok_strob.jpg"
+  },
+  {
+    "id": 199,
+    "name": "Сирок CAPRESI з яблуком 150 г",
+    "type": "bakaleya",
+    "price": 78,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sirok_apple.jpg"
+  },
+  {
+    "id": 200,
+    "name": "сік гранатовий прямого віджиму 1 л",
+    "type": "bakaleya",
+    "price": 158,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sik_granat.jpg"
+  },
+  {
+    "id": 201,
+    "name": "Сік концентрований лайм 0,220 мл",
+    "type": "bakaleya",
+    "price": 47,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sik_lime.jpg"
+  },
+  {
+    "id": 202,
+    "name": "Сік концентрований лимон 0,220 мл",
+    "type": "bakaleya",
+    "price": 47,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sik_limon.jpg"
+  },
+  {
+    "id": 203,
+    "name": "Сіль Єкстра",
+    "type": "bakaleya",
+    "price": 35,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sil.jpg"
+  },
+  {
+    "id": 204,
+    "name": "Соус TABASCO 60 ml",
+    "type": "bakaleya",
+    "price": 252,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/tabasco.jpg"
+  },
+  {
+    "id": 205,
+    "name": "Соус бальзамічний Lanfranca 600 г",
+    "type": "bakaleya",
+    "price": 218,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sous_balsam.jpg"
+  },
+  {
+    "id": 206,
+    "name": "Соус барбекюTarsmak BBQ 1000 г",
+    "type": "bakaleya",
+    "price": 280,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sous_bbq.jpg"
+  },
+  {
+    "id": 207,
+    "name": "соус гранатовий Нашараб 270 г",
+    "type": "bakaleya",
+    "price": 65,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sous_granat.jpg"
+  },
+  {
+    "id": 208,
+    "name": "Соус Мадеро часниковий 410 г",
+    "type": "bakaleya",
+    "price": 103,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sous_chasnik.jpg"
+  },
+  {
+    "id": 209,
+    "name": "Соус ПеріПері гостро-солодкий 320,г",
+    "type": "bakaleya",
+    "price": 94,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sous_periperi.jpg"
+  },
+  {
+    "id": 210,
+    "name": "Соус ПеріПері з в'яленими томатами 310 Г",
+    "type": "bakaleya",
+    "price": 100,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sous_periperi_tomat.jpg"
+  },
+  {
+    "id": 211,
+    "name": "Соус ПерПері журавлинний 330 г",
+    "type": "bakaleya",
+    "price": 115,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sous_periperi_jurav.jpg"
+  },
+  {
+    "id": 212,
+    "name": "Соус ПерПері манго чілі 320 г",
+    "type": "bakaleya",
+    "price": 108,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sous_periperi_mango.jpg"
+  },
+  {
+    "id": 213,
+    "name": "Соус песто базилік та рукола 190,г",
+    "type": "bakaleya",
+    "price": 187,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/pesto_rucola.jpg"
+  },
+  {
+    "id": 214,
+    "name": "Соус песто россо Барілла 190 г",
+    "type": "bakaleya",
+    "price": 167,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/pesto_rosso.jpg"
+  },
+  {
+    "id": 215,
+    "name": "Соус соєвий тереіякі ЯМІ 0,250 мл",
+    "type": "bakaleya",
+    "price": 75,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sous_teriyaki.jpg"
+  },
+  {
+    "id": 216,
+    "name": "Соус устричний GWY 260 г",
+    "type": "bakaleya",
+    "price": 134,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/sous_ustrichniy.jpg"
+  },
+  {
+    "id": 217,
+    "name": "Сухарі міні 90 грам",
+    "type": "bakaleya",
+    "price": 56,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/suhari_mini.jpg"
+  },
+  {
+    "id": 218,
+    "name": "Фісташки солоні 250 грамм Алеста США",
+    "type": "bakaleya",
+    "price": 232,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/fistashki_250.jpg"
+  },
+  {
+    "id": 219,
+    "name": "Фісташки солоні 500грамм Алеста США",
+    "type": "bakaleya",
+    "price": 454,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/fistashki_500.jpg"
+  },
+  {
+    "id": 220,
+    "name": "Чай заварний чорний 250 гр Австрія",
+    "type": "bakaleya",
+    "price": 210,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/chai_chorniy_avstria.jpg"
+  },
+  {
+    "id": 221,
+    "name": "Чай заварной зелений 250г Австрія",
+    "type": "bakaleya",
+    "price": 248,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/chai_zeleniy_avstria.jpg"
+  },
+  {
+    "id": 222,
+    "name": "Чай зелений з айвою Бісан80 г",
+    "type": "bakaleya",
+    "price": 124,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/chai_bisan_ayva.jpg"
+  },
+  {
+    "id": 223,
+    "name": "Чай чорний Бісан80 г",
+    "type": "bakaleya",
+    "price": 92,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/chai_bisan_chorniy.jpg"
+  },
+  {
+    "id": 224,
+    "name": "Чай чорний ерл грей Бісан100 г",
+    "type": "bakaleya",
+    "price": 128,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/chai_bisan_earl.jpg"
+  },
+  {
+    "id": 225,
+    "name": "ЯЙЦЯ курячі домашні Б/З",
+    "type": "bakaleya",
+    "price": 4.5,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/yaytsa.jpg"
   }
 ]
+
