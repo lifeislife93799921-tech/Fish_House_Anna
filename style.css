@@ -15,6 +15,14 @@ body {
     padding-top: 80px; /* Отступ сверху, чтобы контент не залезал под фиксированную шапку */
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -182,16 +190,48 @@ a {
    3. АДАПТИВНОСТЬ И МОБИЛЬНАЯ ЛОГИКА
    ========================================================================== */
 @media (max-width: 768px) {
+    body {
+        padding-top: 115px; /* Корректируем отступ сверху под двухстрочную шапку */
+    }
+    
     .header__container {
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 10px; /* Уменьшаем gap на мобильных */
+        padding: 10px 15px; /* Уменьшаем padding на мобильных */
+    }
+
+    .header__logo {
+        margin-right: auto; /* Прижимает логотип влево, а иконки/бургер вправо */
+    }
+
+    .header__favorites,
+    .header__cart,
+    .header__account {
+        margin-right: 0 !important; /* Убираем жесткие десктопные инлайновые margin-right */
+    }
+
+    .header__account-text {
+        display: none; /* Скрываем текст "Вхід", оставляя только компактную иконку */
     }
 
     .header__search {
-        order: 1;
-        flex: 0 0 100%; /* Заставляет поиск занимать всю вторую строку */
+        order: 2; /* Помещаем поиск на вторую строку */
+        flex: 0 0 100%; /* Поиск занимает всю ширину */
         max-width: 100%;
+        margin-top: 5px; /* Небольшой отступ от верхней строки */
     }
+
+    .header__search-input {
+        padding: 8px 40px 8px 15px; /* Более компактная высота инпута */
+        font-size: 13px;
+    }
+
+    .header__search-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
     .header__menu {
         display: flex;
         flex-direction: column;
@@ -241,6 +281,19 @@ a {
     .header__burger--active .header__burger-line:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
         background-color: #ff6e00;
+    }
+
+    /* Мобильная адаптация верхней панели каталога */
+    .catalog__top {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .catalog__sort {
+        justify-content: space-between;
     }
 }
 
@@ -1230,6 +1283,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap; /* Разрешаем перенос кнопок страниц на мобильных */
     gap: 8px;
     margin-top: 20px;
 }
@@ -1416,17 +1470,6 @@ a {
 @media (max-width: 650px) {
     .catalog__grid {
         grid-template-columns: 1fr; /* 1 карточка в ряд на мелких смартфонах */
-    }
-
-    .catalog__top {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 15px;
-        text-align: center;
-    }
-
-    .catalog__sort {
-        justify-content: space-between;
     }
 
     .popup-grid {
