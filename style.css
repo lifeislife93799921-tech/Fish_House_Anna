@@ -182,6 +182,16 @@ a {
    3. АДАПТИВНОСТЬ И МОБИЛЬНАЯ ЛОГИКА
    ========================================================================== */
 @media (max-width: 768px) {
+    .header__container {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .header__search {
+        order: 1;
+        flex: 0 0 100%; /* Заставляет поиск занимать всю вторую строку */
+        max-width: 100%;
+    }
     .header__menu {
         display: flex;
         flex-direction: column;
