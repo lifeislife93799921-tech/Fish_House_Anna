@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог продукції — Fish House Anna</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            
+            <a href="index.html" class="header__logo">Fish House Anna</a>
+
+            <div class="header__search">
+                <input type="text" class="header__search-input" placeholder="Шукати свіжу рибку...">
+                <button type="submit" class="header__search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <nav class="header__menu">
+                <a href="index.html" class="header__menu-link" id="nav-home">Головна</a>
+                <a href="products.html" class="header__menu-link header__menu-link--active" id="nav-products">Продукція</a>
+                <a href="#" class="header__menu-link">Доставка</a>
+                <a href="#footer-contacts" class="header__menu-link">Контакти</a>
+            </nav>
+
+            <a href="favorites.html" class="header__favorites" title="Обране" style="margin-right: 20px; color: inherit; font-size: 1.2rem; position: relative;">
+                <i class="fa-regular fa-heart"></i>
+                <span class="header__favorites-count" style="position: absolute; top: -8px; right: -10px; background: #ff7a00; color: #fff; font-size: 0.7rem; padding: 2px 6px; border-radius: 50%;">0</span>
+            </a>
+
+            <a href="korzina.html" class="header__cart" title="Кошик" style="margin-right: 25px; color: inherit; font-size: 1.2rem; position: relative;">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <span class="header__cart-count" style="position: absolute; top: -8px; right: -10px; background: #ff7a00; color: #fff; font-size: 0.7rem; padding: 2px 6px; border-radius: 50%;">0</span>
+            </a>
+
+            <a href="#" class="header__account" title="Увійти в акаунт" style="color: inherit; font-size: 1.1rem; display: inline-flex; align-items: center; gap: 6px; margin-right: 15px; transition: color 0.3s;">
+                <i class="fa-regular fa-user"></i>
+                <span class="header__account-text" style="font-size: 0.95rem; font-weight: 500;">Вхід</span>
+            </a>
+
+            <button class="header__burger" aria-label="Управління меню">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+            </button>
+
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="catalog">
+                
+                <div class="catalog__top">
+                    <div class="catalog__count">
+                        Знайдено: <span id="products-count">0</span> товарів
+                    </div>
+                    
+                    <button class="catalog__mobile-toggle-btn">
+                        <i class="fa-solid fa-sliders"></i> Фільтри
+                    </button>
+
+                    <div class="catalog__sort">
+                        <label for="sort-select" class="catalog__sort-label">Сортування:</label>
+                        <select id="sort-select" class="catalog__sort-select">
+                            <option value="default">За замовчуванням</option>
+                            <option value="name">За назвою</option>
+                            <option value="price-asc">Спочатку дешевші</option>
+                            <option value="price-desc">Спочатку дорожчі</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="catalog__layout">
+                    
+                    <aside class="catalog__sidebar" id="catalog-sidebar">
+                        
+                        <div class="filter-block">
+                            <h3 class="filter-block__title">Ціна, грн</h3>
+                            <div class="price-slider">
+                                <div class="price-slider__track"></div>
+                                <input type="range" id="price-min" class="price-slider__input" min="0" max="5000" value="0">
+                                <input type="range" id="price-max" class="price-slider__input" min="0" max="5000" value="5000">
+                                
+                                <div class="price-slider__outputs">
+                                    <div class="price-slider__value-box">
+                                        <span>від</span>
+                                        <input type="number" id="price-input-min" class="price-slider__num-input">
+                                    </div>
+                                    <div class="price-slider__value-box">
+                                        <span>до</span>
+                                        <input type="number" id="price-input-max" class="price-slider__num-input">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="filter-block">
+                            <h3 class="filter-block__title">Статус товару</h3>
+                            <div class="filter-checkbox">
+                                <label class="filter-checkbox__label">
+                                    <input type="checkbox" value="sale" class="filter-checkbox__input" id="badge-sale">
+                                    <span class="filter-checkbox__custom"></span> Акція %
+                                </label>
+                            </div>
+                            <div class="filter-checkbox">
+                                <label class="filter-checkbox__label">
+                                    <input type="checkbox" value="new" class="filter-checkbox__input" id="badge-new">
+                                    <span class="filter-checkbox__custom"></span> Новинка
+                                </label>
+                            </div>
+                            <div class="filter-checkbox">
+                                <label class="filter-checkbox__label">
+                                    <input type="checkbox" value="hit" class="filter-checkbox__input" id="badge-hit">
+                                    <span class="filter-checkbox__custom"></span> Хіт продажу
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="filter-block">
+                            <h3 class="filter-block__title">Категорії</h3>
+                            <div class="filter-categories">
+                                <button class="filter-categories__btn filter-categories__btn--active" data-category="all">Всі товари</button>
+                                <button class="filter-categories__btn" data-category="napivfab">Напівфабрикати</button>
+                                <button class="filter-categories__btn" data-category="gotov_prod">Наша готова продукція</button>
+                                <button class="filter-categories__btn" data-category="ikra">Ікра</button>
+                                <button class="filter-categories__btn" data-category="krevetki">Креветки</button>
+                                <button class="filter-categories__btn" data-category="kopch_sol">Копчена та солона риба</button>
+                                <button class="filter-categories__btn" data-category="vyal_sush">В’ялена та сушена риба</button>
+                                <button class="filter-categories__btn" data-category="myaso">М’ясна продукція</button>
+                                <button class="filter-categories__btn" data-category="konserva">Консерва</button>
+                                <button class="filter-categories__btn" data-category="preserva">Пресерва готова</button>
+                                <button class="filter-categories__btn" data-category="sira_marin">Сира та маринована риба</button>
+                                <button class="filter-categories__btn" data-category="moreprod">Морепродукти</button>
+                                <button class="filter-categories__btn" data-category="sushi">Товари для суші</button>
+                                <button class="filter-categories__btn" data-category="sneki">Снеки</button>
+                                <button class="filter-categories__btn" data-category="bakaleya">Бакалея</button>
+                                <button class="filter-categories__btn" data-category="inshe">Інше</button>
+                            </div>
+                        </div>
+
+                    </aside>
+
+                    <div class="catalog__content">
+                        
+                        <div class="catalog__grid" id="catalog-grid">
+                            </div>
+
+                        <div class="catalog__pagination" id="catalog-pagination">
+                            </div>
+
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup" id="product-popup">
+        <div class="popup__overlay"></div>
+        <div class="popup__content">
+            <button class="popup__close" id="popup-close-btn">&times;</button>
+            <div class="popup__body" id="popup-body">
+                </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer-contacts">
+        <div class="footer__container">
+            <div class="footer__grid">
+                
+                <div class="footer__logo-zone">
+                    <img src="images/logo_white.png" alt="Fish House Anna" class="footer__logo">
+                </div>
+
+                <div class="footer__catalog-center">
+                    <h4 class="footer__title footer__title--center">Каталог</h4>
+                    <div class="footer__catalog-columns">
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link footer__link--sale">Акція %</a></li>
+                            <li><a href="#" class="footer__link">Новинка</a></li>
+                            <li><a href="#" class="footer__link">Напівфабрикати</a></li>
+                            <li><a href="#" class="footer__link">Готова продукція нашого виробництва</a></li>
+                            <li><a href="#" class="footer__link">Ікра</a></li>
+                            <li><a href="#" class="footer__link">Креветки</a></li>
+                            <li><a href="#" class="footer__link">Копцена та солона риба</a></li>
+                            <li><a href="#" class="footer__link">В'ялена та сушена риба</a></li>
+                            <li><a href="#" class="footer__link">М'ясна продукція</a></li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Консерва</a></li>
+                            <li><a href="#" class="footer__link">Пресерва готова для вживання</a></li>
+                            <li><a href="#" class="footer__link">Сира та маринована риба для запікання</a></li>
+                            <li><a href="#" class="footer__link">Морепродукти</a></li>
+                            <li><a href="#" class="footer__link">Товари для суші</a></li>
+                            <li><a href="#" class="footer__link">Снеки</a></li>
+                            <li><a href="#" class="footer__link">Бакалея</a></li>
+                            <li><a href="#" class="footer__link">Інше</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__col">
+                    <h4 class="footer__title footer__title--clients">Клієнтам</h4>
+                    <ul class="footer__list footer__list--clients">
+                        <li><a href="profile.html" class="footer__link">Вхід до кабінету</a></li>
+                        <li><a href="checkout.html" class="footer__link">Доставка та оплата</a></li>
+                        <li><a href="#" class="footer__link">Про нас</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col-contacts">
+                    <h4 class="footer__title">Контактна інформація</h4>
+                    <div class="footer__contacts">
+                        
+                        <div class="footer__contact-block">
+                            <span class="footer__contact-label">Телефон складу:</span>
+                            <a href="tel:+380670772888" class="footer__contact-item">
+                                <i class="fa-solid fa-phone footer__phone-icon"></i>
+                                067 077 2888
+                            </a>
+                        </div>
+
+                        <div class="footer__socials-list">
+                            <a href="viber://chat?number=%2B380688249141" class="footer__social-row">
+                                <img src="images/icons/viber.png" alt="Viber" class="footer__social-img">
+                                <span class="footer__social-text">Viber: 068 824 9141</span>
+                            </a>
+                            <a href="https://www.instagram.com/fish_house.zp/" target="_blank" class="footer__social-row">
+                                <img src="images/icons/instagram.png" alt="Instagram" class="footer__social-img">
+                                <span class="footer__social-text">Instagram</span>
+                            </a>
+                            <a href="https://t.me/titka_anya_zp" target="_blank" class="footer__social-row">
+                                <img src="images/icons/telegram.png" alt="Telegram" class="footer__social-img">
+                                <span class="footer__social-text">Telegram</span>
+                            </a>
+                            <a href="https://www.threads.net/@fish_house.zp" target="_blank" class="footer__social-row">
+                                <img src="images/icons/threads.png" alt="Threads" class="footer__social-img">
+                                <span class="footer__social-text">Threads</span>
+                            </a>
+                        </div>
+
+                        <div class="footer__address-block">
+                            <span class="footer__address-text">Проспект Соборний, 177, Запоріжжя</span>
+                            <a href="https://www.google.com/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%A1%D0%BE%D0%B1%D0%BE%D1%80%D0%BD%D1%8B%D0%B9,+177,+%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D0%B6%D1%8C%D0%B5,+%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D0%B6%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+69000/@47.8571517,35.1049167,17z/data=!3m1!4b1!4m6!3m5!1s0x40dc66d06a59a0f9:0x6ec41a29a8f4add4!8m2!3d47.8571517!4d35.1049167!16s%2Fg%2F1vzqqsss?entry=ttu&g_ep=EgoyMDI2MDYyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="footer__map-btn">
+                                <i class="fa-solid fa-location-dot"></i>
+                                На карті
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer__bottom">
+                <p>© 2026 Fish House Anna. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="products.js"></script>
+</body>
+</html>

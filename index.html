@@ -12,9 +12,7 @@
     <header class="header">
         <div class="header__container">
             
-            <a href="index.html" class="header__logo">
-                Fish House Anna
-            </a>
+            <a href="index.html" class="header__logo">Fish House Anna</a>
 
             <div class="header__search">
                 <input type="text" class="header__search-input" placeholder="Шукати свіжу рибку...">
@@ -24,15 +22,25 @@
             </div>
 
             <nav class="header__menu">
-                <a href="index.html" class="header__menu-link header__menu-link--active">Головна</a>
-                <a href="products.html" class="header__menu-link">Продукція</a>
+                <a href="index.html" class="header__menu-link header__menu-link--active" id="nav-home">Головна</a>
+                <a href="products.html" class="header__menu-link" id="nav-products">Продукція</a>
                 <a href="#" class="header__menu-link">Доставка</a>
                 <a href="#footer-contacts" class="header__menu-link">Контакти</a>
             </nav>
 
-            <a href="#" class="header__cart" title="Кошик">
+            <a href="favorites.html" class="header__favorites" title="Обране" style="margin-right: 20px; color: inherit; font-size: 1.2rem; position: relative;">
+                <i class="fa-regular fa-heart"></i>
+                <span class="header__favorites-count" style="position: absolute; top: -8px; right: -10px; background: #ff7a00; color: #fff; font-size: 0.7rem; padding: 2px 6px; border-radius: 50%;">0</span>
+            </a>
+
+            <a href="korzina.html" class="header__cart" title="Кошик" style="margin-right: 25px; color: inherit; font-size: 1.2rem; position: relative;">
                 <i class="fa-solid fa-basket-shopping"></i>
-                <span class="header__cart-count">0</span>
+                <span class="header__cart-count" style="position: absolute; top: -8px; right: -10px; background: #ff7a00; color: #fff; font-size: 0.7rem; padding: 2px 6px; border-radius: 50%;">0</span>
+            </a>
+
+            <a href="#" class="header__account" title="Увійти в акаунт" style="color: inherit; font-size: 1.1rem; display: inline-flex; align-items: center; gap: 6px; margin-right: 15px; transition: color 0.3s;">
+                <i class="fa-regular fa-user"></i>
+                <span class="header__account-text" style="font-size: 0.95rem; font-weight: 500;">Вхід</span>
             </a>
 
             <button class="header__burger" aria-label="Управління меню">
@@ -72,85 +80,7 @@
             </div>
         </div>
     </section>
-    <section class="catalog-section">
-    <div class="catalog-container">
-        
-        <!-- Мобильная кнопка для вызова сайдбара фильтров -->
-        <button class="catalog__mobile-filter-btn" id="mobileFilterBtn">
-            <i class="fa-solid fa-sliders"></i> Фільтри та категорії
-        </button>
-
-        <!-- Левая колонка: Сайдбар управления (Фильтры) -->
-        <aside class="catalog__sidebar" id="catalogSidebar">
-            <div class="catalog__sidebar-close" id="sidebarCloseBtn">&times;</div>
-            
-            <!-- Блок фильтра цены -->
-            <div class="catalog__filter-group">
-                <h3 class="catalog__filter-title">Фільтр по ціні</h3>
-                <div class="catalog__price-range">
-                    <div class="catalog__price-inputs">
-                        <label>Від: <input type="number" id="priceMin" value="0"></label>
-                        <label>До: <input type="number" id="priceMax" value="5000"></label>
-                    </div>
-                    <input type="range" id="priceRangeSlider" min="0" max="5000" value="5000" class="catalog__slider">
-                </div>
-            </div>
-
-            <!-- Блок категорий (Табы) -->
-            <div class="catalog__filter-group">
-                <h3 class="catalog__filter-title">Категорії</h3>
-                <div class="catalog__categories-list">
-                    <button class="catalog__category-btn catalog__category-btn--active" data-category="all">Всі товари</button>
-                    <button class="catalog__category-btn" data-category="akciya">Акція</button>
-                    <button class="catalog__category-btn" data-category="novinka">Новинка</button>
-                    <button class="catalog__category-btn" data-category="napivfab">Напівфабрикати</button>
-                    <button class="catalog__category-btn" data-category="gotov_prod">Готова продукція</button>
-                    <button class="catalog__category-btn" data-category="ikra">Ікра</button>
-                    <button class="catalog__category-btn" data-category="krevetki">Креветки</button>
-                    <button class="catalog__category-btn" data-category="kopch_sol">Копцена та солона риба</button>
-                    <button class="catalog__category-btn" data-category="vyal_sush">В'ялена та сушена риба</button>
-                    <button class="catalog__category-btn" data-category="myaso">М'ясна продукція</button>
-                    <button class="catalog__category-btn" data-category="konserva">Консерва</button>
-                    <button class="catalog__category-btn" data-category="preserva">Пресерва</button>
-                    <button class="catalog__category-btn" data-category="sira_marin">Риба для запікання</button>
-                    <button class="catalog__category-btn" data-category="moreprod">Морепродукти</button>
-                    <button class="catalog__category-btn" data-category="sushi">Товари для суші</button>
-                    <button class="catalog__category-btn" data-category="sneki">Снеки</button>
-                    <button class="catalog__category-btn" data-category="bakaleya">Бакалея</button>
-                    <button class="catalog__category-btn" data-category="inshe">Інше</button>
-                </div>
-            </div>
-        </aside>
-
-        <!-- Правая колонка: Каталог -->
-        <div class="catalog__content-wrapper">
-            
-            <div class="catalog__top-bar">
-                <div class="catalog__count-info" id="catalogCountInfo">Знайдено: 0 товарів</div>
-                <div class="catalog__sort">
-                    <label for="catalogSortSelect">Сортування:</label>
-                    <select id="catalogSortSelect" class="catalog__sort-select">
-                        <option value="default">За замовчуванням</option>
-                        <option value="price-asc">Ціна: від дешевшої</option>
-                        <option value="price-desc">Ціна: від дорожчої</option>
-                        <option value="name-asc">Назва: А-Я</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="catalog__grid" id="catalogGrid">
-                <!-- Сюда JS рендерит карточки -->
-            </div>
-
-            <div class="catalog__pagination" id="catalogPagination">
-                <!-- Сюда JS генерирует кнопки страниц -->
-            </div>
-
-        </div>
-    </div>
-</section>
 </main>
-
 <footer class="footer" id="footer-contacts">
     <div class="footer__container">
         <div class="footer__grid">
