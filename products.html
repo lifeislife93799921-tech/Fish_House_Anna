@@ -24,7 +24,7 @@
             <nav class="header__menu">
                 <a href="index.html" class="header__menu-link" id="nav-home">Головна</a>
                 <a href="products.html" class="header__menu-link header__menu-link--active" id="nav-products">Продукція</a>
-                <a href="#" class="header__menu-link">Доставка</a>
+                <a href="index.html#delivery" class="header__menu-link">Доставка</a>
                 <a href="#footer-contacts" class="header__menu-link">Контакти</a>
             </nav>
 
@@ -179,33 +179,35 @@
                 </div>
 
                 <div class="footer__catalog-center">
-                    <h4 class="footer__title footer__title--center">Каталог</h4>
-                    <div class="footer__catalog-columns">
-                        <ul class="footer__list">
-                            <li><a href="#" class="footer__link footer__link--sale">Акція %</a></li>
-                        <li><a href="#" class="footer__link">Новинка</a></li>
-                        <li><a href="#" class="footer__link">Хіт продажів</a></li>
-                        <li><a href="#" class="footer__link">Напівфабрикати</a></li>
-                        <li><a href="#" class="footer__link">Готова продукція нашого виробництва</a></li>
-                        <li><a href="#" class="footer__link">Ікра</a></li>
-                        <li><a href="#" class="footer__link">Креветки</a></li>
-                        <li><a href="#" class="footer__link">Копцена та солона риба</a></li>
-                        <li><a href="#" class="footer__link">В'ялена та сушена риба</a></li>
-                        
-                    </ul>
-                    <ul class="footer__list">
-                        <li><a href="#" class="footer__link">М'ясна продукція</a></li>
-                        <li><a href="#" class="footer__link">Консерва</a></li>
-                        <li><a href="#" class="footer__link">Пресерва готова для вживання</a></li>
-                        <li><a href="#" class="footer__link">Сира та маринована риба для запікання</a></li>
-                        <li><a href="#" class="footer__link">Морепродукти</a></li>
-                        <li><a href="#" class="footer__link">Товари для суші</a></li>
-                        <li><a href="#" class="footer__link">Снеки</a></li>
-                        <li><a href="#" class="footer__link">Бакалея</a></li>
-                        <li><a href="#" class="footer__link">Інше</a></li>
-                        </ul>
-                    </div>
-                </div>
+    <h4 class="footer__title footer__title--center">Каталог</h4>
+    <div class="footer__catalog-columns">
+        <ul class="footer__list">
+            <!-- Статусы (фильтры) -->
+            <li><a href="products.html?filter=sale" class="footer__link footer__link--sale">Акція %</a></li>
+            <li><a href="products.html?filter=new" class="footer__link">Новинка</a></li>
+            <li><a href="products.html?filter=hit" class="footer__link">Хіт продажів</a></li>
+            
+            <!-- Категории -->
+            <li><a href="products.html?category=napivfab" class="footer__link">Напівфабрикати</a></li>
+            <li><a href="products.html?category=gotov_prod" class="footer__link">Готова продукція нашого виробництва</a></li>
+            <li><a href="products.html?category=ikra" class="footer__link">Ікра</a></li>
+            <li><a href="products.html?category=krevetki" class="footer__link">Креветки</a></li>
+            <li><a href="products.html?category=kopch_sol" class="footer__link">Копцена та солона риба</a></li>
+            <li><a href="products.html?category=vyal_sush" class="footer__link">В'ялена та сушена риба</a></li>
+        </ul>
+        <ul class="footer__list">
+            <li><a href="products.html?category=myaso" class="footer__link">М'ясна продукція</a></li>
+            <li><a href="products.html?category=konserva" class="footer__link">Консерва</a></li>
+            <li><a href="products.html?category=preserva" class="footer__link">Пресерва готова для вживання</a></li>
+            <li><a href="products.html?category=sira_marin" class="footer__link">Сира та маринована риба для запікання</a></li>
+            <li><a href="products.html?category=moreprod" class="footer__link">Морепродукти</a></li>
+            <li><a href="products.html?category=sushi" class="footer__link">Товари для суші</a></li>
+            <li><a href="products.html?category=sneki" class="footer__link">Снеки</a></li>
+            <li><a href="products.html?category=bakaleya" class="footer__link">Бакалея</a></li>
+            <li><a href="products.html?category=inshe" class="footer__link">Інше</a></li>
+        </ul>
+    </div>
+</div>
 
                 <div class="footer__col">
                     <h4 class="footer__title footer__title--clients">Клієнтам</h4>

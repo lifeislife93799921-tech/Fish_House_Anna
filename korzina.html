@@ -24,7 +24,7 @@
             <nav class="header__menu">
                 <a href="index.html" class="header__menu-link" id="nav-home">Головна</a>
                 <a href="products.html" class="header__menu-link" id="nav-products">Продукція</a>
-                <a href="#" class="header__menu-link">Доставка</a>
+                <a href="index.html#delivery" class="header__menu-link">Доставка</a>
                 <a href="#footer-contacts" class="header__menu-link">Контакти</a>
             </nav>
 
@@ -79,29 +79,102 @@
                             </div>
 
                             <form class="checkout-form" id="checkout-order-form">
-                                <div class="checkout-form__group">
-                                    <label class="checkout-form__label">Ваше ім'я *</label>
-                                    <input type="text" class="checkout-form__input" required placeholder="Іван">
-                                </div>
-                                <div class="checkout-form__group">
-                                    <label class="checkout-form__label">Телефон *</label>
-                                    <input type="tel" class="checkout-form__input" required placeholder="+38 (067) 000-00-00">
-                                </div>
-                                <div class="checkout-form__group">
-                                    <label class="checkout-form__label">Спосіб доставки *</label>
-                                    <select class="checkout-form__select" required>
-                                        <option value="самовивіз">Самовивіз (пр. Соборний, 177)</option>
-                                        <option value="кур'єр">Доставка кур'єром по Запоріжжю</option>
-                                    </select>
-                                </div>
-                                <div class="checkout-form__group">
-                                    <label class="checkout-form__label">Коментар до замовлення</label>
-                                    <textarea class="checkout-form__textarea" placeholder="Уточнення щодо часу або ваги..."></textarea>
-                                </div>
-                                <button type="submit" class="checkout-form__submit-btn">
-                                    <i class="fa-solid fa-check"></i> Підтвердити замовлення
-                                </button>
-                            </form>
+    <!-- Выбор способа доставки (Перенесли на самый верх для логики формы) -->
+    <div class="checkout-form__group">
+        <label class="checkout-form__label">Спосіб доставки *</label>
+        <select class="checkout-form__select" id="delivery-method" required>
+            <option value="pickup">Самовивіз (пр. Соборний, 177)</option>
+            <option value="courier">Доставка кур'єром по місту (від 700 грн)</option>
+            <option value="ukraine">Відправка по Україні Новою Поштою (від 300 грн)</option>
+        </select>
+    </div>
+
+    <!-- БЛОК 1: Поля для Самовивозу -->
+    <div id="form-block-pickup" class="delivery-fields-block">
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">Прізвище *</label>
+            <input type="text" class="checkout-form__input" data-field="lastname" placeholder="Іванов">
+        </div>
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">Ім'я *</label>
+            <input type="text" class="checkout-form__input" data-field="firstname" placeholder="Іван">
+        </div>
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">По батькові</label>
+            <input type="text" class="checkout-form__input" data-field="middlename" placeholder="Іванович (необов'язково)">
+        </div>
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">Телефон *</label>
+            <input type="tel" class="checkout-form__input" data-field="phone" placeholder="+38 (067) 000-00-00">
+        </div>
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">Дата візиту *</label>
+            <input type="date" class="checkout-form__input" data-field="date">
+        </div>
+    </div>
+
+    <!-- БЛОК 2: Поля для Доставки по городу (скрыт по умолчанию) -->
+    <div id="form-block-courier" class="delivery-fields-block" style="display: none;">
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">Прізвище *</label>
+            <input type="text" class="checkout-form__input" data-field="lastname" placeholder="Іванов">
+        </div>
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">Ім'я *</label>
+            <input type="text" class="checkout-form__input" data-field="firstname" placeholder="Іван">
+        </div>
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">По батькові</label>
+            <input type="text" class="checkout-form__input" data-field="middlename" placeholder="Іванович (необов'язково)">
+        </div>
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">Телефон *</label>
+            <input type="tel" class="checkout-form__input" data-field="phone" placeholder="+38 (067) 000-00-00">
+        </div>
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">Адреса доставки *</label>
+            <input type="text" class="checkout-form__input" data-field="address" placeholder="вулиця, будинок, квартира">
+        </div>
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">Під'їзд</label>
+            <input type="text" class="checkout-form__input" data-field="entrance" placeholder="Номер під'їзду (необов'язково)">
+        </div>
+    </div>
+
+    <!-- БЛОК 3: Поля для Отправки по Украине (скрыт по умолчанию) -->
+    <div id="form-block-ukraine" class="delivery-fields-block" style="display: none;">
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">Повне ПІБ отримувача *</label>
+            <input type="text" class="checkout-form__input" data-field="fullname" placeholder="Іванов Іван Іванович">
+        </div>
+        <div class="checkout-form__group">
+            <label class="checkout-form__label">Телефон *</label>
+            <input type="tel" class="checkout-form__input" data-field="phone" placeholder="+38 (067) 000-00-00">
+        </div>
+        <!-- Галочка для адресной доставки Новой Почты -->
+        <div class="checkout-form__group" style="display: flex; align-items: center; gap: 10px; margin: 15px 0;">
+            <input type="checkbox" id="address-delivery-checkbox" style="width: 18px; height: 18px; accent-color: #ff7a00; cursor: pointer;">
+            <label for="address-delivery-checkbox" style="font-size: 0.95rem; color: #cbd5e1; cursor: pointer; user-select: none;">Адресна доставка додому</label>
+        </div>
+        <div class="checkout-form__group">
+            <label class="checkout-form__label" id="ukraine-delivery-label">Номер або адреса відділення Нової Пошти *</label>
+            <input type="text" id="ukraine-delivery-input" class="checkout-form__input" data-field="shipping-address" placeholder="Відділення №1, вул. Головна 5">
+        </div>
+    </div>
+
+    <!-- Общий комментарий -->
+    <div class="checkout-form__group">
+        <label class="checkout-form__label">Коментар до замовлення</label>
+        <textarea class="checkout-form__textarea" placeholder="Уточнення щодо часу або ваги..."></textarea>
+    </div>
+
+    <!-- Визуальный инфоблок минимальной суммы (для вывода предупреждений) -->
+    <div id="min-sum-info" class="checkout-form__min-info" style="display: none;"></div>
+
+    <button type="submit" class="checkout-form__submit-btn" id="submit-order-btn">
+        <i class="fa-solid fa-check"></i> Підтвердити замовлення
+    </button>
+</form>
                         </div>
                     </aside>
                 </div>
@@ -127,5 +200,24 @@
 
     <script src="main.js"></script>
     <script src="cart.js"></script>
+    <div id="cart-product-popup" class="popup">
+        <div class="popup__overlay"></div>
+        <div class="popup__content">
+            <button class="popup__close" id="cart-popup-close-btn">&times;</button>
+            <div class="popup-grid">
+                <div class="popup-grid__img-box">
+                    <img id="cart-popup-img" src="" alt="Товар" class="popup-grid__img">
+                </div>
+                <div class="popup-grid__info">
+                    <h2 id="cart-popup-title" class="popup-grid__title"></h2>
+                    <p id="cart-popup-desc" class="popup-grid__desc"></p>
+                    <div class="popup__price-block">
+                        <span class="popup__price-label">Ціна:</span>
+                        <span id="cart-popup-price" class="popup__price-num"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

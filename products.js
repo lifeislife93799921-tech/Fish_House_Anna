@@ -37,22 +37,44 @@ document.addEventListener('DOMContentLoaded', () => {
             // Запускаем кастомный динамический слайдер цен
             setupDynamicPriceSlider();
 
-            // === ПРОВЕРКА АДРЕСНОЙ СТРОКИ (ПРИШЛИ ЛИ МЫ С ПОИСКА) ===
-            const urlParams = new URLSearchParams(window.location.search);
-            const searchFromUrl = urlParams.get('search');
+            // === ПРОВЕРКА АДРЕСНОЙ СТРОКИ (ПОИСК, КАТЕГОРИИ, ФИЛЬТРЫ) ===
+const urlParams = new URLSearchParams(window.location.search);
+const searchFromUrl = urlParams.get('search');
+const categoryParam = urlParams.get('category');
+const filterParam = urlParams.get('filter');
 
-            if (searchFromUrl) {
-                // Если в ссылке есть поисковое слово:
-                const searchInput = document.querySelector('.header__search-input');
-                if (searchInput) {
-                    searchInput.value = searchFromUrl; // Пишем слово в инпут хэдера
-                }
-                // Запускаем глобальный поиск по этому слову
-                window.filterCatalogBySearch(searchFromUrl);
-            } else {
-                // Если поискового запроса нет, просто показываем каталог как обычно
-                applyFilters();
-            }
+// А. Если в ссылке передана категория (?category=...)
+if (categoryParam) {
+    currentCategory = categoryParam; // Меняем внутреннюю переменную категории на ту, что из ссылки
+    
+    // Переключаем визуально активный класс на кнопках в сайдбаре
+    const activeBtn = document.querySelector('.filter-categories__btn--active');
+    if (activeBtn) activeBtn.classList.remove('filter-categories__btn--active');
+    
+    const targetBtn = document.querySelector(`.filter-categories__btn[data-category="${categoryParam}"]`);
+    if (targetBtn) targetBtn.classList.add('filter-categories__btn--active');
+}
+
+// Б. Если в ссылке передан фильтр-статус (?filter=...)
+if (filterParam) {
+    const checkbox = document.getElementById(`badge-${filterParam}`);
+    if (checkbox) {
+        checkbox.checked = true; // Визуально ставим галочку в чекбокс
+    }
+}
+
+// В. Логика отрисовки товаров
+if (searchFromUrl) {
+    // Если пришли с поиска, запускаем поиск
+    const searchInput = document.querySelector('.header__search-input');
+    if (searchInput) {
+        searchInput.value = searchFromUrl;
+    }
+    window.filterCatalogBySearch(searchFromUrl);
+} else {
+    // Если поиска нет, просто запускаем фильтрацию (она сама подхватит измененные выше категорию или чекбокс)
+    applyFilters();
+}
 
             setupEventListeners();
         } catch (error) {
