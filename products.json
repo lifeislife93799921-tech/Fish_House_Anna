@@ -704,7 +704,7 @@
   {
     "id": 40,
     "name": "Дорадо по Грецьки МАРИНОВАНА (напівфабрикат) 400-600г",
-    "type": "napivfab",
+    "type": "sira_marin",
     "price": 680,
     "oldPrice": null,
     "unit": "кг",
@@ -717,12 +717,12 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/dorado_grecky_marynovana.jpg"
+    "img": "images/sira_marin/dorado_grecky_marynovana.jpg"
   },
   {
     "id": 41,
     "name": "Дорадо по Грецьки заморожена МАРИНОВАНА (напівфабрикат) 400-600г",
-    "type": "napivfab",
+    "type": "sira_marin",
     "price": 680,
     "oldPrice": null,
     "unit": "кг",
@@ -735,12 +735,12 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/dorado_grecky_zamorozhena.jpg"
+    "img": "images/sira_marin/dorado_grecky_zamorozhena.jpg"
   },
   {
     "id": 42,
     "name": "Дорадо тушка заморожена МАРИНОВАНА (напівфабрикат) 400-600г",
-    "type": "napivfab",
+    "type": "sira_marin",
     "price": 680,
     "oldPrice": null,
     "unit": "кг",
@@ -753,12 +753,12 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/dorado_tushka_zamorozhena.jpg"
+    "img": "images/sira_marin/dorado_tushka_zamorozhena.jpg"
   },
   {
     "id": 43,
     "name": "Дорадо тушка МАРИНОВАНА (напівфабрикат) 400-600г",
-    "type": "napivfab",
+    "type": "sira_marin",
     "price": 680,
     "oldPrice": null,
     "unit": "кг",
@@ -771,7 +771,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/dorado_tushka_marynovana.jpg"
+    "img": "images/sira_marin/dorado_tushka_marynovana.jpg"
   },
   {
     "id": 44,
@@ -1208,7 +1208,7 @@
   {
     "id": 68,
     "name": "Морський окунь маринований від Ані.",
-    "type": "napivfab",
+    "type": "sira_marin",
     "price": 425,
     "oldPrice": null,
     "unit": "кг",
@@ -1221,7 +1221,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/morskyj_okun_marynovanyj.jpg"
+    "img": "images/sira_marin/morskyj_okun_marynovanyj.jpg"
   },
   {
     "id": 69,
@@ -1316,7 +1316,7 @@
   {
     "id": 74,
     "name": "Сібас тушка МАРИНОВАНА (заморозка) 400-600г",
-    "type": "napivfab",
+    "type": "sira_marin",
     "price": 680,
     "oldPrice": null,
     "unit": "кг",
@@ -1329,12 +1329,12 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/sibas_tushka_zamorozheny_marynovanyj.jpg"
+    "img": "images/sira_marin/sibas_tushka_zamorozheny_marynovanyj.jpg"
   },
   {
     "id": 75,
     "name": "Сібас тушка МАРИНОВАНА (напівфабрикат) 400-600г",
-    "type": "napivfab",
+    "type": "sira_marin",
     "price": 680,
     "oldPrice": null,
     "unit": "кг",
@@ -1347,12 +1347,12 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/sibas_tushka_marynovana.jpg"
+    "img": "images/sira_marin/sibas_tushka_marynovana.jpg"
   },
   {
     "id": 76,
     "name": "Скумбрія маринована від Ані (ЗАМОРОЗКА)",
-    "type": "napivfab",
+    "type": "sira_marin",
     "price": 490,
     "oldPrice": null,
     "unit": "кг",
@@ -1365,12 +1365,12 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/skumbriya_marynovana_zamorozka.jpg"
+    "img": "images/sira_marin/skumbriya_marynovana_zamorozka.jpg"
   },
   {
     "id": 77,
     "name": "Скумбрія маринована від Ані (напівфабрикат)",
-    "type": "napivfab",
+    "type": "sira_marin",
     "price": 490,
     "oldPrice": null,
     "unit": "кг",
@@ -1383,7 +1383,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/skumbriya_marynovana.jpg"
+    "img": "images/sira_marin/skumbriya_marynovana.jpg"
   },
   {
     "id": 78,
@@ -1406,7 +1406,7 @@
   {
     "id": 79,
     "name": "Філе сібаса мариноване від Ані",
-    "type": "napivfab",
+    "type": "sira_marin",
     "price": 1120,
     "oldPrice": null,
     "unit": "кг",
@@ -1419,7 +1419,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/file_sibasa_marynovane.jpg"
+    "img": "images/sira_marin/file_sibasa_marynovane.jpg"
   },
   {
     "id": 80,
@@ -4050,6 +4050,2329 @@
     ],
     "description": "",
     "img": "images/bakaleya/yaytsa.jpg"
+  },
+  {
+    "id": 226,
+    "name": "Креветка 120+ виловНорвегія, розмір",
+    "type": "krevetki",
+    "price": 345,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/krevetki/krevetka_norvegiya.jpg"
+  },
+  {
+    "id": 227,
+    "name": "Креветка 30/40 шт очищена в/м, гл 20 %",
+    "type": "krevetki",
+    "price": 610,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/krevetki/krevetka_ochishena.jpg"
+  },
+  {
+    "id": 228,
+    "name": "Креветка в паніровці 0,180 г",
+    "type": "krevetki",
+    "price": 218,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/krevetki/krevetka_panirovka_180.jpg"
+  },
+  {
+    "id": 229,
+    "name": "Креветка в паніровці 500 грамів",
+    "type": "krevetki",
+    "price": 445,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/krevetki/krevetka_panirovka_500.jpg"
+  },
+  {
+    "id": 230,
+    "name": "Креветка в/м в панц.80+",
+    "type": "krevetki",
+    "price": 653,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/krevetki/krevetka_v_pancire.jpg"
+  },
+  {
+    "id": 231,
+    "name": "Креветка вилов Гренландія, розмір 90+",
+    "type": "krevetki",
+    "price": 578,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/krevetki/krevetka_grenlandiya.jpg"
+  },
+  {
+    "id": 232,
+    "name": "Креветка Лангустін с/г сирий, Аргентина L2",
+    "type": "krevetki",
+    "price": 465,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/krevetki/langustin_l2.jpg"
+  },
+  {
+    "id": 233,
+    "name": "Креветка Розенберг",
+    "type": "krevetki",
+    "price": 1200,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/krevetki/krevetka_rozenberg.jpg"
+  },
+  {
+    "id": 234,
+    "name": "Креветка СИРА з головою 30/40 без глазурі",
+    "type": "krevetki",
+    "price": 365,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/krevetki/krevetka_sira_golova.jpg"
+  },
+  {
+    "id": 235,
+    "name": "Креветка Тигрова хвости16/20 25% глазурі",
+    "type": "krevetki",
+    "price": 510,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/krevetki/tigrova_hvosti.jpg"
+  },
+  {
+    "id": 236,
+    "name": "Креветка черноморка",
+    "type": "krevetki",
+    "price": 2400,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/krevetki/krevetka_chernomorka.jpg"
+  },
+  {
+    "id": 237,
+    "name": "Креветка чорний Тигр с/г",
+    "type": "krevetki",
+    "price": 670,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/krevetki/chorniy_tigr.jpg"
+  },
+  {
+    "id": 238,
+    "name": "Балик масляний провес",
+    "type": "kopch_sol",
+    "price": 942,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/balik_maslyaniy_proves.jpg"
+  },
+  {
+    "id": 239,
+    "name": "Балик масляний х/к",
+    "type": "kopch_sol",
+    "price": 942,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/balik_maslyaniy_hk.jpg"
+  },
+  {
+    "id": 240,
+    "name": "Мараканка провісна",
+    "type": "kopch_sol",
+    "price": 510,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/marakanka_provisna.jpg"
+  },
+  {
+    "id": 241,
+    "name": "Мараканка холодного копчення тушка",
+    "type": "kopch_sol",
+    "price": 510,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/marakanka_hk.jpg"
+  },
+  {
+    "id": 242,
+    "name": "Оселедець тушка з головою, ПРОВЕС",
+    "type": "kopch_sol",
+    "price": 295,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/oseledec_proves.jpg"
+  },
+  {
+    "id": 243,
+    "name": "Оселедець тушка з головою, Х/К",
+    "type": "kopch_sol",
+    "price": 295,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/oseledec_hk.jpg"
+  },
+  {
+    "id": 244,
+    "name": "Саварин, тушка б / г холодного копчення",
+    "type": "kopch_sol",
+    "price": 630,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/savarin_hk.jpg"
+  },
+  {
+    "id": 245,
+    "name": "Саварин, тушка б/г провесний",
+    "type": "kopch_sol",
+    "price": 630,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/savarin_provesniy.jpg"
+  },
+  {
+    "id": 246,
+    "name": "Сайра х/к",
+    "type": "kopch_sol",
+    "price": 495,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/sayra_hk.jpg"
+  },
+  {
+    "id": 247,
+    "name": "Скумбрія тушка б/г холодного копчення без знижок",
+    "type": "kopch_sol",
+    "price": 702,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/skumbriya_bg_hk.jpg"
+  },
+  {
+    "id": 248,
+    "name": "Скумбрія тушка б/г провісна без знижок",
+    "type": "kopch_sol",
+    "price": 702,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/skumbriya_bg_provisna.jpg"
+  },
+  {
+    "id": 249,
+    "name": "Скумбрія тушка с головой холодного копчення",
+    "type": "kopch_sol",
+    "price": 625,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/skumbriya_sg_hk.jpg"
+  },
+  {
+    "id": 250,
+    "name": "Скумбрія тушка с головой провесная",
+    "type": "kopch_sol",
+    "price": 625,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/skumbriya_sg_provesnaya.jpg"
+  },
+  {
+    "id": 251,
+    "name": "Три риби х/к рулет",
+    "type": "kopch_sol",
+    "price": 1250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/tri_ribi_rulet.jpg"
+  },
+  {
+    "id": 252,
+    "name": "Форель провісна",
+    "type": "kopch_sol",
+    "price": 830,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/forel_provisna.jpg"
+  },
+  {
+    "id": 253,
+    "name": "Форель х/к",
+    "type": "kopch_sol",
+    "price": 830,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/forel_hk.jpg"
+  },
+  {
+    "id": 254,
+    "name": "Хамса сухий посол",
+    "type": "kopch_sol",
+    "price": 270,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/hamsa_suhiy_posol.jpg"
+  },
+  {
+    "id": 255,
+    "name": "Атерина в'ялена.",
+    "type": "vyal_sush",
+    "price": 480,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/aterina_vyalena.jpg"
+  },
+  {
+    "id": 256,
+    "name": "Бичок в'ялений",
+    "type": "vyal_sush",
+    "price": 790,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/bichok_vyaleniy.jpg"
+  },
+  {
+    "id": 257,
+    "name": "Верховодка в'ялена",
+    "type": "vyal_sush",
+    "price": 1485,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/verhovodka_vyalena.jpg"
+  },
+  {
+    "id": 258,
+    "name": "кубики толстолоба б/с",
+    "type": "vyal_sush",
+    "price": 700,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/kubiki_tolstoloba.jpg"
+  },
+  {
+    "id": 259,
+    "name": "Лящ в'ялений икряний(ВС)",
+    "type": "vyal_sush",
+    "price": 725,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/lyash_ikryaniy.jpg"
+  },
+  {
+    "id": 260,
+    "name": "Лящ з ікрою в лусці спец посол",
+    "type": "vyal_sush",
+    "price": 725,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/lyash_v_lusci.jpg"
+  },
+  {
+    "id": 261,
+    "name": "Полустейк толстолоба в'ялений",
+    "type": "vyal_sush",
+    "price": 950,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/polusteyk_tolstoloba.jpg"
+  },
+  {
+    "id": 262,
+    "name": "Тарань ікряна до15 шт на кг(С)",
+    "type": "vyal_sush",
+    "price": 1250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/taran_ikryana_15.jpg"
+  },
+  {
+    "id": 263,
+    "name": "Тарань спецпосол (В) вся подряд",
+    "type": "vyal_sush",
+    "price": 1600,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/taran_specposol.jpg"
+  },
+  {
+    "id": 264,
+    "name": "Тарань чищена з ікрою до 10 шт (Т)",
+    "type": "vyal_sush",
+    "price": 1350,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/taran_chischena_10.jpg"
+  },
+  {
+    "id": 265,
+    "name": "Бекон 0,500 г",
+    "type": "myaso",
+    "price": 345,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/bekon_500.jpg"
+  },
+  {
+    "id": 266,
+    "name": "Кабаноси",
+    "type": "myaso",
+    "price": 945,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/kabanosi.jpg"
+  },
+  {
+    "id": 267,
+    "name": "КУРИ КОПЧЕНІ",
+    "type": "myaso",
+    "price": 350,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/kuri_kopcheni.jpg"
+  },
+  {
+    "id": 268,
+    "name": "Прошутто Італія",
+    "type": "myaso",
+    "price": 945,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/proshutto_italiya.jpg"
+  },
+  {
+    "id": 269,
+    "name": "Прошутто нарізка 250гр",
+    "type": "myaso",
+    "price": 1250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/proshutto_narizka_250.jpg"
+  },
+  {
+    "id": 270,
+    "name": "Салями Коніна с/в",
+    "type": "myaso",
+    "price": 1090,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/salyami_konina.jpg"
+  },
+  {
+    "id": 271,
+    "name": "Салями курхан",
+    "type": "myaso",
+    "price": 950,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/salyami_kurhan.jpg"
+  },
+  {
+    "id": 272,
+    "name": "Салямі Браунч",
+    "type": "myaso",
+    "price": 830,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/salyami_braunch.jpg"
+  },
+  {
+    "id": 273,
+    "name": "Солонина домашня з приправою.",
+    "type": "myaso",
+    "price": 600,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/solonina_domashnya.jpg"
+  },
+  {
+    "id": 274,
+    "name": "Солонина іспаньська (гостра).",
+    "type": "myaso",
+    "price": 575,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/solonina_ispanska.jpg"
+  },
+  {
+    "id": 275,
+    "name": "Солонина по корейські (гостра).",
+    "type": "myaso",
+    "price": 575,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/solonina_koreyska.jpg"
+  },
+  {
+    "id": 276,
+    "name": "Філейка v'ялена",
+    "type": "myaso",
+    "price": 825,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/fileyka_vyalena.jpg"
+  },
+  {
+    "id": 277,
+    "name": "Фрімеса Вишня",
+    "type": "myaso",
+    "price": 1135,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/frimesa_vishnya.jpg"
+  },
+  {
+    "id": 278,
+    "name": "Фрімеса індик.",
+    "type": "myaso",
+    "price": 1050,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/frimesa_indik.jpg"
+  },
+  {
+    "id": 279,
+    "name": "Фуєт індик",
+    "type": "myaso",
+    "price": 1130,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/fuet_indik.jpg"
+  },
+  {
+    "id": 280,
+    "name": "Фуєт індик журавлина",
+    "type": "myaso",
+    "price": 930,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/fuet_indik_zhuravlina.jpg"
+  },
+  {
+    "id": 281,
+    "name": "Фуєт індик трави",
+    "type": "myaso",
+    "price": 930,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/myaso/fuet_indik_travi.jpg"
+  },
+  {
+    "id": 282,
+    "name": "Консерва кілька в томаті ВЕНТСПИЛС 240г",
+    "type": "konserva",
+    "price": 80,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/konserva/kilka_ventspils.jpg"
+  },
+  {
+    "id": 283,
+    "name": "Консерва ЛЯЩ у томатному соусі 500 гр",
+    "type": "konserva",
+    "price": 199,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/konserva/lyash_v_tomati.jpg"
+  },
+  {
+    "id": 284,
+    "name": "Консерва тунець 80 гр у власному соку",
+    "type": "konserva",
+    "price": 98,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/konserva/tunec_vlasniy_sik_80.jpg"
+  },
+  {
+    "id": 285,
+    "name": "Консерва тунець 80 гр, в оливковій олії",
+    "type": "konserva",
+    "price": 87,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/konserva/tunec_oliva_80.jpg"
+  },
+  {
+    "id": 286,
+    "name": "Консерва Тунець Ріо 170 грам у власному соку",
+    "type": "konserva",
+    "price": 109,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/konserva/tunec_rio_170.jpg"
+  },
+  {
+    "id": 287,
+    "name": "Консерва шпроти 240 г",
+    "type": "konserva",
+    "price": 125,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/konserva/shproti_240.jpg"
+  },
+  {
+    "id": 288,
+    "name": "Печеньтріски 121 г Бесттайм",
+    "type": "konserva",
+    "price": 150,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/konserva/pechen_treski_121.jpg"
+  },
+  {
+    "id": 289,
+    "name": "Печінка тріски 202 гр Бесттайм",
+    "type": "konserva",
+    "price": 265,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/konserva/pechinka_treski_202.jpg"
+  },
+  {
+    "id": 290,
+    "name": "Печінка тріски Кінг Оскар 115грам",
+    "type": "konserva",
+    "price": 138,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/konserva/pechinka_king_oskar.jpg"
+  },
+  {
+    "id": 291,
+    "name": "Тунець у олії Atlantico1000 г",
+    "type": "konserva",
+    "price": 573,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/konserva/tunec_atlantico_1000.jpg"
+  },
+  {
+    "id": 292,
+    "name": "Пресерва ікра оселедця 0,180",
+    "type": "preserva",
+    "price": 80,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/preserva/ikra_oseledcya_180.jpg"
+  },
+  {
+    "id": 293,
+    "name": "Пресерва КРЕВЕТКА 0,300",
+    "type": "preserva",
+    "price": 308,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/preserva/preserva_krevetka_300.jpg"
+  },
+  {
+    "id": 294,
+    "name": "Пресерва МІДІЯ 0,500 (в соняшніковій Олії)",
+    "type": "preserva",
+    "price": 278,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/preserva/preserva_midiya_500.jpg"
+  },
+  {
+    "id": 295,
+    "name": "Пресерва МОРСЬКИЙ КОКТЕЙЛЬ 0,500 (в соняшніковій Олії)",
+    "type": "preserva",
+    "price": 368,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/preserva/morskiy_kokteyl_500.jpg"
+  },
+  {
+    "id": 296,
+    "name": "Саламур із Товстолоба 0,300",
+    "type": "preserva",
+    "price": 130,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/preserva/salamur_tovstoloba_300.jpg"
+  },
+  {
+    "id": 297,
+    "name": "Камбала с/м 300+",
+    "type": "sira_marin",
+    "price": 239,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/kambala_sm.jpg"
+  },
+  {
+    "id": 298,
+    "name": "Кінг Кліп тушка б/г (вага)",
+    "type": "sira_marin",
+    "price": 452,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/king_klip_tushka.jpg"
+  },
+  {
+    "id": 299,
+    "name": "ЛОСОСЬ СЛАЙСИ Vikenco (14 )",
+    "type": "sira_marin",
+    "price": 419,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/losos_slaysi_vikenco.jpg"
+  },
+  {
+    "id": 300,
+    "name": "Мойва с/м",
+    "type": "sira_marin",
+    "price": 218,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/moyva_sm.jpg"
+  },
+  {
+    "id": 301,
+    "name": "МОРСЬКИЙ ОКУНЬ рожевий с/м 300-500 б/г Ісландія (вага)",
+    "type": "sira_marin",
+    "price": 365,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/morskiy_okun_rozheviy.jpg"
+  },
+  {
+    "id": 302,
+    "name": "Обрізь форелі б/ш б/кісток ДРІБНА",
+    "type": "sira_marin",
+    "price": 365,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/obriz_foreli_dribna.jpg"
+  },
+  {
+    "id": 303,
+    "name": "Палтус тушка б/г 1-1,5 кг",
+    "type": "sira_marin",
+    "price": 870,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/paltus_tushka_velika.jpg"
+  },
+  {
+    "id": 304,
+    "name": "Палтус тушка б/г 500-1000 гр Норвегія",
+    "type": "sira_marin",
+    "price": 870,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/paltus_tushka_norvegiya.jpg"
+  },
+  {
+    "id": 305,
+    "name": "Скумбрія 500+ Global (20)",
+    "type": "sira_marin",
+    "price": 429,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/skumbriya_500_global.jpg"
+  },
+  {
+    "id": 306,
+    "name": "Скумбрія С/М 600+ Шотландія",
+    "type": "sira_marin",
+    "price": 429,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/skumbriya_sm_shotlandiya.jpg"
+  },
+  {
+    "id": 307,
+    "name": "СТЕЙК КОРОПА",
+    "type": "sira_marin",
+    "price": 257,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/steyk_koropa.jpg"
+  },
+  {
+    "id": 308,
+    "name": "Тріска рожева, тушка б/г 800",
+    "type": "sira_marin",
+    "price": 304,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/triska_rozheva_tushka.jpg"
+  },
+  {
+    "id": 309,
+    "name": "Тунець філе, лоинс (ваговий)",
+    "type": "sira_marin",
+    "price": 655,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/tunec_file_loins.jpg"
+  },
+  {
+    "id": 310,
+    "name": "Фарш лосося Литва 1кг",
+    "type": "sira_marin",
+    "price": 155,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/farsh_lososya_litva_1kg.jpg"
+  },
+  {
+    "id": 311,
+    "name": "Фарш лосося Літва 0,500г",
+    "type": "sira_marin",
+    "price": 78,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/farsh_lososya_litva_500г.jpg"
+  },
+  {
+    "id": 312,
+    "name": "Філе Хека без шкіри суха заморозка Аргентина",
+    "type": "sira_marin",
+    "price": 413,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/file_heka_argentina.jpg"
+  },
+  {
+    "id": 313,
+    "name": "Філе хека в батоні (вагове)",
+    "type": "sira_marin",
+    "price": 330,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/file_heka_v_batoni.jpg"
+  },
+  {
+    "id": 314,
+    "name": "Форель тушка с/г 5-6 кг Норвегія (охолоджена)",
+    "type": "sira_marin",
+    "price": 500,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/forel_tushka_norvegiya.jpg"
+  },
+  {
+    "id": 315,
+    "name": "Хек тушка 300-500 (2*5) США Bornstesn",
+    "type": "sira_marin",
+    "price": 196,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/hek_tushka_bornstein.jpg"
+  },
+  {
+    "id": 316,
+    "name": "Хек тушка с/м 100-200",
+    "type": "sira_marin",
+    "price": 196,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/hek_tushka_sm.jpg"
+  },
+  {
+    "id": 317,
+    "name": "Черевця форелі.",
+    "type": "sira_marin",
+    "price": 250,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/cherevcya_foreli.jpg"
+  },
+  {
+    "id": 318,
+    "name": "ШМАТКИ лосося н/ш Шатландія",
+    "type": "sira_marin",
+    "price": 570,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/shmatki_lososya_shotlandiya.jpg"
+  },
+  {
+    "id": 319,
+    "name": "Філе тілапії",
+    "type": "sira_marin",
+    "price": 255,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/file_tilapii.jpg"
+  },
+  {
+    "id": 320,
+    "name": "Імбир маринований рожевий 1кг",
+    "type": "sushi",
+    "price": 145,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/imbir_marinovaniy_1kg.jpg"
+  },
+  {
+    "id": 321,
+    "name": "Норі 100шт уп",
+    "type": "sushi",
+    "price": 894,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/nori_100sht.jpg"
+  },
+  {
+    "id": 322,
+    "name": "Норі 20шт уп",
+    "type": "sushi",
+    "price": 190,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/nori_20sht.jpg"
+  },
+  {
+    "id": 323,
+    "name": "Оцет Міцукан 0,500 мл",
+    "type": "sushi",
+    "price": 40,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/ocet_micukan_500.jpg"
+  },
+  {
+    "id": 324,
+    "name": "Паста Том Ям 400гр уп",
+    "type": "sushi",
+    "price": 346,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/pasta_tom_yam_400.jpg"
+  },
+  {
+    "id": 325,
+    "name": "Рис для суші сорт Ніборі (ваговий)",
+    "type": "sushi",
+    "price": 95,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/ris_nibori_vagoviy.jpg"
+  },
+  {
+    "id": 326,
+    "name": "Рисовий папір",
+    "type": "sushi",
+    "price": 228,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/risoviy_papir.jpg"
+  },
+  {
+    "id": 327,
+    "name": "рисовий папір 100 г",
+    "type": "sushi",
+    "price": 70,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/risoviy_papir_100.jpg"
+  },
+  {
+    "id": 328,
+    "name": "Салат Хіяші 1кг",
+    "type": "sushi",
+    "price": 240,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/salat_hiyashi_1kg.jpg"
+  },
+  {
+    "id": 329,
+    "name": "Соєвий соус 1 л",
+    "type": "sushi",
+    "price": 126,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/soeviy_sous_1l.jpg"
+  },
+  {
+    "id": 330,
+    "name": "Соєвий соус концентрований 0,500 л",
+    "type": "sushi",
+    "price": 40,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/soeviy_sous_koncentrat.jpg"
+  },
+  {
+    "id": 331,
+    "name": "Соус Тереяки 1л",
+    "type": "sushi",
+    "price": 275,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/sous_tereyaki_1l.jpg"
+  },
+  {
+    "id": 332,
+    "name": "Сухарі Панко уп 1кг",
+    "type": "sushi",
+    "price": 150,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/suhari_panko_1kg.jpg"
+  },
+  {
+    "id": 333,
+    "name": "Фунчоза локшина рисова 0,500гр",
+    "type": "sushi",
+    "price": 160,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/funchoza_lokshina.jpg"
+  },
+  {
+    "id": 334,
+    "name": "Цибуля смажена вагова",
+    "type": "sushi",
+    "price": 648,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sushi/cibulya_smazhena.jpg"
+  },
+  {
+    "id": 335,
+    "name": "Брушетто куряче чіпси",
+    "type": "sneki",
+    "price": 950,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/brushetto_kuryache_chipsi.jpg"
+  },
+  {
+    "id": 336,
+    "name": "Брушетто свинина чіпси",
+    "type": "sneki",
+    "price": 1000,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/brushetto_svinina_chipsi.jpg"
+  },
+  {
+    "id": 337,
+    "name": "Джерка качка по-пекінськи",
+    "type": "sneki",
+    "price": 1100,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/dzherka_kachka_pekinski.jpg"
+  },
+  {
+    "id": 338,
+    "name": "Жовтий полосатик",
+    "type": "sneki",
+    "price": 790,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/zhovtiy_polosatik.jpg"
+  },
+  {
+    "id": 339,
+    "name": "Ікра корюшки в'ялена",
+    "type": "sneki",
+    "price": 1700,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/ikra_koryushki_vyalena.jpg"
+  },
+  {
+    "id": 340,
+    "name": "Ікра мойви в'ялена",
+    "type": "sneki",
+    "price": 1700,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/ikra_moyvi_vyalena.jpg"
+  },
+  {
+    "id": 341,
+    "name": "Ікра тарані в'ялена",
+    "type": "sneki",
+    "price": 1790,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/ikra_tarani_vyalena.jpg"
+  },
+  {
+    "id": 342,
+    "name": "Ікра товстолоба в'ялена",
+    "type": "sneki",
+    "price": 1320,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/ikra_tovstoloba_vyalena.jpg"
+  },
+  {
+    "id": 343,
+    "name": "Ікра тріски в'ялена",
+    "type": "sneki",
+    "price": 1880,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/ikra_triski_vyalena.jpg"
+  },
+  {
+    "id": 344,
+    "name": "Ікра щуки в'ялена",
+    "type": "sneki",
+    "price": 1700,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/ikra_schuki_vyalena.jpg"
+  },
+  {
+    "id": 345,
+    "name": "Кальмар стружка",
+    "type": "sneki",
+    "price": 1060,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/kalmar_struzhka.jpg"
+  },
+  {
+    "id": 346,
+    "name": "Лящ соломка",
+    "type": "sneki",
+    "price": 875,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/lyash_solomka.jpg"
+  },
+  {
+    "id": 347,
+    "name": "Соломка кутум",
+    "type": "sneki",
+    "price": 1760,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/solomka_kutum.jpg"
+  },
+  {
+    "id": 348,
+    "name": "Спинка тріски",
+    "type": "sneki",
+    "price": 655,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/spinka_triski.jpg"
+  },
+  {
+    "id": 349,
+    "name": "Стружка краба",
+    "type": "sneki",
+    "price": 1060,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/struzhka_kraba.jpg"
+  },
+  {
+    "id": 350,
+    "name": "Янтарная з перцем",
+    "type": "sneki",
+    "price": 620,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.05,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sneki/yantarnaya_z_percem.jpg"
+  },
+  {
+    "id": 351,
+    "name": "Маринований стейк форелі",
+    "type": "chervon_ohol",
+    "price": 840,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/chervon_ohol/marinovaniy_steyk_foreli.jpg"
+  },
+  {
+    "id": 352,
+    "name": "ФІЛЕ ФОРЕЛІ 1/2 ОХОЛОДЖЕНЕ н/ш Норвегія",
+    "type": "chervon_ohol",
+    "price": 816,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/chervon_ohol/file_foreli_1_2_oholodzhene.jpg"
+  },
+  {
+    "id": 353,
+    "name": "ФІЛЕ ФОРЕЛІ 1/2 ХВОСТОВА ЧАСТИНА охолоджене н/ш Норвегія",
+    "type": "chervon_ohol",
+    "price": 660,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/chervon_ohol/file_foreli_hvostova_chastina.jpg"
+  },
+  {
+    "id": 354,
+    "name": "ФІЛЕ ФОРЕЛІ охолождене ціле",
+    "type": "chervon_ohol",
+    "price": 695,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/chervon_ohol/file_foreli_oholodzhene_cile.jpg"
   }
+
 ]
 
