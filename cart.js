@@ -199,9 +199,12 @@ if (nameBox) {
         let limit = 0;
         let methodNameText = '';
 
-        if (selectedMethod === 'courier') {
+        if (selectedMethod === 'courier_zp') {
+            limit = 500;
+            methodNameText = "кур'єрської доставки по Запоріжжю";
+        } else if (selectedMethod === 'courier') {
             limit = 700;
-            methodNameText = "кур'єрської доставки";
+            methodNameText = "кур'єрської доставки по Дніпру";
         } else if (selectedMethod === 'ukraine') {
             limit = 300;
             methodNameText = 'доставки Новою Поштою';
@@ -235,7 +238,7 @@ if (nameBox) {
             const method = deliveryMethodSelect.value;
 
             blockPickup.style.display = (method === 'pickup') ? 'block' : 'none';
-            blockCourier.style.display = (method === 'courier') ? 'block' : 'none';
+            blockCourier.style.display = (method === 'courier' || method === 'courier_zp') ? 'block' : 'none';
             blockUkraine.style.display = (method === 'ukraine') ? 'block' : 'none';
 
             [blockPickup, blockCourier, blockUkraine].forEach(block => {
@@ -246,7 +249,7 @@ if (nameBox) {
 
             if (method === 'pickup') {
                 blockPickup.querySelectorAll('[data-field="lastname"], [data-field="firstname"], [data-field="phone"], [data-field="date"]').forEach(i => i.required = true);
-            } else if (method === 'courier') {
+            } else if (method === 'courier' || method === 'courier_zp') {
                 blockCourier.querySelectorAll('[data-field="lastname"], [data-field="firstname"], [data-field="phone"], [data-field="address"]').forEach(i => i.required = true);
             } else if (method === 'ukraine') {
                 blockUkraine.querySelectorAll('[data-field="fullname"], [data-field="phone"], [data-field="shipping-address"]').forEach(i => i.required = true);
@@ -287,7 +290,7 @@ if (nameBox) {
                         phone: blockPickup.querySelector('[data-field="phone"]').value,
                         visitDate: blockPickup.querySelector('[data-field="date"]').value
                     };
-                } else if (method === 'courier') {
+                } if (method === 'courier' || method === 'courier_zp') {
                     orderData.customer = {
                         lastName: blockCourier.querySelector('[data-field="lastname"]').value,
                         firstName: blockCourier.querySelector('[data-field="firstname"]').value,
