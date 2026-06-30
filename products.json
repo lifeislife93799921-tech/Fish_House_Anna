@@ -4247,7 +4247,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/krevetka_chernomorka.jpg"
+    "img": "images/krevetki/krevetka_chernomorka.webp"
   },
   {
     "id": 237,
@@ -4571,7 +4571,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/hamsa_suhiy_posol.jpg"
+    "img": "images/kopch_sol/hamsa_suhiy_posol.webp"
   },
   {
     "id": 255,
@@ -4805,7 +4805,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/kuri_kopcheni.jpg"
+    "img": "images/myaso/kuri_kopcheni.webp"
   },
   {
     "id": 268,
@@ -5255,7 +5255,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/preserva/ikra_oseledcya_180.jpg"
+    "img": "images/preserva/ikra_oseledcya_180.webp"
   },
   {
     "id": 293,
@@ -5471,7 +5471,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/paltus_tushka_norvegiya.jpg"
+    "img": "images/sira_marin/paltus_tushka_norvegiya.webp"
   },
   {
     "id": 305,
