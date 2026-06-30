@@ -1356,10 +1356,10 @@ a {
     position: relative;
     background: #141a23;
     border: 1px solid rgba(255, 122, 0, 0.25);
-    width: 90%;
-    max-width: 750px;
+    width: 95%;
+    max-width: 950px;
     border-radius: 20px;
-    padding: 35px;
+    padding: 25px;
     z-index: 2100;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 122, 0, 0.1);
     transform: scale(0.85);
@@ -1372,7 +1372,7 @@ a {
 
 .popup__close {
     position: absolute;
-    top: 20px;
+    top: 15px;
     right: 20px;
     background: none;
     border: none;
@@ -1380,6 +1380,7 @@ a {
     font-size: 2rem;
     cursor: pointer;
     line-height: 1;
+    z-index: 10;
     transition: color 0.2s ease;
 }
 
@@ -1390,25 +1391,28 @@ a {
 /* Внутренняя структура модалки */
 .popup-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.1fr 1fr;
     gap: 30px;
     margin-top: 10px;
+    align-items: center;
 }
 
 .popup-grid__img-box {
-    background: rgba(255,255,255,0.02);
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    padding: 20px;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 480px;
+    overflow: hidden;
 }
 
 .popup-grid__img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .popup-grid__info {
@@ -1417,17 +1421,45 @@ a {
 }
 
 .popup-grid__title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #fff;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     font-weight: 700;
 }
 
 .popup-grid__desc {
     color: #94a3b8;
     font-size: 0.95rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+/* Делаем блок количества и кнопку покупки в попапе видимыми по умолчанию */
+.popup .product-card__actions {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    position: relative !important;
+    margin-top: 20px;
+    display: flex !important;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Настройки для самого счетчика количества (минус / число / плюс) в попапе */
+.popup .product-card__quantity {
+    display: flex !important;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* Кнопка добавления в корзину внутри попапа */
+.popup .product-card__add-btn {
+    flex: 1;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
 /* ==========================================================================\
@@ -1472,13 +1504,33 @@ a {
         grid-template-columns: 1fr; /* 1 карточка в ряд на мелких смартфонах */
     }
 
+    /* Настройки всплывающего окна на мобилках */
+    .popup__content {
+        padding: 40px 15px 25px 15px; /* Корректируем отступы, чтобы текст не прилипал к краям экрана */
+    }
+
     .popup-grid {
         grid-template-columns: 1fr;
         gap: 20px;
     }
     
     .popup-grid__img-box {
-        height: 200px;
+        width: 100%;
+        height: auto; /* Сбрасываем жесткую высоту в 200px */
+        aspect-ratio: 1 / 1; /* Заставляем картинку сохранять пропорции идеального сочного квадрата */
+        border: 1px solid rgba(255, 255, 255, 0.1); /* Тонкая аккуратная рамка на мобилке */
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .popup-grid__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Картинка полностью заполняет квадрат без искажения пропорций */
+    }
+
+    .popup-grid__title {
+        font-size: 1.35rem; /* Чуть уменьшаем шрифт заголовка, чтобы он аккуратно ложился на мобильном */
     }
 }
 
