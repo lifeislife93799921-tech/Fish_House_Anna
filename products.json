@@ -15,7 +15,7 @@
       { "type": "new", "text": "Новинка", "active": true }
     ],
     "description": "",
-    "img": "images/ikra/ikra_kety.jpg"
+    "img": "images/ikra/ikra_kety.webp"
   },
   {
     "id": 2,
@@ -33,7 +33,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/ikra/ikra_osetra.jpg"
+    "img": "images/ikra/ikra_osetra.webp"
   },
   {
     "id": 3,
@@ -51,7 +51,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/ikra/ikra_foreli.jpg"
+    "img": "images/ikra/ikra_foreli.webp"
   },
   {
     "id": 4,
@@ -69,7 +69,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/ikra/ikra_imitaciya.jpg"
+    "img": "images/ikra/ikra_imitaciya.webp"
   },
   {
     "id": 5,
@@ -87,7 +87,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/ikra/ikra_shchuki_ba.jpg"
+    "img": "images/ikra/ikra_shchuki_ba.webp"
   },
   {
     "id": 6,
@@ -105,7 +105,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/ikra/ikra_golca.jpg"
+    "img": "images/ikra/ikra_golca.webp"
   },
   {
     "id": 7,
@@ -123,7 +123,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/ikra/ikra_shchuki_vag.jpg"
+    "img": "images/ikra/ikra_shchuki_vag.webp"
   },
   {
     "id": 8,
@@ -141,7 +141,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/adzhika_gostra.jpg"
+    "img": "images/gotov_prod/adzhika_gostra.webp"
   },
   {
     "id": 9,
@@ -159,7 +159,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/adzhika_ne_gostra.jpg"
+    "img": "images/gotov_prod/adzhika_ne_gostra.webp"
   },
   {
     "id": 10,
@@ -177,7 +177,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/dunajka_ss.jpg"
+    "img": "images/gotov_prod/dunajka_ss.webp"
   },
   {
     "id": 11,
@@ -195,7 +195,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/ikra_mojvy.jpg"
+    "img": "images/gotov_prod/ikra_mojvy.webp"
   },
   {
     "id": 12,
@@ -213,7 +213,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/ikra_triski.jpg"
+    "img": "images/gotov_prod/ikra_triski.webp"
   },
   {
     "id": 13,
@@ -231,7 +231,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/losos_dykyj.jpg"
+    "img": "images/gotov_prod/losos_dykyj.webp"
   },
   {
     "id": 14,
@@ -249,7 +249,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/maslo_ikra_triski.jpg"
+    "img": "images/gotov_prod/maslo_ikra_triski.webp"
   },
   {
     "id": 15,
@@ -267,7 +267,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/maslo_ikra_mojvy.jpg"
+    "img": "images/gotov_prod/maslo_ikra_mojvy.webp"
   },
   {
     "id": 16,
@@ -285,7 +285,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/midiya_v_mushli.jpg"
+    "img": "images/gotov_prod/midiya_v_mushli.webp"
   },
   {
     "id": 17,
@@ -303,7 +303,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/oseledec_maslo.jpg"
+    "img": "images/gotov_prod/oseledec_maslo.webp"
   },
   {
     "id": 18,
@@ -321,7 +321,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/oseledec_ss.jpg"
+    "img": "images/gotov_prod/oseledec_ss.webp"
   },
   {
     "id": 19,
@@ -339,7 +339,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/preserva_dunajka.jpg"
+    "img": "images/gotov_prod/preserva_dunajka.webp"
   },
   {
     "id": 20,
@@ -357,7 +357,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/preserva_oseledec.jpg"
+    "img": "images/gotov_prod/preserva_oseledec.webp"
   },
   {
     "id": 21,
@@ -375,7 +375,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/preserva_skumbriya.jpg"
+    "img": "images/gotov_prod/preserva_skumbriya.webp"
   },
   {
     "id": 22,
@@ -393,7 +393,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/sik_tomatnyj.jpg"
+    "img": "images/gotov_prod/sik_tomatnyj.webp"
   },
   {
     "id": 23,
@@ -411,7 +411,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/file_lososya_na_shkiri.jpg"
+    "img": "images/gotov_prod/file_lososya_na_shkiri.webp"
   },
   {
     "id": 24,
@@ -429,7 +429,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/sous_chili.jpg"
+    "img": "images/gotov_prod/sous_chili.webp"
   },
   {
     "id": 25,
@@ -447,7 +447,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/somga_forel_smuzhky.jpg"
+    "img": "images/gotov_prod/somga_forel_smuzhky.webp"
   },
   {
     "id": 26,
@@ -465,7 +465,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/file_ss_premium.jpg"
+    "img": "images/gotov_prod/file_ss_premium.webp"
   },
   {
     "id": 27,
@@ -483,7 +483,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/file_ss_apelsyn.jpg"
+    "img": "images/gotov_prod/file_ss_apelsyn.webp"
   },
   {
     "id": 28,
@@ -501,7 +501,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/benderiki_z_myasom.jpg"
+    "img": "images/napivfab/benderiki_z_myasom.webp"
   },
   {
     "id": 29,
@@ -519,7 +519,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/varenyky_z_kapustoyu.jpg"
+    "img": "images/napivfab/varenyky_z_kapustoyu.webp"
   },
   {
     "id": 30,
@@ -537,7 +537,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/varenyky_z_kartopleyu.jpg"
+    "img": "images/napivfab/varenyky_z_kartopleyu.webp"
   },
   {
     "id": 31,
@@ -555,7 +555,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/varenyky_kartoplya_gryby.jpg"
+    "img": "images/napivfab/varenyky_kartoplya_gryby.webp"
   },
   {
     "id": 32,
@@ -573,7 +573,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/varenyky_z_vyshneyu.jpg"
+    "img": "images/napivfab/varenyky_z_vyshneyu.webp"
   },
   {
     "id": 33,
@@ -591,7 +591,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/varenyky_kartoplya_myaso.jpg"
+    "img": "images/napivfab/varenyky_kartoplya_myaso.webp"
   },
   {
     "id": 34,
@@ -609,7 +609,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/varenyky_kartoplya_pechinka.jpg"
+    "img": "images/napivfab/varenyky_kartoplya_pechinka.webp"
   },
   {
     "id": 35,
@@ -627,7 +627,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/varenyky_z_kurkoyu.jpg"
+    "img": "images/napivfab/varenyky_z_kurkoyu.webp"
   },
   {
     "id": 36,
@@ -645,7 +645,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/varenyky_solodkyj_syr.jpg"
+    "img": "images/napivfab/varenyky_solodkyj_syr.webp"
   },
   {
     "id": 37,
@@ -663,7 +663,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/varenyky_solonyj_syr.jpg"
+    "img": "images/napivfab/varenyky_solonyj_syr.webp"
   },
   {
     "id": 38,
@@ -681,7 +681,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/varenyky_linyvi.jpg"
+    "img": "images/napivfab/varenyky_linyvi.webp"
   },
   {
     "id": 39,
@@ -699,7 +699,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/golubci.jpg"
+    "img": "images/napivfab/golubci.webp"
   },
   {
     "id": 40,
@@ -717,7 +717,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/dorado_grecky_marynovana.jpg"
+    "img": "images/sira_marin/dorado_grecky_marynovana.webp"
   },
   {
     "id": 41,
@@ -735,7 +735,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/dorado_grecky_zamorozhena.jpg"
+    "img": "images/sira_marin/dorado_grecky_zamorozhena.webp"
   },
   {
     "id": 42,
@@ -753,7 +753,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/dorado_tushka_zamorozhena.jpg"
+    "img": "images/sira_marin/dorado_tushka_zamorozhena.webp"
   },
   {
     "id": 43,
@@ -771,7 +771,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/dorado_tushka_marynovana.jpg"
+    "img": "images/sira_marin/dorado_tushka_marynovana.webp"
   },
   {
     "id": 44,
@@ -789,7 +789,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/kovbasky_gryl_kurka.jpg"
+    "img": "images/napivfab/kovbasky_gryl_kurka.webp"
   },
   {
     "id": 45,
@@ -807,7 +807,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/korobka_dlya_picy.jpg"
+    "img": "images/napivfab/korobka_dlya_picy.webp"
   },
   {
     "id": 46,
@@ -825,7 +825,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/kotlety_shchuka.jpg"
+    "img": "images/napivfab/kotlety_shchuka.webp"
   },
   {
     "id": 47,
@@ -843,7 +843,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/kotlety_kuryachi.jpg"
+    "img": "images/napivfab/kotlety_kuryachi.webp"
   },
   {
     "id": 48,
@@ -861,7 +861,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/kotlety_rybni_nachinka.jpg"
+    "img": "images/napivfab/kotlety_rybni_nachinka.webp"
   },
   {
     "id": 49,
@@ -879,7 +879,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/kotlety_rybni_heka.jpg"
+    "img": "images/napivfab/kotlety_rybni_heka.webp"
   },
   {
     "id": 50,
@@ -897,7 +897,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/kruasan_z_krevetky.jpg"
+    "img": "images/napivfab/kruasan_z_krevetky.webp"
   },
   {
     "id": 51,
@@ -915,7 +915,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/kurchata_smetannyj_sous.jpg"
+    "img": "images/napivfab/kurchata_smetannyj_sous.webp"
   },
   {
     "id": 52,
@@ -933,7 +933,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/kurchata_sojevyj_sous.jpg"
+    "img": "images/napivfab/kurchata_sojevyj_sous.webp"
   },
   {
     "id": 53,
@@ -951,7 +951,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/kurchata_tom_yam.jpg"
+    "img": "images/napivfab/kurchata_tom_yam.webp"
   },
   {
     "id": 54,
@@ -969,7 +969,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/lazanya.jpg"
+    "img": "images/napivfab/lazanya.webp"
   },
   {
     "id": 55,
@@ -987,7 +987,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/lula_kebab_kurka.jpg"
+    "img": "images/napivfab/lula_kebab_kurka.webp"
   },
   {
     "id": 56,
@@ -1005,7 +1005,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_banan_mak.jpg"
+    "img": "images/napivfab/mlynci_banan_mak.webp"
   },
   {
     "id": 57,
@@ -1023,7 +1023,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_vyshnya_syr.jpg"
+    "img": "images/napivfab/mlynci_vyshnya_syr.webp"
   },
   {
     "id": 58,
@@ -1041,7 +1041,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_z_kurkoyu.jpg"
+    "img": "images/napivfab/mlynci_z_kurkoyu.webp"
   },
   {
     "id": 59,
@@ -1059,7 +1059,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_laym_myata.jpg"
+    "img": "images/napivfab/mlynci_laym_myata.webp"
   },
   {
     "id": 60,
@@ -1077,7 +1077,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_mango_marakuya.jpg"
+    "img": "images/napivfab/mlynci_mango_marakuya.webp"
   },
   {
     "id": 61,
@@ -1095,7 +1095,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_persyk_marakuya.jpg"
+    "img": "images/napivfab/mlynci_persyk_marakuya.webp"
   },
   {
     "id": 62,
@@ -1113,7 +1113,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_polunycya_syr.jpg"
+    "img": "images/napivfab/mlynci_polunycya_syr.webp"
   },
   {
     "id": 63,
@@ -1131,7 +1131,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_syr_bez_rodzynok.jpg"
+    "img": "images/napivfab/mlynci_syr_bez_rodzynok.webp"
   },
   {
     "id": 64,
@@ -1149,7 +1149,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_syr_rodzynky.jpg"
+    "img": "images/napivfab/mlynci_syr_rodzynky.webp"
   },
   {
     "id": 65,
@@ -1167,7 +1167,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_z_yablukom.jpg"
+    "img": "images/napivfab/mlynci_z_yablukom.webp"
   },
   {
     "id": 66,
@@ -1185,7 +1185,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_kartoplya_gryby.jpg"
+    "img": "images/napivfab/mlynci_kartoplya_gryby.webp"
   },
   {
     "id": 67,
@@ -1203,7 +1203,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_shynka_kurka_syr.jpg"
+    "img": "images/napivfab/mlynci_shynka_kurka_syr.webp"
   },
   {
     "id": 68,
@@ -1221,7 +1221,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/morskyj_okun_marynovanyj.jpg"
+    "img": "images/sira_marin/morskyj_okun_marynovanyj.webp"
   },
   {
     "id": 69,
@@ -1239,7 +1239,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/pelmeni_svynyaci.jpg"
+    "img": "images/napivfab/pelmeni_svynyaci.webp"
   },
   {
     "id": 70,
@@ -1257,7 +1257,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/pelmeni_kuryache_svynyaci.jpg"
+    "img": "images/napivfab/pelmeni_kuryache_svynyaci.webp"
   },
   {
     "id": 71,
@@ -1275,7 +1275,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/perec_farshyrovanyj.jpg"
+    "img": "images/napivfab/perec_farshyrovanyj.webp"
   },
   {
     "id": 72,
@@ -1293,7 +1293,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/syrnyky_bez_rodzynok.jpg"
+    "img": "images/napivfab/syrnyky_bez_rodzynok.webp"
   },
   {
     "id": 73,
@@ -1311,7 +1311,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/syrnyky_z_rodzynkamy.jpg"
+    "img": "images/napivfab/syrnyky_z_rodzynkamy.webp"
   },
   {
     "id": 74,
@@ -1329,7 +1329,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/sibas_tushka_zamorozheny_marynovanyj.jpg"
+    "img": "images/sira_marin/sibas_tushka_zamorozheny_marynovanyj.webp"
   },
   {
     "id": 75,
@@ -1347,7 +1347,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/sibas_tushka_marynovana.jpg"
+    "img": "images/sira_marin/sibas_tushka_marynovana.webp"
   },
   {
     "id": 76,
@@ -1365,7 +1365,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/skumbriya_marynovana_zamorozka.jpg"
+    "img": "images/sira_marin/skumbriya_marynovana_zamorozka.webp"
   },
   {
     "id": 77,
@@ -1383,7 +1383,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/skumbriya_marynovana.jpg"
+    "img": "images/sira_marin/skumbriya_marynovana.webp"
   },
   {
     "id": 78,
@@ -1401,7 +1401,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/farsh_chervona_ryba.jpg"
+    "img": "images/napivfab/farsh_chervona_ryba.webp"
   },
   {
     "id": 79,
@@ -1419,7 +1419,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/file_sibasa_marynovane.jpg"
+    "img": "images/sira_marin/file_sibasa_marynovane.webp"
   },
   {
     "id": 80,
@@ -1437,7 +1437,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/hinkali_svynyna.jpg"
+    "img": "images/napivfab/hinkali_svynyna.webp"
   },
   {
     "id": 81,
@@ -1455,7 +1455,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/cheburek_z_myasom.jpg"
+    "img": "images/napivfab/cheburek_z_myasom.webp"
   },
   {
     "id": 82,
@@ -1473,7 +1473,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/cheburek_z_syrom.jpg"
+    "img": "images/napivfab/cheburek_z_syrom.webp"
   },
   {
     "id": 83,
@@ -1491,7 +1491,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/benderiki_syr_krip.jpg"
+    "img": "images/napivfab/benderiki_syr_krip.webp"
   },
   {
     "id": 84,
@@ -1509,7 +1509,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/kotleta_burger.jpg"
+    "img": "images/napivfab/kotleta_burger.webp"
   },
   {
     "id": 85,
@@ -1527,7 +1527,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/kotlety_po_kyivsky.jpg"
+    "img": "images/napivfab/kotlety_po_kyivsky.webp"
   },
   {
     "id": 86,
@@ -1545,7 +1545,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/mlynci_z_liverom.jpg"
+    "img": "images/napivfab/mlynci_z_liverom.webp"
   },
   {
     "id": 87,
@@ -1563,7 +1563,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/napivfab/rulet_z_lososya.jpg"
+    "img": "images/napivfab/rulet_z_lososya.webp"
   },
 
   {
@@ -1582,7 +1582,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/vosminig_korolevskiy.jpg"
+    "img": "images/moreprod/vosminig_korolevskiy.webp"
   },
   {
     "id": 89,
@@ -1600,7 +1600,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/vosminig_baby_20_40.jpg"
+    "img": "images/moreprod/vosminig_baby_20_40.webp"
   },
   {
     "id": 90,
@@ -1618,7 +1618,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/vosminig_baby_40_60.jpg"
+    "img": "images/moreprod/vosminig_baby_40_60.webp"
   },
   {
     "id": 91,
@@ -1636,7 +1636,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/ugor_unagi.jpg"
+    "img": "images/moreprod/ugor_unagi.webp"
   },
   {
     "id": 92,
@@ -1654,7 +1654,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/grebinets_mushla.jpg"
+    "img": "images/moreprod/grebinets_mushla.webp"
   },
   {
     "id": 93,
@@ -1672,7 +1672,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/grebinets_20_30.jpg"
+    "img": "images/moreprod/grebinets_20_30.webp"
   },
   {
     "id": 94,
@@ -1690,7 +1690,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/grebinets_60_80.jpg"
+    "img": "images/moreprod/grebinets_60_80.webp"
   },
   {
     "id": 95,
@@ -1708,7 +1708,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/grebinets_rizaniy.jpg"
+    "img": "images/moreprod/grebinets_rizaniy.webp"
   },
   {
     "id": 96,
@@ -1726,7 +1726,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/kalmar_kiltsya.jpg"
+    "img": "images/moreprod/kalmar_kiltsya.webp"
   },
   {
     "id": 97,
@@ -1744,7 +1744,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/kalmar_neochisheniy.jpg"
+    "img": "images/moreprod/kalmar_neochisheniy.webp"
   },
   {
     "id": 98,
@@ -1762,7 +1762,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/kalmar_rozhevui_tushka.jpg"
+    "img": "images/moreprod/kalmar_rozhevui_tushka.webp"
   },
   {
     "id": 99,
@@ -1780,7 +1780,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/kalmar_tubi_bili.jpg"
+    "img": "images/moreprod/kalmar_tubi_bili.webp"
   },
   {
     "id": 100,
@@ -1798,7 +1798,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/kalmar_panir.jpg"
+    "img": "images/moreprod/kalmar_panir.webp"
   },
   {
     "id": 101,
@@ -1816,7 +1816,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/krab_kleshni.jpg"
+    "img": "images/moreprod/krab_kleshni.webp"
   },
   {
     "id": 102,
@@ -1834,7 +1834,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/krab_myaso.jpg"
+    "img": "images/moreprod/krab_myaso.webp"
   },
   {
     "id": 103,
@@ -1852,7 +1852,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/krab_palichki_latvia_200.jpg"
+    "img": "images/moreprod/krab_palichki_latvia_200.webp"
   },
   {
     "id": 104,
@@ -1870,7 +1870,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/krab_palichki_latvia_250.jpg"
+    "img": "images/moreprod/krab_palichki_latvia_250.webp"
   },
   {
     "id": 105,
@@ -1888,7 +1888,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/krab_palichki_vodniy_mir.jpg"
+    "img": "images/moreprod/krab_palichki_vodniy_mir.webp"
   },
   {
     "id": 106,
@@ -1906,7 +1906,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/midii_chili.jpg"
+    "img": "images/moreprod/midii_chili.webp"
   },
   {
     "id": 107,
@@ -1924,7 +1924,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/midii_mushla.jpg"
+    "img": "images/moreprod/midii_mushla.webp"
   },
   {
     "id": 108,
@@ -1942,7 +1942,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/midii_polovina_mushli.jpg"
+    "img": "images/moreprod/midii_polovina_mushli.webp"
   },
   {
     "id": 109,
@@ -1960,7 +1960,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/morskiy_cocktail_ispania.jpg"
+    "img": "images/moreprod/morskiy_cocktail_ispania.webp"
   },
   {
     "id": 110,
@@ -1978,7 +1978,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/morskiy_cocktail_mix.jpg"
+    "img": "images/moreprod/morskiy_cocktail_mix.webp"
   },
   {
     "id": 111,
@@ -1996,7 +1996,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/ravliki_hot.jpg"
+    "img": "images/moreprod/ravliki_hot.webp"
   },
   {
     "id": 112,
@@ -2014,7 +2014,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/ravliki_new.jpg"
+    "img": "images/moreprod/ravliki_new.webp"
   },
   {
     "id": 113,
@@ -2032,7 +2032,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/ravliki_standart.jpg"
+    "img": "images/moreprod/ravliki_standart.webp"
   },
   {
     "id": 114,
@@ -2050,7 +2050,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/rak_vm_05.jpg"
+    "img": "images/moreprod/rak_vm_05.webp"
   },
   {
     "id": 115,
@@ -2068,7 +2068,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/cherenki.jpg"
+    "img": "images/moreprod/cherenki.webp"
   },
   {
     "id": 116,
@@ -2086,7 +2086,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/moreprod/shupaltsi_vosminiga.jpg"
+    "img": "images/moreprod/shupaltsi_vosminiga.webp"
   },
   
   {
@@ -2105,7 +2105,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/ananas.jpg"
+    "img": "images/bakaleya/ananas.webp"
   },
   {
     "id": 118,
@@ -2123,7 +2123,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/anchousi.jpg"
+    "img": "images/bakaleya/anchousi.webp"
   },
   {
     "id": 119,
@@ -2141,7 +2141,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/arachis_crunch.jpg"
+    "img": "images/bakaleya/arachis_crunch.webp"
   },
   {
     "id": 120,
@@ -2159,7 +2159,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/arachis_bacon.jpg"
+    "img": "images/bakaleya/arachis_bacon.webp"
   },
   {
     "id": 121,
@@ -2177,7 +2177,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/goroshek.jpg"
+    "img": "images/bakaleya/goroshek.webp"
   },
   {
     "id": 122,
@@ -2195,7 +2195,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/gribi_rio.jpg"
+    "img": "images/bakaleya/gribi_rio.webp"
   },
   {
     "id": 123,
@@ -2213,7 +2213,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/gribi_rio_large.jpg"
+    "img": "images/bakaleya/gribi_rio_large.webp"
   },
   {
     "id": 124,
@@ -2231,7 +2231,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/grinki_telyatina.jpg"
+    "img": "images/bakaleya/grinki_telyatina.webp"
   },
   {
     "id": 125,
@@ -2249,7 +2249,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/grinki_holodets.jpg"
+    "img": "images/bakaleya/grinki_holodets.webp"
   },
   {
     "id": 126,
@@ -2267,7 +2267,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/grinki_chasnik.jpg"
+    "img": "images/bakaleya/grinki_chasnik.webp"
   },
   {
     "id": 127,
@@ -2285,7 +2285,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sgushenka_1kg.jpg"
+    "img": "images/bakaleya/sgushenka_1kg.webp"
   },
   {
     "id": 128,
@@ -2303,7 +2303,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sgushenka_banka.jpg"
+    "img": "images/bakaleya/sgushenka_banka.webp"
   },
   {
     "id": 129,
@@ -2321,7 +2321,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/kapersi_bernal.jpg"
+    "img": "images/bakaleya/kapersi_bernal.webp"
   },
   {
     "id": 130,
@@ -2339,7 +2339,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/kapersi_mali.jpg"
+    "img": "images/bakaleya/kapersi_mali.webp"
   },
   {
     "id": 131,
@@ -2357,7 +2357,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/kapusta.jpg"
+    "img": "images/bakaleya/kapusta.webp"
   },
   {
     "id": 132,
@@ -2375,7 +2375,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/kuskus.jpg"
+    "img": "images/bakaleya/kuskus.webp"
   },
   {
     "id": 133,
@@ -2393,7 +2393,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/kukuruza.jpg"
+    "img": "images/bakaleya/kukuruza.webp"
   },
   {
     "id": 134,
@@ -2411,7 +2411,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/tahini.jpg"
+    "img": "images/bakaleya/tahini.webp"
   },
   {
     "id": 135,
@@ -2429,7 +2429,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/lokshina_carbonara.jpg"
+    "img": "images/bakaleya/lokshina_carbonara.webp"
   },
   {
     "id": 136,
@@ -2447,7 +2447,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/lokshina_sir.jpg"
+    "img": "images/bakaleya/lokshina_sir.webp"
   },
   {
     "id": 137,
@@ -2465,7 +2465,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/mayonez_olis.jpg"
+    "img": "images/bakaleya/mayonez_olis.webp"
   },
   {
     "id": 138,
@@ -2483,7 +2483,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/mayonez_hellmans.jpg"
+    "img": "images/bakaleya/mayonez_hellmans.webp"
   },
   {
     "id": 139,
@@ -2501,7 +2501,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_fettuccine.jpg"
+    "img": "images/bakaleya/barilla_fettuccine.webp"
   },
   {
     "id": 140,
@@ -2519,7 +2519,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_44.jpg"
+    "img": "images/bakaleya/barilla_44.webp"
   },
   {
     "id": 141,
@@ -2537,7 +2537,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_59.jpg"
+    "img": "images/bakaleya/barilla_59.webp"
   },
   {
     "id": 142,
@@ -2555,7 +2555,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_65.jpg"
+    "img": "images/bakaleya/barilla_65.webp"
   },
   {
     "id": 143,
@@ -2573,7 +2573,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_73.jpg"
+    "img": "images/bakaleya/barilla_73.webp"
   },
   {
     "id": 144,
@@ -2591,7 +2591,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_85.jpg"
+    "img": "images/bakaleya/barilla_85.webp"
   },
   {
     "id": 145,
@@ -2609,7 +2609,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_91.jpg"
+    "img": "images/bakaleya/barilla_91.webp"
   },
   {
     "id": 146,
@@ -2627,7 +2627,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_93.jpg"
+    "img": "images/bakaleya/barilla_93.webp"
   },
   {
     "id": 147,
@@ -2645,7 +2645,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_98.jpg"
+    "img": "images/bakaleya/barilla_98.webp"
   },
   {
     "id": 148,
@@ -2663,7 +2663,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_vermicelli.jpg"
+    "img": "images/bakaleya/barilla_vermicelli.webp"
   },
   {
     "id": 149,
@@ -2681,7 +2681,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_spaghetti_1.jpg"
+    "img": "images/bakaleya/barilla_spaghetti_1.webp"
   },
   {
     "id": 150,
@@ -2699,7 +2699,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_spaghetti_5.jpg"
+    "img": "images/bakaleya/barilla_spaghetti_5.webp"
   },
   {
     "id": 151,
@@ -2717,7 +2717,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_shneki.jpg"
+    "img": "images/bakaleya/barilla_shneki.webp"
   },
   {
     "id": 152,
@@ -2735,7 +2735,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_cannelloni.jpg"
+    "img": "images/bakaleya/barilla_cannelloni.webp"
   },
   {
     "id": 153,
@@ -2753,7 +2753,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/maslini_athena.jpg"
+    "img": "images/bakaleya/maslini_athena.webp"
   },
   {
     "id": 154,
@@ -2771,7 +2771,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/maslini_hutesa.jpg"
+    "img": "images/bakaleya/maslini_hutesa.webp"
   },
   {
     "id": 155,
@@ -2789,7 +2789,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/maslini_bernal.jpg"
+    "img": "images/bakaleya/maslini_bernal.webp"
   },
   {
     "id": 156,
@@ -2807,7 +2807,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/maslini_yunus_1kg.jpg"
+    "img": "images/bakaleya/maslini_yunus_1kg.webp"
   },
   {
     "id": 157,
@@ -2825,7 +2825,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/maslini_yunus_200.jpg"
+    "img": "images/bakaleya/maslini_yunus_200.webp"
   },
   {
     "id": 158,
@@ -2843,7 +2843,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/maslo_vershkove.jpg"
+    "img": "images/bakaleya/maslo_vershkove.webp"
   },
   {
     "id": 159,
@@ -2861,7 +2861,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/maslo_vagove.jpg"
+    "img": "images/bakaleya/maslo_vagove.webp"
   },
   {
     "id": 160,
@@ -2879,7 +2879,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/ogirki_pikuli.jpg"
+    "img": "images/bakaleya/ogirki_pikuli.webp"
   },
   {
     "id": 161,
@@ -2897,7 +2897,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/olivki_migdal.jpg"
+    "img": "images/bakaleya/olivki_migdal.webp"
   },
   {
     "id": 162,
@@ -2915,7 +2915,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/olivki_giganti.jpg"
+    "img": "images/bakaleya/olivki_giganti.webp"
   },
   {
     "id": 163,
@@ -2933,7 +2933,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/olivki_anchous.jpg"
+    "img": "images/bakaleya/olivki_anchous.webp"
   },
   {
     "id": 164,
@@ -2951,7 +2951,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/olivki_apelsin.jpg"
+    "img": "images/bakaleya/olivki_apelsin.webp"
   },
   {
     "id": 165,
@@ -2969,7 +2969,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/olivki_wasabi.jpg"
+    "img": "images/bakaleya/olivki_wasabi.webp"
   },
   {
     "id": 166,
@@ -2987,7 +2987,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/olivki_hutesa_09.jpg"
+    "img": "images/bakaleya/olivki_hutesa_09.webp"
   },
   {
     "id": 167,
@@ -3005,7 +3005,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/olivki_hutesa_350.jpg"
+    "img": "images/bakaleya/olivki_hutesa_350.webp"
   },
   {
     "id": 168,
@@ -3023,7 +3023,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/olivki_athena.jpg"
+    "img": "images/bakaleya/olivki_athena.webp"
   },
   {
     "id": 169,
@@ -3041,7 +3041,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/olivki_grill.jpg"
+    "img": "images/bakaleya/olivki_grill.webp"
   },
   {
     "id": 170,
@@ -3059,7 +3059,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/olivki_bravo.jpg"
+    "img": "images/bakaleya/olivki_bravo.webp"
   },
   {
     "id": 171,
@@ -3077,7 +3077,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/oliva_oil.jpg"
+    "img": "images/bakaleya/oliva_oil.webp"
   },
   {
     "id": 172,
@@ -3095,7 +3095,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/olia_soniashnik.jpg"
+    "img": "images/bakaleya/olia_soniashnik.webp"
   },
   {
     "id": 173,
@@ -3113,7 +3113,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/otset_balsam.jpg"
+    "img": "images/bakaleya/otset_balsam.webp"
   },
   {
     "id": 174,
@@ -3131,7 +3131,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/otset_vinograd.jpg"
+    "img": "images/bakaleya/otset_vinograd.webp"
   },
   {
     "id": 175,
@@ -3149,7 +3149,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/perec_chili.jpg"
+    "img": "images/bakaleya/perec_chili.webp"
   },
   {
     "id": 176,
@@ -3167,7 +3167,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/plyashka.jpg"
+    "img": "images/bakaleya/plyashka.webp"
   },
   {
     "id": 177,
@@ -3185,7 +3185,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/ris_basmati.jpg"
+    "img": "images/bakaleya/ris_basmati.webp"
   },
   {
     "id": 178,
@@ -3203,7 +3203,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_bavaria.jpg"
+    "img": "images/bakaleya/sir_bavaria.webp"
   },
   {
     "id": 179,
@@ -3221,7 +3221,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_kozii.jpg"
+    "img": "images/bakaleya/sir_kozii.webp"
   },
   {
     "id": 180,
@@ -3239,7 +3239,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_vershkoviy.jpg"
+    "img": "images/bakaleya/sir_vershkoviy.webp"
   },
   {
     "id": 181,
@@ -3257,7 +3257,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_gauda_52.jpg"
+    "img": "images/bakaleya/sir_gauda_52.webp"
   },
   {
     "id": 182,
@@ -3275,7 +3275,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_gauda_24.jpg"
+    "img": "images/bakaleya/sir_gauda_24.webp"
   },
   {
     "id": 183,
@@ -3293,7 +3293,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_gauda_mini.jpg"
+    "img": "images/bakaleya/sir_gauda_mini.webp"
   },
   {
     "id": 184,
@@ -3311,7 +3311,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_dorblu.jpg"
+    "img": "images/bakaleya/sir_dorblu.webp"
   },
   {
     "id": 185,
@@ -3329,7 +3329,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_york_mango.jpg"
+    "img": "images/bakaleya/sir_york_mango.webp"
   },
   {
     "id": 186,
@@ -3347,7 +3347,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_york_imbir.jpg"
+    "img": "images/bakaleya/sir_york_imbir.webp"
   },
   {
     "id": 187,
@@ -3365,7 +3365,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_kamamber.jpg"
+    "img": "images/bakaleya/sir_kamamber.webp"
   },
   {
     "id": 188,
@@ -3383,7 +3383,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_narizka.jpg"
+    "img": "images/bakaleya/sir_narizka.webp"
   },
   {
     "id": 189,
@@ -3401,7 +3401,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_parmezan.jpg"
+    "img": "images/bakaleya/sir_parmezan.webp"
   },
   {
     "id": 190,
@@ -3419,7 +3419,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_parmezan_gran.jpg"
+    "img": "images/bakaleya/sir_parmezan_gran.webp"
   },
   {
     "id": 191,
@@ -3437,7 +3437,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_primodonna.jpg"
+    "img": "images/bakaleya/sir_primodonna.webp"
   },
   {
     "id": 192,
@@ -3455,7 +3455,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_salami.jpg"
+    "img": "images/bakaleya/sir_salami.webp"
   },
   {
     "id": 193,
@@ -3473,7 +3473,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_senator.jpg"
+    "img": "images/bakaleya/sir_senator.webp"
   },
   {
     "id": 194,
@@ -3491,7 +3491,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_feta.jpg"
+    "img": "images/bakaleya/sir_feta.webp"
   },
   {
     "id": 195,
@@ -3509,7 +3509,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_philadelphia.jpg"
+    "img": "images/bakaleya/sir_philadelphia.webp"
   },
   {
     "id": 196,
@@ -3527,7 +3527,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sir_phil_taste.jpg"
+    "img": "images/bakaleya/sir_phil_taste.webp"
   },
   {
     "id": 197,
@@ -3545,7 +3545,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sirok_vanil.jpg"
+    "img": "images/bakaleya/sirok_vanil.webp"
   },
   {
     "id": 198,
@@ -3563,7 +3563,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sirok_strob.jpg"
+    "img": "images/bakaleya/sirok_strob.webp"
   },
   {
     "id": 199,
@@ -3581,7 +3581,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sirok_apple.jpg"
+    "img": "images/bakaleya/sirok_apple.webp"
   },
   {
     "id": 200,
@@ -3599,7 +3599,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sik_granat.jpg"
+    "img": "images/bakaleya/sik_granat.webp"
   },
   {
     "id": 201,
@@ -3617,7 +3617,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sik_lime.jpg"
+    "img": "images/bakaleya/sik_lime.webp"
   },
   {
     "id": 202,
@@ -3635,7 +3635,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sik_limon.jpg"
+    "img": "images/bakaleya/sik_limon.webp"
   },
   {
     "id": 203,
@@ -3653,7 +3653,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sil.jpg"
+    "img": "images/bakaleya/sil.webp"
   },
   {
     "id": 204,
@@ -3671,7 +3671,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/tabasco.jpg"
+    "img": "images/bakaleya/tabasco.webp"
   },
   {
     "id": 205,
@@ -3689,7 +3689,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sous_balsam.jpg"
+    "img": "images/bakaleya/sous_balsam.webp"
   },
   {
     "id": 206,
@@ -3707,7 +3707,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sous_bbq.jpg"
+    "img": "images/bakaleya/sous_bbq.webp"
   },
   {
     "id": 207,
@@ -3725,7 +3725,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sous_granat.jpg"
+    "img": "images/bakaleya/sous_granat.webp"
   },
   {
     "id": 208,
@@ -3743,7 +3743,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sous_chasnik.jpg"
+    "img": "images/bakaleya/sous_chasnik.webp"
   },
   {
     "id": 209,
@@ -3761,7 +3761,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sous_periperi.jpg"
+    "img": "images/bakaleya/sous_periperi.webp"
   },
   {
     "id": 210,
@@ -3779,7 +3779,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sous_periperi_tomat.jpg"
+    "img": "images/bakaleya/sous_periperi_tomat.webp"
   },
   {
     "id": 211,
@@ -3797,7 +3797,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sous_periperi_jurav.jpg"
+    "img": "images/bakaleya/sous_periperi_jurav.webp"
   },
   {
     "id": 212,
@@ -3815,7 +3815,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sous_periperi_mango.jpg"
+    "img": "images/bakaleya/sous_periperi_mango.webp"
   },
   {
     "id": 213,
@@ -3833,7 +3833,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/pesto_rucola.jpg"
+    "img": "images/bakaleya/pesto_rucola.webp"
   },
   {
     "id": 214,
@@ -3851,7 +3851,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/pesto_rosso.jpg"
+    "img": "images/bakaleya/pesto_rosso.webp"
   },
   {
     "id": 215,
@@ -3869,7 +3869,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sous_teriyaki.jpg"
+    "img": "images/bakaleya/sous_teriyaki.webp"
   },
   {
     "id": 216,
@@ -3887,7 +3887,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sous_ustrichniy.jpg"
+    "img": "images/bakaleya/sous_ustrichniy.webp"
   },
   {
     "id": 217,
@@ -3905,7 +3905,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/suhari_mini.jpg"
+    "img": "images/bakaleya/suhari_mini.webp"
   },
   {
     "id": 218,
@@ -3923,7 +3923,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/fistashki_250.jpg"
+    "img": "images/bakaleya/fistashki_250.webp"
   },
   {
     "id": 219,
@@ -3941,7 +3941,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/fistashki_500.jpg"
+    "img": "images/bakaleya/fistashki_500.webp"
   },
   {
     "id": 220,
@@ -3959,7 +3959,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/chai_chorniy_avstria.jpg"
+    "img": "images/bakaleya/chai_chorniy_avstria.webp"
   },
   {
     "id": 221,
@@ -3977,7 +3977,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/chai_zeleniy_avstria.jpg"
+    "img": "images/bakaleya/chai_zeleniy_avstria.webp"
   },
   {
     "id": 222,
@@ -3995,7 +3995,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/chai_bisan_ayva.jpg"
+    "img": "images/bakaleya/chai_bisan_ayva.webp"
   },
   {
     "id": 223,
@@ -4013,7 +4013,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/chai_bisan_chorniy.jpg"
+    "img": "images/bakaleya/chai_bisan_chorniy.webp"
   },
   {
     "id": 224,
@@ -4031,7 +4031,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/chai_bisan_earl.jpg"
+    "img": "images/bakaleya/chai_bisan_earl.webp"
   },
   {
     "id": 225,
@@ -4049,7 +4049,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/yaytsa.jpg"
+    "img": "images/bakaleya/yaytsa.webp"
   },
   {
     "id": 226,
@@ -4067,7 +4067,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/krevetka_norvegiya.jpg"
+    "img": "images/krevetki/krevetka_norvegiya.webp"
   },
   {
     "id": 227,
@@ -4085,7 +4085,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/krevetka_ochishena.jpg"
+    "img": "images/krevetki/krevetka_ochishena.webp"
   },
   {
     "id": 228,
@@ -4103,7 +4103,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/krevetka_panirovka_180.jpg"
+    "img": "images/krevetki/krevetka_panirovka_180.webp"
   },
   {
     "id": 229,
@@ -4121,7 +4121,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/krevetka_panirovka_500.jpg"
+    "img": "images/krevetki/krevetka_panirovka_500.webp"
   },
   {
     "id": 230,
@@ -4139,7 +4139,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/krevetka_v_pancire.jpg"
+    "img": "images/krevetki/krevetka_v_pancire.webp"
   },
   {
     "id": 231,
@@ -4157,7 +4157,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/krevetka_grenlandiya.jpg"
+    "img": "images/krevetki/krevetka_grenlandiya.webp"
   },
   {
     "id": 232,
@@ -4175,7 +4175,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/langustin_l2.jpg"
+    "img": "images/krevetki/langustin_l2.webp"
   },
   {
     "id": 233,
@@ -4193,7 +4193,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/krevetka_rozenberg.jpg"
+    "img": "images/krevetki/krevetka_rozenberg.webp"
   },
   {
     "id": 234,
@@ -4211,7 +4211,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/krevetka_sira_golova.jpg"
+    "img": "images/krevetki/krevetka_sira_golova.webp"
   },
   {
     "id": 235,
@@ -4229,7 +4229,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/tigrova_hvosti.jpg"
+    "img": "images/krevetki/tigrova_hvosti.webp"
   },
   {
     "id": 236,
@@ -4265,7 +4265,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/chorniy_tigr.jpg"
+    "img": "images/krevetki/chorniy_tigr.webp"
   },
   {
     "id": 238,
@@ -4283,7 +4283,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/balik_maslyaniy_proves.jpg"
+    "img": "images/kopch_sol/balik_maslyaniy_proves.webp"
   },
   {
     "id": 239,
@@ -4301,7 +4301,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/balik_maslyaniy_hk.jpg"
+    "img": "images/kopch_sol/balik_maslyaniy_hk.webp"
   },
   {
     "id": 240,
@@ -4319,7 +4319,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/marakanka_provisna.jpg"
+    "img": "images/kopch_sol/marakanka_provisna.webp"
   },
   {
     "id": 241,
@@ -4337,7 +4337,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/marakanka_hk.jpg"
+    "img": "images/kopch_sol/marakanka_hk.webp"
   },
   {
     "id": 242,
@@ -4355,7 +4355,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/oseledec_proves.jpg"
+    "img": "images/kopch_sol/oseledec_proves.webp"
   },
   {
     "id": 243,
@@ -4373,7 +4373,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/oseledec_hk.jpg"
+    "img": "images/kopch_sol/oseledec_hk.webp"
   },
   {
     "id": 244,
@@ -4391,7 +4391,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/savarin_hk.jpg"
+    "img": "images/kopch_sol/savarin_hk.webp"
   },
   {
     "id": 245,
@@ -4409,7 +4409,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/savarin_provesniy.jpg"
+    "img": "images/kopch_sol/savarin_provesniy.webp"
   },
   {
     "id": 246,
@@ -4427,7 +4427,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/sayra_hk.jpg"
+    "img": "images/kopch_sol/sayra_hk.webp"
   },
   {
     "id": 247,
@@ -4445,7 +4445,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/skumbriya_bg_hk.jpg"
+    "img": "images/kopch_sol/skumbriya_bg_hk.webp"
   },
   {
     "id": 248,
@@ -4463,7 +4463,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/skumbriya_bg_provisna.jpg"
+    "img": "images/kopch_sol/skumbriya_bg_provisna.webp"
   },
   {
     "id": 249,
@@ -4481,7 +4481,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/skumbriya_sg_hk.jpg"
+    "img": "images/kopch_sol/skumbriya_sg_hk.webp"
   },
   {
     "id": 250,
@@ -4499,7 +4499,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/skumbriya_sg_provesnaya.jpg"
+    "img": "images/kopch_sol/skumbriya_sg_provesnaya.webp"
   },
   {
     "id": 251,
@@ -4517,7 +4517,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/tri_ribi_rulet.jpg"
+    "img": "images/kopch_sol/tri_ribi_rulet.webp"
   },
   {
     "id": 252,
@@ -4535,7 +4535,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/forel_provisna.jpg"
+    "img": "images/kopch_sol/forel_provisna.webp"
   },
   {
     "id": 253,
@@ -4553,7 +4553,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/kopch_sol/forel_hk.jpg"
+    "img": "images/kopch_sol/forel_hk.webp"
   },
   {
     "id": 254,
@@ -4589,7 +4589,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/vyal_sush/aterina_vyalena.jpg"
+    "img": "images/vyal_sush/aterina_vyalena.webp"
   },
   {
     "id": 256,
@@ -4607,7 +4607,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/vyal_sush/bichok_vyaleniy.jpg"
+    "img": "images/vyal_sush/bichok_vyaleniy.webp"
   },
   {
     "id": 257,
@@ -4625,7 +4625,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/vyal_sush/verhovodka_vyalena.jpg"
+    "img": "images/vyal_sush/verhovodka_vyalena.webp"
   },
   {
     "id": 258,
@@ -4643,7 +4643,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/vyal_sush/kubiki_tolstoloba.jpg"
+    "img": "images/vyal_sush/kubiki_tolstoloba.webp"
   },
   {
     "id": 259,
@@ -4661,7 +4661,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/vyal_sush/lyash_ikryaniy.jpg"
+    "img": "images/vyal_sush/lyash_ikryaniy.webp"
   },
   {
     "id": 260,
@@ -4679,7 +4679,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/vyal_sush/lyash_v_lusci.jpg"
+    "img": "images/vyal_sush/lyash_v_lusci.webp"
   },
   {
     "id": 261,
@@ -4697,7 +4697,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/vyal_sush/polusteyk_tolstoloba.jpg"
+    "img": "images/vyal_sush/polusteyk_tolstoloba.webp"
   },
   {
     "id": 262,
@@ -4715,7 +4715,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/vyal_sush/taran_ikryana_15.jpg"
+    "img": "images/vyal_sush/taran_ikryana_15.webp"
   },
   {
     "id": 263,
@@ -4733,7 +4733,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/vyal_sush/taran_specposol.jpg"
+    "img": "images/vyal_sush/taran_specposol.webp"
   },
   {
     "id": 264,
@@ -4751,7 +4751,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/vyal_sush/taran_chischena_10.jpg"
+    "img": "images/vyal_sush/taran_chischena_10.webp"
   },
   {
     "id": 265,
@@ -4769,7 +4769,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/bekon_500.jpg"
+    "img": "images/myaso/bekon_500.webp"
   },
   {
     "id": 266,
@@ -4787,7 +4787,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/kabanosi.jpg"
+    "img": "images/myaso/kabanosi.webp"
   },
   {
     "id": 267,
@@ -4823,7 +4823,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/proshutto_italiya.jpg"
+    "img": "images/myaso/proshutto_italiya.webp"
   },
   {
     "id": 269,
@@ -4841,7 +4841,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/proshutto_narizka_250.jpg"
+    "img": "images/myaso/proshutto_narizka_250.webp"
   },
   {
     "id": 270,
@@ -4859,7 +4859,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/salyami_konina.jpg"
+    "img": "images/myaso/salyami_konina.webp"
   },
   {
     "id": 271,
@@ -4877,7 +4877,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/salyami_kurhan.jpg"
+    "img": "images/myaso/salyami_kurhan.webp"
   },
   {
     "id": 272,
@@ -4895,7 +4895,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/salyami_braunch.jpg"
+    "img": "images/myaso/salyami_braunch.webp"
   },
   {
     "id": 273,
@@ -4913,7 +4913,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/solonina_domashnya.jpg"
+    "img": "images/myaso/solonina_domashnya.webp"
   },
   {
     "id": 274,
@@ -4931,7 +4931,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/solonina_ispanska.jpg"
+    "img": "images/myaso/solonina_ispanska.webp"
   },
   {
     "id": 275,
@@ -4949,7 +4949,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/solonina_koreyska.jpg"
+    "img": "images/myaso/solonina_koreyska.webp"
   },
   {
     "id": 276,
@@ -4967,7 +4967,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/fileyka_vyalena.jpg"
+    "img": "images/myaso/fileyka_vyalena.webp"
   },
   {
     "id": 277,
@@ -4985,7 +4985,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/frimesa_vishnya.jpg"
+    "img": "images/myaso/frimesa_vishnya.webp"
   },
   {
     "id": 278,
@@ -5003,7 +5003,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/frimesa_indik.jpg"
+    "img": "images/myaso/frimesa_indik.webp"
   },
   {
     "id": 279,
@@ -5021,7 +5021,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/fuet_indik.jpg"
+    "img": "images/myaso/fuet_indik.webp"
   },
   {
     "id": 280,
@@ -5039,7 +5039,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/fuet_indik_zhuravlina.jpg"
+    "img": "images/myaso/fuet_indik_zhuravlina.webp"
   },
   {
     "id": 281,
@@ -5057,7 +5057,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/myaso/fuet_indik_travi.jpg"
+    "img": "images/myaso/fuet_indik_travi.webp"
   },
   {
     "id": 282,
@@ -5075,7 +5075,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/konserva/kilka_ventspils.jpg"
+    "img": "images/konserva/kilka_ventspils.webp"
   },
   {
     "id": 283,
@@ -5093,7 +5093,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/konserva/lyash_v_tomati.jpg"
+    "img": "images/konserva/lyash_v_tomati.webp"
   },
   {
     "id": 284,
@@ -5111,7 +5111,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/konserva/tunec_vlasniy_sik_80.jpg"
+    "img": "images/konserva/tunec_vlasniy_sik_80.webp"
   },
   {
     "id": 285,
@@ -5129,7 +5129,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/konserva/tunec_oliva_80.jpg"
+    "img": "images/konserva/tunec_oliva_80.webp"
   },
   {
     "id": 286,
@@ -5147,7 +5147,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/konserva/tunec_rio_170.jpg"
+    "img": "images/konserva/tunec_rio_170.webp"
   },
   {
     "id": 287,
@@ -5165,7 +5165,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/konserva/shproti_240.jpg"
+    "img": "images/konserva/shproti_240.webp"
   },
   {
     "id": 288,
@@ -5183,7 +5183,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/konserva/pechen_treski_121.jpg"
+    "img": "images/konserva/pechen_treski_121.webp"
   },
   {
     "id": 289,
@@ -5201,7 +5201,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/konserva/pechinka_treski_202.jpg"
+    "img": "images/konserva/pechinka_treski_202.webp"
   },
   {
     "id": 290,
@@ -5219,7 +5219,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/konserva/pechinka_king_oskar.jpg"
+    "img": "images/konserva/pechinka_king_oskar.webp"
   },
   {
     "id": 291,
@@ -5237,7 +5237,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/konserva/tunec_atlantico_1000.jpg"
+    "img": "images/konserva/tunec_atlantico_1000.webp"
   },
   {
     "id": 292,
@@ -5273,7 +5273,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/preserva/preserva_krevetka_300.jpg"
+    "img": "images/preserva/preserva_krevetka_300.webp"
   },
   {
     "id": 294,
@@ -5291,7 +5291,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/preserva/preserva_midiya_500.jpg"
+    "img": "images/preserva/preserva_midiya_500.webp"
   },
   {
     "id": 295,
@@ -5309,7 +5309,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/preserva/morskiy_kokteyl_500.jpg"
+    "img": "images/preserva/morskiy_kokteyl_500.webp"
   },
   {
     "id": 296,
@@ -5327,7 +5327,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/preserva/salamur_tovstoloba_300.jpg"
+    "img": "images/preserva/salamur_tovstoloba_300.webp"
   },
   {
     "id": 297,
@@ -5345,7 +5345,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/kambala_sm.jpg"
+    "img": "images/sira_marin/kambala_sm.webp"
   },
   {
     "id": 298,
@@ -5363,7 +5363,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/king_klip_tushka.jpg"
+    "img": "images/sira_marin/king_klip_tushka.webp"
   },
   {
     "id": 299,
@@ -5381,7 +5381,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/losos_slaysi_vikenco.jpg"
+    "img": "images/sira_marin/losos_slaysi_vikenco.webp"
   },
   {
     "id": 300,
@@ -5399,7 +5399,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/moyva_sm.jpg"
+    "img": "images/sira_marin/moyva_sm.webp"
   },
   {
     "id": 301,
@@ -5417,7 +5417,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/morskiy_okun_rozheviy.jpg"
+    "img": "images/sira_marin/morskiy_okun_rozheviy.webp"
   },
   {
     "id": 302,
@@ -5435,7 +5435,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/obriz_foreli_dribna.jpg"
+    "img": "images/sira_marin/obriz_foreli_dribna.webp"
   },
   {
     "id": 303,
@@ -5453,7 +5453,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/paltus_tushka_velika.jpg"
+    "img": "images/sira_marin/paltus_tushka_velika.webp"
   },
   {
     "id": 304,
@@ -5489,7 +5489,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/skumbriya_500_global.jpg"
+    "img": "images/sira_marin/skumbriya_500_global.webp"
   },
   {
     "id": 306,
@@ -5507,7 +5507,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/skumbriya_sm_shotlandiya.jpg"
+    "img": "images/sira_marin/skumbriya_sm_shotlandiya.webp"
   },
   {
     "id": 307,
@@ -5525,7 +5525,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/steyk_koropa.jpg"
+    "img": "images/sira_marin/steyk_koropa.webp"
   },
   {
     "id": 308,
@@ -5543,7 +5543,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/triska_rozheva_tushka.jpg"
+    "img": "images/sira_marin/triska_rozheva_tushka.webp"
   },
   {
     "id": 309,
@@ -5561,7 +5561,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/tunec_file_loins.jpg"
+    "img": "images/sira_marin/tunec_file_loins.webp"
   },
   {
     "id": 310,
@@ -5579,7 +5579,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/farsh_lososya_litva_1kg.jpg"
+    "img": "images/sira_marin/farsh_lososya_litva_1kg.webp"
   },
   {
     "id": 311,
@@ -5597,7 +5597,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/farsh_lososya_litva_500г.jpg"
+    "img": "images/sira_marin/farsh_lososya_litva_500г.webp"
   },
   {
     "id": 312,
@@ -5615,7 +5615,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/file_heka_argentina.jpg"
+    "img": "images/sira_marin/file_heka_argentina.webp"
   },
   {
     "id": 313,
@@ -5633,7 +5633,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/file_heka_v_batoni.jpg"
+    "img": "images/sira_marin/file_heka_v_batoni.webp"
   },
   {
     "id": 314,
@@ -5651,7 +5651,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/forel_tushka_norvegiya.jpg"
+    "img": "images/sira_marin/forel_tushka_norvegiya.webp"
   },
   {
     "id": 315,
@@ -5669,7 +5669,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/hek_tushka_bornstein.jpg"
+    "img": "images/sira_marin/hek_tushka_bornstein.webp"
   },
   {
     "id": 316,
@@ -5687,7 +5687,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/hek_tushka_sm.jpg"
+    "img": "images/sira_marin/hek_tushka_sm.webp"
   },
   {
     "id": 317,
@@ -5705,7 +5705,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/cherevcya_foreli.jpg"
+    "img": "images/sira_marin/cherevcya_foreli.webp"
   },
   {
     "id": 318,
@@ -5723,7 +5723,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/shmatki_lososya_shotlandiya.jpg"
+    "img": "images/sira_marin/shmatki_lososya_shotlandiya.webp"
   },
   {
     "id": 319,
@@ -5741,7 +5741,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/file_tilapii.jpg"
+    "img": "images/sira_marin/file_tilapii.webp"
   },
   {
     "id": 320,
@@ -5759,7 +5759,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/imbir_marinovaniy_1kg.jpg"
+    "img": "images/sushi/imbir_marinovaniy_1kg.webp"
   },
   {
     "id": 321,
@@ -5777,7 +5777,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/nori_100sht.jpg"
+    "img": "images/sushi/nori_100sht.webp"
   },
   {
     "id": 322,
@@ -5795,7 +5795,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/nori_20sht.jpg"
+    "img": "images/sushi/nori_20sht.webp"
   },
   {
     "id": 323,
@@ -5813,7 +5813,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/ocet_micukan_500.jpg"
+    "img": "images/sushi/ocet_micukan_500.webp"
   },
   {
     "id": 324,
@@ -5831,7 +5831,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/pasta_tom_yam_400.jpg"
+    "img": "images/sushi/pasta_tom_yam_400.webp"
   },
   {
     "id": 325,
@@ -5849,7 +5849,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/ris_nibori_vagoviy.jpg"
+    "img": "images/sushi/ris_nibori_vagoviy.webp"
   },
   {
     "id": 326,
@@ -5867,7 +5867,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/risoviy_papir.jpg"
+    "img": "images/sushi/risoviy_papir.webp"
   },
   {
     "id": 327,
@@ -5885,7 +5885,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/risoviy_papir_100.jpg"
+    "img": "images/sushi/risoviy_papir_100.webp"
   },
   {
     "id": 328,
@@ -5903,7 +5903,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/salat_hiyashi_1kg.jpg"
+    "img": "images/sushi/salat_hiyashi_1kg.webp"
   },
   {
     "id": 329,
@@ -5921,7 +5921,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/soeviy_sous_1l.jpg"
+    "img": "images/sushi/soeviy_sous_1l.webp"
   },
   {
     "id": 330,
@@ -5939,7 +5939,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/soeviy_sous_koncentrat.jpg"
+    "img": "images/sushi/soeviy_sous_koncentrat.webp"
   },
   {
     "id": 331,
@@ -5957,7 +5957,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/sous_tereyaki_1l.jpg"
+    "img": "images/sushi/sous_tereyaki_1l.webp"
   },
   {
     "id": 332,
@@ -5975,7 +5975,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/suhari_panko_1kg.jpg"
+    "img": "images/sushi/suhari_panko_1kg.webp"
   },
   {
     "id": 333,
@@ -5993,7 +5993,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/funchoza_lokshina.jpg"
+    "img": "images/sushi/funchoza_lokshina.webp"
   },
   {
     "id": 334,
@@ -6011,7 +6011,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/cibulya_smazhena.jpg"
+    "img": "images/sushi/cibulya_smazhena.webp"
   },
   {
     "id": 335,
@@ -6029,7 +6029,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/brushetto_kuryache_chipsi.jpg"
+    "img": "images/sneki/brushetto_kuryache_chipsi.webp"
   },
   {
     "id": 336,
@@ -6047,7 +6047,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/brushetto_svinina_chipsi.jpg"
+    "img": "images/sneki/brushetto_svinina_chipsi.webp"
   },
   {
     "id": 337,
@@ -6065,7 +6065,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/dzherka_kachka_pekinski.jpg"
+    "img": "images/sneki/dzherka_kachka_pekinski.webp"
   },
   {
     "id": 338,
@@ -6083,7 +6083,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/zhovtiy_polosatik.jpg"
+    "img": "images/sneki/zhovtiy_polosatik.webp"
   },
   {
     "id": 339,
@@ -6101,7 +6101,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/ikra_koryushki_vyalena.jpg"
+    "img": "images/sneki/ikra_koryushki_vyalena.webp"
   },
   {
     "id": 340,
@@ -6119,7 +6119,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/ikra_moyvi_vyalena.jpg"
+    "img": "images/sneki/ikra_moyvi_vyalena.webp"
   },
   {
     "id": 341,
@@ -6137,7 +6137,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/ikra_tarani_vyalena.jpg"
+    "img": "images/sneki/ikra_tarani_vyalena.webp"
   },
   {
     "id": 342,
@@ -6155,7 +6155,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/ikra_tovstoloba_vyalena.jpg"
+    "img": "images/sneki/ikra_tovstoloba_vyalena.webp"
   },
   {
     "id": 343,
@@ -6173,7 +6173,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/ikra_triski_vyalena.jpg"
+    "img": "images/sneki/ikra_triski_vyalena.webp"
   },
   {
     "id": 344,
@@ -6191,7 +6191,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/ikra_schuki_vyalena.jpg"
+    "img": "images/sneki/ikra_schuki_vyalena.webp"
   },
   {
     "id": 345,
@@ -6209,7 +6209,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/kalmar_struzhka.jpg"
+    "img": "images/sneki/kalmar_struzhka.webp"
   },
   {
     "id": 346,
@@ -6227,7 +6227,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/lyash_solomka.jpg"
+    "img": "images/sneki/lyash_solomka.webp"
   },
   {
     "id": 347,
@@ -6245,7 +6245,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/solomka_kutum.jpg"
+    "img": "images/sneki/solomka_kutum.webp"
   },
   {
     "id": 348,
@@ -6263,7 +6263,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/spinka_triski.jpg"
+    "img": "images/sneki/spinka_triski.webp"
   },
   {
     "id": 349,
@@ -6281,7 +6281,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/struzhka_kraba.jpg"
+    "img": "images/sneki/struzhka_kraba.webp"
   },
   {
     "id": 350,
@@ -6299,7 +6299,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sneki/yantarnaya_z_percem.jpg"
+    "img": "images/sneki/yantarnaya_z_percem.webp"
   },
   {
     "id": 351,
@@ -6317,7 +6317,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/chervon_ohol/marinovaniy_steyk_foreli.jpg"
+    "img": "images/chervon_ohol/marinovaniy_steyk_foreli.webp"
   },
   {
     "id": 352,
@@ -6335,7 +6335,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/chervon_ohol/file_foreli_1_2_oholodzhene.jpg"
+    "img": "images/chervon_ohol/file_foreli_1_2_oholodzhene.webp"
   },
   {
     "id": 353,
@@ -6353,7 +6353,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/chervon_ohol/file_foreli_hvostova_chastina.jpg"
+    "img": "images/chervon_ohol/file_foreli_hvostova_chastina.webp"
   },
   {
     "id": 354,
@@ -6371,7 +6371,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/chervon_ohol/file_foreli_oholodzhene_cile.jpg"
+    "img": "images/chervon_ohol/file_foreli_oholodzhene_cile.webp"
   }
 
 ]
