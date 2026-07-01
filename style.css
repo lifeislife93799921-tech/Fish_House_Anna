@@ -568,8 +568,8 @@ a {
     }
 
     .home-carousel__track {
-        grid-auto-columns: minmax(0, calc((100% - 10px) / 2));
-        gap: 10px;
+    grid-auto-columns: calc(100% - 10px);
+    gap: 10px;
     }
 
     .home-carousel__track .product-card {
@@ -2180,6 +2180,7 @@ html {
 
 /* МОБИЛЬНЫЙ АДАПТИВ (Экран 600px и меньше) */
 @media (max-width: 600px) {
+    
     .cart-item {
         /* Перестраиваем сетку: картинка слева, контент справа в 2 строки */
         grid-template-columns: 70px 1fr auto !important;
@@ -2247,9 +2248,7 @@ html {
         gap: 18px;
     }
 
-    .home-carousel__track {
-        grid-auto-columns: minmax(0, calc((100% - 16px) / 2));
-    }
+    
 }
 
 @media (max-width: 650px) {
