@@ -1,115 +1,166 @@
 document.addEventListener('DOMContentLoaded', () => {
     let productsData = [];
-    // Избранное обычно хранится как массив ID товаров, например: ["prod1", "prod2"]
-    let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+    const favoritesGrid = document.getElementById('favorites-grid'); // Твой контейнер в favorites.html
 
-    const favoritesGrid = document.getElementById('favorites-grid');
-    const favoritesEmptyMessage = document.getElementById('favorites-empty-message');
-
-    async function initFavoritesPage() {
+    // 1. Инициализация и загрузка данных
+    async function initFavorites() {
         try {
             const response = await fetch('products.json');
+            if (!response.ok) throw new Error('Ошибка загрузки JSON');
             productsData = await response.json();
+
             renderFavorites();
         } catch (error) {
-            console.error('Помилка завантаження даних для обраного:', error);
+            console.error('Ошибка избранного:', error);
+            if (favoritesGrid) {
+                favoritesGrid.innerHTML = `<div class="catalog__no-results">Не вдалося завантажити товари.</div>`;
+            }
         }
     }
 
+    // 2. Отрисовка карточек избранного
     function renderFavorites() {
-        favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+        if (!favoritesGrid) return;
+        favoritesGrid.innerHTML = '';
 
-        if (favorites.length === 0) {
-            favoritesGrid.style.display = 'none';
-            favoritesEmptyMessage.style.display = 'block';
+        const favoritesIds = JSON.parse(localStorage.getItem('favorites')) || [];
+
+        // Фильтруем только те товары, которые есть в массиве избранного
+        const favoriteProducts = productsData.filter(p => favoritesIds.includes(p.id));
+
+        if (!favoriteProducts.length) {
+            favoritesGrid.innerHTML = `<div class="catalog__no-results">У вас немає обраних товарів</div>`;
             return;
         }
 
-        favoritesGrid.style.display = 'grid';
-        favoritesEmptyMessage.style.display = 'none';
-        favoritesGrid.innerHTML = '';
-
-        favorites.forEach(favId => {
-            // Ищем данные товара по его ID
-            const product = productsData.find(p => p.id === favId);
-            if (!product) return;
-
-            // Создаем карточку товара (структура как в твоем каталоге)
+        favoriteProducts.forEach(product => {
             const card = document.createElement('div');
-            card.className = 'product-card';
-            
-            // Проверяем наличие акции для красивой цены
-            const hasSale = product.badges && product.badges.find(b => b.type === 'sale' && b.active);
-            const priceHTML = hasSale && product.oldPrice 
-                ? `<div class="product-card__price">${product.price} грн <span class="product-card__old-price" style="text-decoration: line-through; font-size: 0.85rem; color: #64748b; margin-left: 8px;">${product.oldPrice} грн</span></div>`
-                : `<div class="product-card__price">${product.price} грн</div>`;
+            // Добавляем класс product-card--fav-page, чтобы кнопки светились всегда
+            card.className = `product-card product-card--fav-page ${!product.available ? 'product-card--missing' : ''}`;
+            card.dataset.id = product.id;
 
+            // Формируем бейджи
+            let badgesHTML = '';
+            product.badges.forEach(b => {
+                if (b.active) {
+                    badgesHTML += `<span class="product-card__badge product-card__badge--${b.type}">${b.text}</span>`;
+                }
+            });
+
+            // Цена (обычная или промо)
+            const hasPromo = product.oldPrice !== null;
+            const priceHTML = hasPromo 
+                ? `<span class="product-card__price product-card__price--promo">${product.price} грн</span>
+                   <span class="product-card__old-price">${product.oldPrice} грн</span>`
+                : `<span class="product-card__price">${product.price} грн</span>`;
+
+            // HTML структура один в один как в products.js
             card.innerHTML = `
+                <div class="product-card__badges">${badgesHTML}</div>
+                <button class="product-card__favorite product-card__favorite--active" title="Видалити з обраного">
+                    <i class="fa-solid fa-heart"></i>
+                </button>
                 <div class="product-card__img-box">
                     <img src="${product.img}" alt="${product.name}" class="product-card__img" onerror="this.src='images/no-photo.png'">
-                    <button class="product-card__fav-btn product-card__fav-btn--active" title="Видалити з обраного" style="color: #ff7a00;">
-                        <i class="fa-solid fa-heart"></i>
-                    </button>
                 </div>
-                <div class="product-card__info">
-                    <h3 class="product-card__title">${product.name}</h3>
+                <h3 class="product-card__title">${product.name}</h3>
+                <div class="product-card__price-box">
                     ${priceHTML}
-                    <button class="product-card__buy-btn">
+                    <span class="product-card__unit">/ ${product.unit}</span>
+                </div>
+                
+                ${product.available ?
+                `
+                    <div class="product-card__quantity">
+                        <button class="product-card__quantity-btn minus-btn">-</button>
+                        <span class="product-card__quantity-num">${product.step}</span>
+                        <button class="product-card__quantity-btn plus-btn">+</button>
+                    </div>
+                    <button class="product-card__btn buy-btn">
                         <i class="fa-solid fa-basket-shopping"></i> Додати в кошик
                     </button>
-                </div>
+                ` : `
+                    <div class="product-card__missing-text">${product.missingText || 'Немає в наявності'}</div>
+                `}
             `;
 
-            // Логика кнопки «Удалить из избранного» (клик по сердечку)
-            const favBtn = card.querySelector('.product-card__fav-btn');
-            favBtn.addEventListener('click', () => {
-                favorites = favorites.filter(id => id !== product.id);
-                localStorage.setItem('favorites', JSON.stringify(favorites));
-                renderFavorites(); // Перерисовываем экран
-                updateLocalCounters(); // Обновляем цифры в шапке
-            });
-
-            // Логика кнопки «Добавить в корзину»
-            const buyBtn = card.querySelector('.product-card__buy-btn');
-            buyBtn.addEventListener('click', () => {
-                let cart = JSON.parse(localStorage.getItem('cart')) || [];
-                const cartItem = cart.find(item => item.id === product.id);
-
-                if (cartItem) {
-                    // Если товар уже в корзине, увеличиваем на один минимальный шаг (или на 1)
-                    cartItem.quantity = parseFloat(cartItem.quantity) + parseFloat(product.step || 1);
-                } else {
-                    // Если нет, добавляем стартовое количество (например, равен шагу: 0.5кг или 1 шт)
-                    cart.push({
-                        id: product.id,
-                        quantity: parseFloat(product.step || 1)
-                    });
-                }
-
-                localStorage.setItem('cart', JSON.stringify(cart));
-                updateLocalCounters();
-                alert(`Товар "${product.name}" додано до кошика!`);
-            });
-
+            initCardEvents(card, product);
             favoritesGrid.appendChild(card);
         });
     }
 
-    // Быстрое обновление счетчиков в хедере конкретно для этой страницы при действиях
-    function updateLocalCounters() {
-        const cart = JSON.parse(localStorage.getItem('cart')) || [];
-        const cartCount = document.querySelector('.header__cart-count');
-        if (cartCount) {
-            const total = cart.reduce((acc, item) => acc + parseFloat(item.quantity || 0), 0);
-            cartCount.textContent = total.toFixed(1).replace(/\.0$/, '');
-        }
+    // 3. Обработка кликов на кнопки внутри карточки
+    function initCardEvents(card, product) {
+        // Клик по сердечку — удаляет товар и убирает карточку
+        const favBtn = card.querySelector('.product-card__favorite');
+        favBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            removeFromFavorites(product.id);
+        });
 
-        const favs = JSON.parse(localStorage.getItem('favorites')) || [];
-        const favCount = document.querySelector('.header__favorites-count');
-        if (favCount) {
-            favCount.textContent = favs.length;
-        }
+        if (!product.available) return;
+
+        const plusBtn = card.querySelector('.plus-btn');
+        const minusBtn = card.querySelector('.minus-btn');
+        const qtyNum = card.querySelector('.product-card__quantity-num');
+        const buyBtn = card.querySelector('.buy-btn');
+
+        let currentQty = parseFloat(product.step);
+
+        plusBtn.addEventListener('click', () => {
+            currentQty += parseFloat(product.step);
+            qtyNum.textContent = currentQty.toFixed(2).replace(/\.00$/, '');
+        });
+
+        minusBtn.addEventListener('click', () => {
+            if (currentQty > parseFloat(product.step)) {
+                currentQty -= parseFloat(product.step);
+                qtyNum.textContent = currentQty.toFixed(2).replace(/\.00$/, '');
+            }
+        });
+
+        buyBtn.addEventListener('click', () => {
+            addToCart(product, currentQty);
+        });
     }
 
-    initFavoritesPage();
+    // 4. Удаление из Избранного (карточка сразу исчезает)
+    function removeFromFavorites(id) {
+        let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+        favorites = favorites.filter(favId => favId !== id);
+        localStorage.setItem('favorites', JSON.stringify(favorites));
+        
+        updateHeaderCounters();
+        renderFavorites(); // Перерисовываем сетку, товар улетает
+    }
+
+    // 5. Добавление в корзину
+    function addToCart(product, qty) {
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        const existingItem = cart.find(item => item.id === product.id);
+
+        if (existingItem) {
+            existingItem.quantity = parseFloat(existingItem.quantity) + qty;
+        } else {
+            cart.push({ id: product.id, quantity: qty });
+        }
+
+        localStorage.setItem('cart', JSON.stringify(cart));
+        updateHeaderCounters();
+        alert(`Товар додано в кошик в кількості: ${qty.toFixed(2).replace(/\.00$/, '')}`);
+    }
+
+    // 6. Обновление цифр в шапке сайта
+    function updateHeaderCounters() {
+        const cart = JSON.parse(localStorage.getItem('cart')) || [];
+        const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+
+        const cartCount = document.querySelector('.header__cart-count');
+        const favCount = document.querySelector('.header__favorites-count');
+
+        if (cartCount) cartCount.textContent = cart.reduce((acc, item) => acc + parseFloat(item.quantity), 0).toFixed(1).replace(/\.0$/, '');
+        if (favCount) favCount.textContent = favorites.length;
+    }
+
+    initFavorites();
 });

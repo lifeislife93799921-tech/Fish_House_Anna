@@ -1433,34 +1433,7 @@ a {
     line-height: 1.6;
     margin-bottom: 25px;
 }
-/* Делаем блок количества и кнопку покупки в попапе видимыми по умолчанию */
-.popup .product-card__actions {
-    opacity: 1 !important;
-    visibility: visible !important;
-    transform: none !important;
-    position: relative !important;
-    margin-top: 20px;
-    display: flex !important;
-    align-items: center;
-    gap: 15px;
-}
 
-/* Настройки для самого счетчика количества (минус / число / плюс) в попапе */
-.popup .product-card__quantity {
-    display: flex !important;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    padding: 5px;
-}
-
-/* Кнопка добавления в корзину внутри попапа */
-.popup .product-card__add-btn {
-    flex: 1;
-    opacity: 1 !important;
-    visibility: visible !important;
-}
 
 /* ==========================================================================\
    5. АДАПТИВНОСТЬ ДЛЯ ТЕЛЕФОНОВ И ПЛАНШЕТОВ
@@ -1496,6 +1469,25 @@ a {
 
     .catalog__grid {
         grid-template-columns: repeat(2, 1fr); /* 2 в ряд */
+    }
+    .catalog .product-card__quantity {
+        opacity: 1;
+        visibility: visible;
+        padding: 6px;
+        gap: 10px;
+    }
+
+    .catalog .product-card__quantity-btn {
+        width: 42px;
+        height: 42px;
+        font-size: 1.35rem;
+        border-radius: 8px;
+    }
+
+    .catalog .product-card__quantity-num {
+        font-size: 1.05rem;
+        min-width: 44px;
+        text-align: center;
     }
 }
 
@@ -2004,5 +1996,13 @@ html {
         font-weight: 700;
         color: #ff7a00;
     }
+}
+
+/* Постоянное отображение элементов управления на странице избранного */
+.product-card--fav-page .product-card__favorite,
+.product-card--fav-page .product-card__quantity,
+.product-card--fav-page .product-card__btn {
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
