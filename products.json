@@ -817,8 +817,8 @@
     "oldPrice": null,
     "unit": "кг",
     "step": 0.1,
-    "available": true,
-    "missingText": null,
+    "available": false,
+    "missingText": "Тимчасово відсутні",
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
       { "type": "hit", "text": "Хіт", "active": false },
@@ -4239,8 +4239,8 @@
     "oldPrice": null,
     "unit": "кг",
     "step": 0.1,
-    "available": true,
-    "missingText": null,
+    "available": false,
+    "missingText": "Тимчасово відсутні",
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
       { "type": "hit", "text": "Хіт", "active": false },
