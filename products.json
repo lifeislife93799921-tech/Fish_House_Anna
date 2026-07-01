@@ -4,15 +4,15 @@
     "name": "Ікра Кети нова партія",
     "type": "ikra",
     "price": 812,
-    "oldPrice": 900,
+    "oldPrice": null,
     "unit": "100г",
     "step": 1,
     "available": true,
     "missingText": null,
     "badges": [
-      { "type": "sale", "text": "Акція %", "active": true },
+      { "type": "sale", "text": "Акція %", "active": false }, 
       { "type": "hit", "text": "Хіт", "active": true },
-      { "type": "new", "text": "Новинка", "active": true }
+      { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
     "img": "images/ikra/ikra_kety.webp"
@@ -407,7 +407,7 @@
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "hit", "text": "Хіт", "active": true },
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
@@ -713,7 +713,7 @@
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "hit", "text": "Хіт", "active": true },
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
@@ -731,7 +731,7 @@
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "hit", "text": "Хіт", "active": true },
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
@@ -749,7 +749,7 @@
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "hit", "text": "Хіт", "active": true },
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
@@ -767,7 +767,7 @@
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "hit", "text": "Хіт", "active": true },
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
@@ -875,7 +875,7 @@
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "hit", "text": "Хіт", "active": true },
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
@@ -983,7 +983,7 @@
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "hit", "text": "Хіт", "active": true },
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
@@ -4062,7 +4062,7 @@
     "available": true,
     "missingText": null,
     "badges": [
-      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "sale", "text": "Акція %", "active": true },
       { "type": "hit", "text": "Хіт", "active": false },
       { "type": "new", "text": "Новинка", "active": false }
     ],
@@ -4206,7 +4206,7 @@
     "available": true,
     "missingText": null,
     "badges": [
-      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "sale", "text": "Акція %", "active": true },
       { "type": "hit", "text": "Хіт", "active": false },
       { "type": "new", "text": "Новинка", "active": false }
     ],
@@ -4549,7 +4549,7 @@
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "hit", "text": "Хіт", "active": true },
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
@@ -4674,7 +4674,7 @@
     "available": true,
     "missingText": null,
     "badges": [
-      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "sale", "text": "Акція %", "active": true },
       { "type": "hit", "text": "Хіт", "active": false },
       { "type": "new", "text": "Новинка", "active": false }
     ],
@@ -4729,7 +4729,7 @@
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "hit", "text": "Хіт", "active": true },
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
@@ -5233,7 +5233,7 @@
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "hit", "text": "Хіт", "active": true },
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
@@ -5467,7 +5467,7 @@
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "hit", "text": "Хіт", "active": true },
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
@@ -6367,7 +6367,7 @@
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
-      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "hit", "text": "Хіт", "active": true },
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
