@@ -285,7 +285,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/midiya_v_mushli.webp"
+    "img": "images/gotov_prod/midiya_v_mushli_versh.webp"
   },
   {
     "id": 17,
@@ -4067,7 +4067,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/krevetka_norvegiya.webp"
+    "img": "images/krevetki/krevetka_norvegiya120.webp"
   },
   {
     "id": 227,
@@ -4139,7 +4139,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/krevetki/krevetka_v_pancire.webp"
+    "img": "images/krevetki/krevetka_v_pancire80.webp"
   },
   {
     "id": 231,
@@ -4726,7 +4726,7 @@
     "unit": "кг",
     "step": 0.1,
     "available": true,
-    "missingText": null,
+    "missingText": null, 
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
       { "type": "hit", "text": "Хіт", "active": true },
