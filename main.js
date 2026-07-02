@@ -1,6 +1,18 @@
 // Ожидание полной загрузки DOM-дерева
 document.addEventListener('DOMContentLoaded', () => {
-    
+    let allProducts = []; // сюда будем складывать все товары
+    // Загрузка товаров для поиска (на всех страницах)
+async function loadProducts() {
+    try {
+        const response = await fetch('products.json');
+        const products = await response.json();
+        allProducts = products; // сохраняем все товары
+    } catch (error) {
+        console.error('Ошибка загрузки товаров:', error);
+    }
+}
+// Сразу после объявления функции loadProducts
+loadProducts();
     // 1. ЛОГИКА РАБОТЫ МОБИЛЬНОГО БУРГЕР-МЕНЮ
     const burgerBtn = document.querySelector('.header__burger');
     const headerMenu = document.querySelector('.header__menu');
@@ -282,26 +294,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function initHomeProductCarousels() {
-        try {
-            const response = await fetch('products.json');
-            const products = await response.json();
-
-            const hitProducts = products.filter(product => hasActiveBadge(product, 'hit'));
-            const saleProducts = products.filter(product => {
-                return hasActiveBadge(product, 'sale') ||
-                    (product.oldPrice !== null && product.oldPrice !== undefined) ||
-                    extraSaleProductIds.includes(product.id);
-            });
-
-            renderHomeCarousel(hitCarousel, hitProducts);
-            renderHomeCarousel(saleCarousel, saleProducts);
-            setupHomeCarouselControls('hit', hitCarousel);
-            setupHomeCarouselControls('sale', saleCarousel);
-        } catch (error) {
-            hitCarousel.innerHTML = '<div class="home-carousel__empty">Не вдалося завантажити товари.</div>';
-            saleCarousel.innerHTML = '<div class="home-carousel__empty">Не вдалося завантажити товари.</div>';
+    try {
+        // Если товары ещё не загружены (на случай, если loadProducts ещё не завершилась)
+        if (!allProducts.length) {
+            await loadProducts();
         }
+        const products = allProducts; // используем глобально загруженные товары
+
+        const hitProducts = products.filter(product => hasActiveBadge(product, 'hit'));
+        const saleProducts = products.filter(product => {
+            return hasActiveBadge(product, 'sale') ||
+                (product.oldPrice !== null && product.oldPrice !== undefined) ||
+                extraSaleProductIds.includes(product.id);
+        });
+
+        renderHomeCarousel(hitCarousel, hitProducts);
+        renderHomeCarousel(saleCarousel, saleProducts);
+        setupHomeCarouselControls('hit', hitCarousel);
+        setupHomeCarouselControls('sale', saleCarousel);
+    } catch (error) {
+        hitCarousel.innerHTML = '<div class="home-carousel__empty">Не вдалося завантажити товари.</div>';
+        saleCarousel.innerHTML = '<div class="home-carousel__empty">Не вдалося завантажити товари.</div>';
     }
+}
 
     function hasActiveBadge(product, badgeType) {
         return Array.isArray(product.badges) && product.badges.some(badge => badge.type === badgeType && badge.active);
@@ -461,5 +476,68 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function formatQuantity(value) {
         return value.toFixed(2).replace(/\.00$/, '');
+    }
+        // ============================================================
+    // УМНЫЙ ПОИСК С ПОДСКАЗКАМИ (работает с русским языком)
+    // ============================================================
+    const searchInputAutoComplete = document.getElementById('global-search-input');
+    const suggestionsBox = document.getElementById('search-suggestions-box');
+
+    if (searchInputAutoComplete && suggestionsBox) {
+        
+        searchInputAutoComplete.addEventListener('input', function() {
+            const rawQuery = this.value.trim();
+            
+            if (!rawQuery) {
+                suggestionsBox.style.display = 'none';
+                return;
+            }
+
+            // Переводим русский запрос в украинский
+            const adaptedQuery = adaptSearchQuery(rawQuery).toLowerCase();
+
+            // Ищем товары, где адаптированный запрос есть в названии (в любом месте)
+            const results = allProducts.filter(product => 
+                product.name.toLowerCase().includes(adaptedQuery)
+            );
+
+            const topResults = results.slice(0, 8);
+
+            if (topResults.length === 0) {
+                suggestionsBox.style.display = 'none';
+                return;
+            }
+
+            let html = '';
+            topResults.forEach(product => {
+                html += `<div class="search-suggestion-item" data-name="${product.name}">${product.name}</div>`;
+            });
+            suggestionsBox.innerHTML = html;
+            suggestionsBox.style.display = 'block';
+
+            // Клик по подсказке
+            suggestionsBox.querySelectorAll('.search-suggestion-item').forEach(item => {
+                item.addEventListener('click', function() {
+                    const chosenName = this.dataset.name;
+                    searchInputAutoComplete.value = chosenName;
+                    suggestionsBox.style.display = 'none';
+                    
+                    // Если мы на странице каталога — фильтруем
+                    if (typeof window.filterCatalogBySearch === 'function') {
+                        window.filterCatalogBySearch(chosenName);
+                    } else {
+                        // Иначе переходим в каталог с поиском
+                        window.location.href = `products.html?search=${encodeURIComponent(chosenName)}`;
+                    }
+                });
+            });
+        });
+
+        // Скрываем подсказки при клике вне поиска
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.header__search')) {
+                suggestionsBox.style.display = 'none';
+            }
+        });
     }
 });

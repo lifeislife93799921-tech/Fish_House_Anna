@@ -2299,3 +2299,49 @@ html {
     }
 }
 
+/* Блок с подсказками поиска */
+.header__search {
+    position: relative; /* Чтобы подсказки позиционировались относительно поля */
+}
+
+.search-suggestions-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #141a23;
+    border: 1px solid #ff7a00;
+    border-radius: 8px;
+    max-height: 280px;
+    overflow-y: auto;
+    z-index: 9999;
+    margin-top: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+.search-suggestions-box::-webkit-scrollbar {
+    width: 6px;
+}
+.search-suggestions-box::-webkit-scrollbar-thumb {
+    background: #ff7a00;
+    border-radius: 4px;
+}
+
+.search-suggestion-item {
+    padding: 10px 15px;
+    color: #e2e8f0;
+    cursor: pointer;
+    font-size: 0.95rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: background 0.2s ease;
+}
+
+.search-suggestion-item:hover {
+    background: rgba(255, 122, 0, 0.15);
+    color: #fff;
+}
+
+.search-suggestion-item:last-child {
+    border-bottom: none;
+}
+
