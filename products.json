@@ -4052,6 +4052,60 @@
     "img": "images/bakaleya/yaytsa.webp"
   },
   {
+    "id": 356,
+    "name": "Сир Королівський 45% богодухів",
+    "type": "bakaleya",
+    "price": 307,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/syr_korolivskiy_45_bogoduhiv.webp"
+  },
+  {
+    "id": 357,
+    "name": "Сир плавлен вершковий 55% 300г",
+    "type": "bakaleya",
+    "price": 56,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/syr_plavlen_vershkoviy_55_300g.webp"
+  },
+  {
+    "id": 358,
+    "name": "Сир плавлен шоколадно горіховий 30% 300г",
+    "type": "bakaleya",
+    "price": 66,
+    "oldPrice": null,
+    "unit": "шт",
+    "step": 1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/bakaleya/syr_plavlen_shokoladno_gorihoviy_30_300g.webp"
+  },
+  {
     "id": 226,
     "name": "Креветка 120+ виловНорвегія, розмір",
     "type": "krevetki",
@@ -4737,7 +4791,7 @@
   },
   {
     "id": 264,
-    "name": "Тарань чищена з ікрою до 10 шт (Т)",
+    "name": "Тарань чищена з ікрою до 15 шт (Т)",
     "type": "vyal_sush",
     "price": 1350,
     "oldPrice": null,
@@ -4752,6 +4806,24 @@
     ],
     "description": "",
     "img": "images/vyal_sush/taran_chischena_10.webp"
+  },
+  {
+    "id": 355,
+    "name": "Корюшка в'ялена з ікрою",
+    "type": "vyal_sush",
+    "price": 1125,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/koriushka_vyalena_z_ikroyu.webp"
   },
   {
     "id": 265,
