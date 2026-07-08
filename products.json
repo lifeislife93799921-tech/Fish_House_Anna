@@ -87,7 +87,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/ikra/ikra_shchuki_ba.webp"
+    "img": "images/ikra/ikra_shchuki_100.webp"
   },
   {
     "id": 6,
@@ -231,7 +231,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/losos_dykyj.webp"
+    "img": "images/gotov_prod/losos_dykyj_lim.webp"
   },
   {
     "id": 14,
@@ -429,7 +429,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/gotov_prod/sous_chili.webp"
+    "img": "images/gotov_prod/sous_chili_500.webp"
   },
   {
     "id": 25,
@@ -4059,7 +4059,7 @@
     "oldPrice": null,
     "unit": "кг",
     "step": 0.1,
-    "available": true,
+    "available": true, 
     "missingText": null,
     "badges": [
       { "type": "sale", "text": "Акція %", "active": false },
@@ -6011,7 +6011,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/soeviy_sous_koncentrat.webp"
+    "img": "images/sushi/soeviy_sous_koncentrat_05.webp"
   },
   {
     "id": 331,
