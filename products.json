@@ -1565,7 +1565,42 @@
     "description": "",
     "img": "images/napivfab/rulet_z_lososya.webp"
   },
-
+   {
+    "id": 359,
+    "name": "Тефтелі з хеку від Ані",
+    "type": "napivfab",
+    "price": 270,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/napivfab/teftely_hek.webp"
+  },
+  {
+    "id": 360,
+    "name": "Тефтелі курячі від Ані",
+    "type": "napivfab",
+    "price": 245,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/napivfab/teftely_kur.webp"
+  },
   {
     "id": 88,
     "name": "Восминіг Королівський PULO сирий цілий",
@@ -2123,7 +2158,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/anchousi.webp"
+    "img": "images/bakaleya/anchousi_80.webp"
   },
   {
     "id": 119,
@@ -2303,7 +2338,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sgushenka_banka.webp"
+    "img": "images/bakaleya/sgushenka_banka_370.webp"
   },
   {
     "id": 129,
@@ -3693,7 +3728,7 @@
   },
   {
     "id": 206,
-    "name": "Соус барбекюTarsmak BBQ 1000 г",
+    "name": "Соус барбекю Tarsmak BBQ 1000 г",
     "type": "bakaleya",
     "price": 280,
     "oldPrice": null,
@@ -3761,7 +3796,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/sous_periperi.webp"
+    "img": "images/bakaleya/sous_periperi_gs.webp"
   },
   {
     "id": 210,
@@ -5957,7 +5992,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sushi/risoviy_papir_100.webp"
+    "img": "images/sushi/risoviy_papir_100g.webp"
   },
   {
     "id": 328,
