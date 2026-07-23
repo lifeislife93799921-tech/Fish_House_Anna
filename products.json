@@ -486,6 +486,42 @@
     "img": "images/gotov_prod/file_ss_apelsyn.webp"
   },
   {
+    "id": 365 ,
+    "name": "Курячі гнізда з начинкою від Ані",
+    "type": "napivfab",
+    "price": 360,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/napivfab/kur_gnizda.webp"
+  },
+{
+    "id": 368 ,
+    "name": "Ліниві голубці від т. Ані",
+    "type": "napivfab",
+    "price": 225,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/napivfab/liniv_golub.webp"
+  },
+  {
     "id": 28,
     "name": "Бендерики з м'ясом від т. Ані",
     "type": "napivfab",
@@ -700,6 +736,42 @@
     ],
     "description": "",
     "img": "images/napivfab/golubci.webp"
+  },
+  {
+    "id": 366 ,
+    "name": "Камбала з ікрою с/м 300+",
+    "type": "sira_marin",
+    "price": 575,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/kambala_ik_300pl.webp"
+  },
+{
+    "id": 367 ,
+    "name": "Медальйони з філе хека",
+    "type": "sira_marin",
+    "price": 355,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/medalion_file_hek.webp"
   },
   {
     "id": 40,
@@ -2752,7 +2824,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_shneki.webp"
+    "img": "images/bakaleya/barilla_shneki_34.webp"
   },
   {
     "id": 152,
@@ -2770,7 +2842,7 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/bakaleya/barilla_cannelloni.webp"
+    "img": "images/bakaleya/barilla_cannelloni_88.webp"
   },
   {
     "id": 153,
@@ -4234,7 +4306,7 @@
     "id": 231,
     "name": "Креветка вилов Гренландія, розмір 90+",
     "type": "krevetki",
-    "price": 578,
+    "price": 600,
     "oldPrice": null,
     "unit": "кг",
     "step": 0.1,
@@ -4355,6 +4427,24 @@
     ],
     "description": "",
     "img": "images/krevetki/chorniy_tigr.webp"
+  },
+  {
+    "id": 364 ,
+    "name": "Оселедець МАТІАС слабосолоний б/г с/м",
+    "type": "kopch_sol",
+    "price": 243,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/kopch_sol/oseled_matias_ss.webp"
   },
   {
     "id": 238,
