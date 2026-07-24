@@ -2346,35 +2346,64 @@ html {
 }
 
 /* ==========================================================================
-   ПЛАНШЕТЫ И МАЛЕНЬКИЕ НОУТБУКИ (769–1024px) — ПЕРЕНОС ПОИСКА НА ВТОРУЮ СТРОКУ
+   ПЛАНШЕТЫ (769–1024px) — МЕНЮ ПО ЦЕНТРУ, ИКОНКИ СПРАВА
    ========================================================================== */
 @media (min-width: 769px) and (max-width: 1024px) {
 
-    /* 1. Хедер — разрешаем перенос элементов */
+    /* 1. Контейнер хедера — стандартный flex, без лишнего распределения */
     .header__container {
+        display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        align-items: center;
+        gap: 10px 20px;
         padding: 12px 20px;
     }
 
-    /* 2. Логотип — остаётся на первой строке */
+    /* 2. Логотип — остаётся слева, не трогаем */
     .header__logo {
-        margin-right: auto;
+        flex: 0 0 auto;
+        margin-right: 0;
     }
 
-    /* 3. Иконки (избранное, корзина, вход) — остаются на первой строке */
+    /* 3. Меню — растягивается и центрирует свои пункты */
+    .header__menu {
+        flex: 1; /* занимает всё свободное место между логотипом и иконками */
+        display: flex;
+        justify-content: center; /* пункты меню по центру внутри выделенного пространства */
+        gap: 30px; /* расстояние между пунктами, регулируй под свой вкус */
+    }
+
+    /* 4. Иконки — прижимаем к правому краю */
+    .header__favorites {
+        margin-left: auto; /* отодвигает первую иконку вправо */
+    }
+
+    /* 5. Отступы между иконками — удобно для пальцев */
     .header__favorites,
     .header__cart,
     .header__account {
-        margin-right: 0 !important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 12px; /* расстояние между иконками */
     }
 
-    /* 4. Скрываем текст "Вхід" на планшетах, оставляем только иконку */
+    /* 6. Первая иконка (сердце) — отступ от меню, чтобы не прилипала */
+    .header__favorites {
+        margin-left: 25px; /* чуть больше отступ от меню */
+    }
+
+    /* 7. Скрываем текст "Вхід" — только иконка */
     .header__account-text {
         display: none;
     }
 
-    /* 5. Поиск — переносим на вторую строку и растягиваем на всю ширину */
+    /* 8. Бургер — скрыт */
+    .header__burger {
+        display: none;
+    }
+
+    /* 9. Поиск — на вторую строку, на всю ширину */
     .header__search {
         order: 2;
         flex: 0 0 100%;
@@ -2382,21 +2411,21 @@ html {
         margin-top: 8px;
     }
 
-    /* 6. Поле ввода поиска — делаем на всю ширину */
+    /* 10. Поле поиска */
     .header__search-input {
         width: 100%;
         padding: 10px 45px 10px 20px;
         font-size: 14px;
     }
 
-    /* 7. Кнопка поиска (лупа) — остаётся внутри поля */
+    /* 11. Кнопка поиска */
     .header__search-btn {
         width: 35px;
         height: 35px;
         font-size: 16px;
     }
 
-    /* 8. Блок подсказок поиска — растягиваем на всю ширину поля */
+    /* 12. Блок подсказок — на всю ширину */
     .search-suggestions-box {
         width: 100% !important;
         max-width: 100% !important;
@@ -2404,17 +2433,85 @@ html {
         right: 0 !important;
         box-sizing: border-box;
     }
+}
 
-    /* 9. Меню навигации — остаётся на первой строке */
-    .header__menu {
-        display: flex;
-        flex-direction: row;
-        gap: 18px;
+/* ==========================================================================
+   УЗКИЙ ПЛАНШЕТНЫЙ ДИАПАЗОН (769–838px) — МАКСИМАЛЬНОЕ СЖАТИЕ
+   ========================================================================== */
+@media (min-width: 769px) and (max-width: 838px) {
+
+    /* Контейнер хедера — уменьшаем общие отступы и зазоры */
+    .header__container {
+        gap: 6px 8px !important;      /* минимальные зазоры между элементами */
+        padding: 10px 12px !important; /* уменьшаем отступы по бокам */
     }
 
-    /* 10. Бургер-меню — скрыто на планшетах */
+    /* Логотип — делаем компактнее, чтобы освободить место */
+    .header__logo {
+        font-size: 14px !important;    /* фиксированный маленький размер */
+        flex-shrink: 0 !important;     /* не даём ему сжиматься ещё сильнее */
+    }
+
+    /* Меню навигации — уменьшаем отступы между пунктами */
+    .header__menu {
+        gap: 50px !important;           /* минимальное расстояние между "Головна", "Продукція" и т.д. */
+    }
+
+    /* Каждый пункт меню — делаем шрифт поменьше */
+    .header__menu-link {
+        font-size: 12px !important;    /* компактный размер текста */
+        white-space: nowrap !important; /* запрещаем перенос внутри пункта */
+    }
+
+    /* Иконки (сердце, корзина, вход) — уменьшаем расстояние между ними */
+    .header__favorites,
+    .header__cart,
+    .header__account {
+        margin-left: 6px !important;    /* минимальный отступ между иконками */
+        font-size: 15px !important;     /* размер иконок чуть меньше */
+    }
+
+    /* Отступ перед первой иконкой (сердце) — чтобы не прилипала к меню */
+    .header__favorites {
+        margin-left: 14px !important;   /* чуть больше, чем между иконками */
+    }
+
+    /* Скрываем текст "Вхід" — только иконка */
+    .header__account-text {
+        display: none !important;
+    }
+
+    /* Бургер-меню — скрыто */
     .header__burger {
-        display: none;
+        display: none !important;
+    }
+
+    /* Поиск — остаётся на второй строке (ничего не меняем) */
+    .header__search {
+        order: 2;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 8px;
+    }
+
+    .header__search-input {
+        width: 100%;
+        padding: 10px 45px 10px 20px;
+        font-size: 14px;
+    }
+
+    .header__search-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .search-suggestions-box {
+        width: 100% !important;
+        max-width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        box-sizing: border-box;
     }
 }
 
