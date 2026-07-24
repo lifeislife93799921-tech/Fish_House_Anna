@@ -2345,3 +2345,76 @@ html {
     border-bottom: none;
 }
 
+/* ==========================================================================
+   ПЛАНШЕТЫ И МАЛЕНЬКИЕ НОУТБУКИ (769–1024px) — ПЕРЕНОС ПОИСКА НА ВТОРУЮ СТРОКУ
+   ========================================================================== */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* 1. Хедер — разрешаем перенос элементов */
+    .header__container {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 12px 20px;
+    }
+
+    /* 2. Логотип — остаётся на первой строке */
+    .header__logo {
+        margin-right: auto;
+    }
+
+    /* 3. Иконки (избранное, корзина, вход) — остаются на первой строке */
+    .header__favorites,
+    .header__cart,
+    .header__account {
+        margin-right: 0 !important;
+    }
+
+    /* 4. Скрываем текст "Вхід" на планшетах, оставляем только иконку */
+    .header__account-text {
+        display: none;
+    }
+
+    /* 5. Поиск — переносим на вторую строку и растягиваем на всю ширину */
+    .header__search {
+        order: 2;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 8px;
+    }
+
+    /* 6. Поле ввода поиска — делаем на всю ширину */
+    .header__search-input {
+        width: 100%;
+        padding: 10px 45px 10px 20px;
+        font-size: 14px;
+    }
+
+    /* 7. Кнопка поиска (лупа) — остаётся внутри поля */
+    .header__search-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    /* 8. Блок подсказок поиска — растягиваем на всю ширину поля */
+    .search-suggestions-box {
+        width: 100% !important;
+        max-width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        box-sizing: border-box;
+    }
+
+    /* 9. Меню навигации — остаётся на первой строке */
+    .header__menu {
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+    }
+
+    /* 10. Бургер-меню — скрыто на планшетах */
+    .header__burger {
+        display: none;
+    }
+}
+
