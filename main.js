@@ -1,18 +1,191 @@
 // Ожидание полной загрузки DOM-дерева
 document.addEventListener('DOMContentLoaded', () => {
     let allProducts = []; // сюда будем складывать все товары
+
     // Загрузка товаров для поиска (на всех страницах)
-async function loadProducts() {
-    try {
-        const response = await fetch('products.json');
-        const products = await response.json();
-        allProducts = products; // сохраняем все товары
-    } catch (error) {
-        console.error('Ошибка загрузки товаров:', error);
+    async function loadProducts() {
+        try {
+            const response = await fetch('products.json');
+            const products = await response.json();
+            allProducts = products;
+            window.products = products; // Сохраняем в глобальный массив window.products
+            // После загрузки товаров — рисуем 4top
+            render4Top();
+        } catch (error) {
+            console.error('Ошибка загрузки товаров:', error);
+        }
     }
-}
-// Сразу после объявления функции loadProducts
-loadProducts();
+
+    // ============================================================
+    // 4TOP БЛОКИ СЛЕВА И СПРАВА ОТ ВИДЕО
+    // ============================================================
+
+    function render4Top() {
+        const topIds = window.top4Ids || (typeof top4Ids !== 'undefined' ? top4Ids : null);
+
+        // Проверяем, есть ли массив top4Ids
+        if (!topIds || !Array.isArray(topIds) || topIds.length < 4) {
+            console.warn('4top: массив top4Ids не найден или недостаточно ID');
+            return;
+        }
+
+        const leftContainer = document.querySelector('.hero__side--left');
+        const rightContainer = document.querySelector('.hero__side--right');
+
+        if (!leftContainer || !rightContainer) {
+            return;
+        }
+
+        // Очищаем контейнеры перед вставкой
+        leftContainer.innerHTML = '';
+        rightContainer.innerHTML = '';
+
+        // Функция получения товара по ID
+        function getProductById(id) {
+            const productList = window.products || allProducts;
+            return productList.find(p => p.id === id) || null;
+        }
+
+        // Функция создания карточки
+        function createCard(product) {
+            const card = document.createElement('div');
+            card.className = 'hero-side-card';
+
+            if (!product) {
+                card.classList.add('hero-side-card--unavailable');
+                card.dataset.productId = 'unavailable';
+                card.innerHTML = `
+                    <div class="hero-side-card__img-box">
+                        <div class="hero-side-card__unavailable-box">
+                            <i class="fa-solid fa-box-open" style="font-size:1.3rem;margin-bottom:4px;color:#64748b;"></i>
+                            <span>Товар тимчасово недоступний</span>
+                        </div>
+                    </div>
+                    <div class="hero-side-card__body">
+                        <div class="hero-side-card__title" style="color:#64748b;">Немає в наявності</div>
+                    </div>
+                `;
+                return card;
+            }
+
+            card.dataset.productId = product.id;
+
+            // Формируем цену
+            let priceText = product.price ? `${product.price} грн` : 'Ціна не вказана';
+            let unitText = product.unit ? product.unit : '';
+            let oldPriceHtml = '';
+            if (product.oldPrice && product.oldPrice > product.price) {
+                oldPriceHtml = `<span style="text-decoration:line-through;color:#64748b;font-size:0.7rem;margin-left:4px;">${product.oldPrice} грн</span>`;
+            }
+
+            card.innerHTML = `
+                <div class="hero-side-card__img-box">
+                    <img src="${product.img || 'images/no-photo.png'}" alt="${product.name || 'Товар'}" class="hero-side-card__img" loading="lazy" onerror="this.src='images/no-photo.png'">
+                </div>
+                <div class="hero-side-card__body">
+                    <div class="hero-side-card__title">${product.name || 'Без назви'}</div>
+                    <div class="hero-side-card__price-row">
+                        <span class="hero-side-card__price">${priceText}</span>
+                        ${oldPriceHtml}
+                        ${unitText ? `<span class="hero-side-card__unit">${unitText}</span>` : ''}
+                    </div>
+                </div>
+            `;
+
+            // Клик по доступной карточке — попап
+            card.addEventListener('click', function(e) {
+                e.stopPropagation();
+                openAddToCartPopup(product);
+            });
+
+            return card;
+        }
+
+        // Функция открытия попапа
+        function openAddToCartPopup(product) {
+            let popup = document.querySelector('.popup');
+            if (!popup) {
+                popup = document.createElement('div');
+                popup.className = 'popup';
+                popup.innerHTML = `
+                    <div class="popup__overlay"></div>
+                    <div class="popup__content">
+                        <button class="popup__close" aria-label="Закрити">&times;</button>
+                        <h3 class="popup__title">Додати товар до кошика?</h3>
+                        <p class="popup__subtitle">Додається мінімальна кількість. Змінити можна буде в кошику.</p>
+                        <div class="popup__buttons">
+                            <button class="popup__confirm-btn">Так</button>
+                            <button class="popup__cancel-btn">Ні</button>
+                        </div>
+                    </div>
+                `;
+                document.body.appendChild(popup);
+
+                popup.querySelector('.popup__close').addEventListener('click', () => closePopup(popup));
+                popup.querySelector('.popup__overlay').addEventListener('click', () => closePopup(popup));
+            }
+
+            const confirmBtn = popup.querySelector('.popup__confirm-btn');
+            const cancelBtn = popup.querySelector('.popup__cancel-btn');
+
+            const newConfirm = confirmBtn.cloneNode(true);
+            confirmBtn.parentNode.replaceChild(newConfirm, confirmBtn);
+            newConfirm.addEventListener('click', function() {
+                addToCart(product);
+                closePopup(popup);
+            });
+
+            const newCancel = cancelBtn.cloneNode(true);
+            cancelBtn.parentNode.replaceChild(newCancel, cancelBtn);
+            newCancel.addEventListener('click', function() {
+                closePopup(popup);
+            });
+
+            popup.classList.add('popup--open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closePopup(popup) {
+            popup.classList.remove('popup--open');
+            document.body.style.overflow = '';
+        }
+
+        // Функция добавления в корзину
+        function addToCart(product) {
+            let quantity = 1;
+            if (product.step && typeof product.step === 'number' && product.step > 0) {
+                quantity = product.step;
+            }
+
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const existingItem = cart.find(item => item.id === product.id);
+            if (existingItem) {
+                existingItem.quantity = parseFloat(existingItem.quantity) + quantity;
+            } else {
+                cart.push({ id: product.id, quantity: quantity });
+            }
+            localStorage.setItem('cart', JSON.stringify(cart));
+            updateHeaderCounters();
+        }
+
+        // Рендерим 4 карточки по порядку: [0, 1] - левая колонка, [2, 3] - правая колонка
+        const ids = topIds.slice(0, 4);
+        const products = ids.map(id => getProductById(id));
+
+        const leftItems = products.slice(0, 2);
+        const rightItems = products.slice(2, 4);
+
+        leftItems.forEach(product => {
+            leftContainer.appendChild(createCard(product));
+        });
+
+        rightItems.forEach(product => {
+            rightContainer.appendChild(createCard(product));
+        });
+    }
+
+    // Запускаем загрузку товаров
+    loadProducts();
     // 1. ЛОГИКА РАБОТЫ МОБИЛЬНОГО БУРГЕР-МЕНЮ
     const burgerBtn = document.querySelector('.header__burger');
     const headerMenu = document.querySelector('.header__menu');
@@ -542,3 +715,5 @@ loadProducts();
         });
     }
 });
+
+

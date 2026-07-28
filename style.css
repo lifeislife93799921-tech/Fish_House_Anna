@@ -316,16 +316,16 @@ a {
     display: grid;
     grid-template-columns: 1fr 340px 1fr; /* Бока делят место поровну, центр строго 340px под мобильное видео */
     gap: 20px;
-    align-items: start;
+    align-items: stretch; /* Колонки тянутся на одинаковую высоту */
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
 }
 
-/* Боковые пустые пространства под будущие карточки */
+/* Боковые пространства под карточки 4TOP */
 .hero__side {
     width: 100%;
-    min-height: 200px;
+    min-height: 0;
 }
 
 /* Центральная часть */
@@ -362,43 +362,29 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3); /* 0.3 — это степень затемнения. Нужна больше темнота — ставь 0.4 или 0.5 */
-    z-index: 2; /* Сидит строго над видео */
-    pointer-events: none; /* Чтобы клики проходили сквозь слой */
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    pointer-events: none;
 }
 
-/* Контейнер для логотипа (позиционирование сверху по центру) */
+/* Контейнер для логотипа */
 .hero__logo-overlay {
     position: absolute;
-    top: 20px; /* Отступ логотипа от верхнего края видео */
+    top: 20px;
     left: 50%;
-    transform: translateX(-50%); /* Центровка по горизонтали */
+    transform: translateX(-50%);
     width: 100%;
     display: flex;
     justify-content: center;
-    z-index: 3; /* Поверх затемнения и видео */
+    z-index: 3;
     pointer-events: none;
 }
 
 /* Сам логотип */
 .hero__logo {
-    max-width: 90%; /* Логотип занимает 90% ширины видео. Уменьшай проценты, если захочешь сделать его меньше */
+    max-width: 90%;
     height: auto;
     object-fit: contain;
-}
-
-/* Адаптив для мобилок */
-@media (max-width: 992px) {
-    .hero__grid {
-        grid-template-columns: 1fr;
-    }
-    .hero__side {
-        display: none; /* Прячем пустые боковые зоны на телефонах, чтобы не мешались */
-    }
-    .hero__center {
-        max-width: 340px;
-        margin: 0 auto;
-    }
 }
 /* ==========================================================================
    4. АВТОНОМНЫЙ ФУТЕР С ПОДГОНКОЙ PNG ИКОНОК (БЭМ)
@@ -2607,3 +2593,525 @@ html {
     }
 }
 
+/* ==========================================================================
+   CTA ПОВЕРХ ВИДЕО (нижняя часть)
+   ========================================================================== */
+.hero__cta {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 15px 25px 15px;
+    /* Градиентная подложка для читаемости текста */
+    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%);
+    pointer-events: none; /* Чтобы клики проходили сквозь фон, но кнопка будет поверх */
+    z-index: 5; /* Поверх видео и затемнения */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Контент внутри — чтобы кнопка была кликабельной */
+.hero__cta-content {
+    pointer-events: auto; /* Возвращаем клики на кнопку и текст, если нужно */
+}
+
+.hero__cta-title {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 2px 0;
+    line-height: 1.2;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5); /* Лёгкая тень для читаемости, но анимации нет */
+}
+
+.hero__cta-subtitle {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    line-height: 1.3;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.hero__cta-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff7a00 0%, #ff5500 100%);
+    color: #fff;
+    padding: 14px 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(255, 122, 0, 0.3);
+    transition: all 0.2s ease;
+    pointer-events: auto; /* Кнопка кликабельна */
+    border: none;
+    cursor: pointer;
+}
+
+.hero__cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 22px rgba(255, 122, 0, 0.45);
+}
+
+/* Адаптив */
+@media (max-width: 768px) {
+    .hero__cta {
+        padding: 15px 12px 20px 12px;
+    }
+    .hero__cta-title {
+        font-size: 1.6rem;
+    }
+    .hero__cta-subtitle {
+        font-size: 1rem;
+    }
+    .hero__cta-button {
+        padding: 12px 32px;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero__cta-title {
+        font-size: 1.3rem;
+    }
+    .hero__cta-subtitle {
+        font-size: 0.9rem;
+        margin-bottom: 12px;
+    }
+    .hero__cta-button {
+        padding: 10px 28px;
+        font-size: 0.9rem;
+    }
+}
+
+/* ============================================================
+   4TOP — КОМПАКТНЫЕ КАРТОЧКИ ПО БОКАМ ОТ ВИДЕО
+   ============================================================ */
+
+/* ============================================================
+   4TOP — КОМПАКТНЫЕ КАРТОЧКИ ПО БОКАМ ОТ ВИДЕО
+   ============================================================ */
+
+.hero__side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Центрирование карток по горизонтали в колонке */
+    gap: 16px;
+    height: 100%;
+    min-height: 0;
+    width: 100%;
+}
+
+.hero-side-card {
+    flex: 1 1 0;
+    min-height: 0;
+    height: calc((100% - 16px) / 2);
+    width: 100%;
+    max-width: 200px; /* Ограничиваем ширину, чтобы карточка была вытянутой ~3:4 */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: rgba(20, 26, 35, 0.6);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 6px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.hero-side-card:hover {
+    border-color: #ff7a00;
+    box-shadow: 0 0 16px rgba(255, 122, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+.hero-side-card__img-box {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Квадрат */
+    flex-shrink: 0; /* Чтобы не сжимался */
+    overflow: hidden;
+    border-radius: 6px;
+    background: #0d1117;
+    position: relative;
+}
+
+.hero-side-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.hero-side-card:hover .hero-side-card__img {
+    transform: scale(1.04);
+}
+
+.hero-side-card__body {
+    padding: 6px 4px 2px 4px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.hero-side-card__title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.25;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+.hero-side-card__price-row {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.hero-side-card__price {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #ff7a00;
+}
+
+.hero-side-card__unit {
+    font-size: 0.7rem;
+    color: #94a3b8;
+}
+
+/* Заглушка для отсутствующих товаров */
+.hero-side-card--unavailable {
+    opacity: 0.55;
+    cursor: default;
+    background: rgba(20, 26, 35, 0.4);
+}
+
+.hero-side-card--unavailable:hover {
+    transform: none !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+    box-shadow: none !important;
+}
+
+.hero-side-card__unavailable-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #64748b;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ============================================================
+   ПОПАП (МОДАЛЬНОЕ ОКНО ДОБАВЛЕНИЯ В КОШИК)
+   ============================================================ */
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.popup--open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.popup__content {
+    position: relative;
+    z-index: 2001;
+    width: 90%;
+    max-width: 400px;
+    background: rgba(20, 26, 35, 0.95);
+    border: 1px solid rgba(255, 122, 0, 0.3);
+    border-radius: 16px;
+    padding: 28px 24px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 122, 0, 0.15);
+    text-align: center;
+    box-sizing: border-box;
+    transform: scale(0.92);
+    transition: transform 0.3s ease;
+}
+
+.popup--open .popup__content {
+    transform: scale(1);
+}
+
+.popup__close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: #94a3b8;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.2s;
+    line-height: 1;
+}
+
+.popup__close:hover {
+    color: #ff7a00;
+}
+
+.popup__title {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.popup__subtitle {
+    color: #94a3b8;
+    font-size: 0.85rem;
+    margin-bottom: 22px;
+    line-height: 1.4;
+}
+
+.popup__buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.popup__confirm-btn {
+    flex: 1;
+    background: linear-gradient(135deg, #ff7a00 0%, #ff5500 100%);
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 122, 0, 0.3);
+    transition: all 0.2s ease;
+}
+
+.popup__confirm-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 122, 0, 0.45);
+}
+
+.popup__cancel-btn {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.popup__cancel-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* ============================================================
+   АДАПТИВНОСТЬ 4TOP (ПЛАНШЕТЫ И МОБИЛЬНЫЕ)
+   ============================================================ */
+
+/* Планшеты (769px — 992px) */
+@media (max-width: 992px) and (min-width: 769px) {
+    .hero__grid {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 16px !important;
+    }
+    .hero__center {
+        order: 1 !important;
+        max-width: 340px !important;
+        width: 100% !important;
+    }
+    .hero__side--left,
+    .hero__side--right {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 18px !important;
+        width: 100% !important;
+        max-width: 660px !important;
+        height: auto !important;
+        flex-direction: unset !important;
+        justify-content: unset !important;
+        align-items: unset !important;
+        order: unset !important;
+        margin: 0 auto !important;
+    }
+    .hero__side--left {
+        order: 2 !important;
+    }
+    .hero__side--right {
+        order: 3 !important;
+    }
+    .hero-side-card {
+        height: 405px !important;
+        max-height: none !important;
+        max-width: 100% !important;
+        flex: none !important;
+        margin: 0 !important;
+    }
+    .hero-side-card__title {
+        font-size: 0.95rem !important;
+    }
+    .hero-side-card__price {
+        font-size: 1.05rem !important;
+    }
+}
+
+/* Большие телефоны (600px — 768px) */
+@media (max-width: 768px) and (min-width: 600px) {
+    .hero__grid {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 16px !important;
+    }
+    .hero__center {
+        order: 1 !important;
+        max-width: 340px !important;
+        width: 100% !important;
+    }
+    .hero__side--left,
+    .hero__side--right {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 16px !important;
+        width: 100% !important;
+        max-width: 510px !important;
+        height: auto !important;
+        flex-direction: unset !important;
+        justify-content: unset !important;
+        align-items: unset !important;
+        order: unset !important;
+        margin: 0 auto !important;
+    }
+    .hero__side--left {
+        order: 2 !important;
+    }
+    .hero__side--right {
+        order: 3 !important;
+    }
+    .hero-side-card {
+        height: 330px !important;
+        max-height: none !important;
+        max-width: 100% !important;
+        flex: none !important;
+        margin: 0 !important;
+    }
+    .hero-side-card__title {
+        font-size: 0.9rem !important;
+    }
+    .hero-side-card__price {
+        font-size: 1rem !important;
+    }
+}
+
+/* Маленькие мобилки (до 599.98px) – МАКСИМАЛЬНАЯ СПЕЦИФИЧНОСТЬ */
+@media (max-width: 599.98px) {
+    .hero__grid {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 10px !important;
+    }
+    .hero__grid .hero__center {
+        order: 1 !important;
+        max-width: 340px !important;
+        width: 100% !important;
+    }
+    /* Переопределяем все боковые колонки через родителя */
+    .hero__grid .hero__side,
+    .hero__grid .hero__side--left,
+    .hero__grid .hero__side--right {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
+        width: 100% !important;
+        max-width: 340px !important;
+        height: auto !important;
+        flex-direction: unset !important;
+        justify-content: unset !important;
+        align-items: unset !important;
+        order: unset !important;
+        margin: 0 auto !important;
+        flex: unset !important;
+    }
+    .hero__grid .hero__side--left {
+        order: 2 !important;
+    }
+    .hero__grid .hero__side--right {
+        order: 3 !important;
+    }
+    .hero__grid .hero-side-card {
+        height: 220px !important;
+        max-height: none !important;
+        max-width: 100% !important;
+        flex: none !important;
+        flex-direction: column !important;
+        padding: 5px !important;
+        margin: 0 !important;
+        align-self: unset !important;
+    }
+    .hero__grid .hero-side-card__img-box {
+        width: 100% !important;
+        aspect-ratio: 1 / 1 !important;
+        flex-shrink: 0 !important;
+        min-height: unset !important;
+    }
+    .hero__grid .hero-side-card__body {
+        padding: 4px 2px 2px 2px !important;
+        flex: 1 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-end !important;
+    }
+    .hero__grid .hero-side-card__title {
+        font-size: 0.7rem !important;
+        line-height: 1.2 !important;
+        margin-bottom: 2px !important;
+    }
+    .hero__grid .hero-side-card__price {
+        font-size: 0.8rem !important;
+    }
+    .hero__grid .hero-side-card__unit {
+        font-size: 0.6rem !important;
+    }
+}
