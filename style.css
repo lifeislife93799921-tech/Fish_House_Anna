@@ -1711,34 +1711,6 @@ a {
         grid-template-columns: 1fr; /* 1 карточка в ряд на мелких смартфонах */
     }
 
-    /* Настройки всплывающего окна на мобилках */
-    .popup__content {
-        padding: 40px 15px 25px 15px; /* Корректируем отступы, чтобы текст не прилипал к краям экрана */
-    }
-
-    .popup-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
-    .popup-grid__img-box {
-        width: 100%;
-        height: auto; /* Сбрасываем жесткую высоту в 200px */
-        aspect-ratio: 1 / 1; /* Заставляем картинку сохранять пропорции идеального сочного квадрата */
-        border: 1px solid rgba(255, 255, 255, 0.1); /* Тонкая аккуратная рамка на мобилке */
-        border-radius: 12px;
-        overflow: hidden;
-    }
-
-    .popup-grid__img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; /* Картинка полностью заполняет квадрат без искажения пропорций */
-    }
-
-    .popup-grid__title {
-        font-size: 1.35rem; /* Чуть уменьшаем шрифт заголовка, чтобы он аккуратно ложился на мобильном */
-    }
 }
 
 /* ==========================================================================
@@ -2816,133 +2788,7 @@ html {
     padding: 10px;
 }
 
-/* ============================================================
-   ПОПАП (МОДАЛЬНОЕ ОКНО ДОБАВЛЕНИЯ В КОШИК)
-   ============================================================ */
 
-.popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 2000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-
-.popup--open {
-    opacity: 1;
-    visibility: visible;
-}
-
-.popup__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-}
-
-.popup__content {
-    position: relative;
-    z-index: 2001;
-    width: 90%;
-    max-width: 400px;
-    background: rgba(20, 26, 35, 0.95);
-    border: 1px solid rgba(255, 122, 0, 0.3);
-    border-radius: 16px;
-    padding: 28px 24px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 122, 0, 0.15);
-    text-align: center;
-    box-sizing: border-box;
-    transform: scale(0.92);
-    transition: transform 0.3s ease;
-}
-
-.popup--open .popup__content {
-    transform: scale(1);
-}
-
-.popup__close {
-    position: absolute;
-    top: 12px;
-    right: 16px;
-    background: none;
-    border: none;
-    color: #94a3b8;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: color 0.2s;
-    line-height: 1;
-}
-
-.popup__close:hover {
-    color: #ff7a00;
-}
-
-.popup__title {
-    color: #ffffff;
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-bottom: 8px;
-}
-
-.popup__subtitle {
-    color: #94a3b8;
-    font-size: 0.85rem;
-    margin-bottom: 22px;
-    line-height: 1.4;
-}
-
-.popup__buttons {
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-}
-
-.popup__confirm-btn {
-    flex: 1;
-    background: linear-gradient(135deg, #ff7a00 0%, #ff5500 100%);
-    color: #ffffff;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 10px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    cursor: pointer;
-    box-shadow: 0 4px 15px rgba(255, 122, 0, 0.3);
-    transition: all 0.2s ease;
-}
-
-.popup__confirm-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 122, 0, 0.45);
-}
-
-.popup__cancel-btn {
-    flex: 1;
-    background: rgba(255, 255, 255, 0.08);
-    color: #ffffff;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    padding: 12px 20px;
-    border-radius: 10px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.popup__cancel-btn:hover {
-    background: rgba(255, 255, 255, 0.15);
-}
 
 /* ============================================================
    АДАПТИВНОСТЬ 4TOP (ПЛАНШЕТЫ И МОБИЛЬНЫЕ)
@@ -3113,5 +2959,89 @@ html {
     }
     .hero__grid .hero-side-card__unit {
         font-size: 0.6rem !important;
+    }
+}
+
+/* ============================================================
+   АДАПТАЦИЯ ПОПАПА ДЛЯ ПЛАНШЕТОВ И МОБИЛОК (≤1024px)
+   ============================================================ */
+
+/* Планшеты и маленькие ноутбуки (651–1024px) — две колонки, квадратная картинка */
+@media (min-width: 651px) and (max-width: 1024px) {
+    .popup__content {
+        padding: 20px !important;
+    }
+
+    .popup-grid {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 20px !important;
+    }
+
+    .popup-grid__img-box {
+        height: auto !important;
+        aspect-ratio: 1 / 1 !important;   /* квадрат */
+        max-width: 100% !important;
+    }
+
+    .popup-grid__img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+
+    .popup-grid__title {
+        font-size: 1.3rem !important;
+        margin-bottom: 8px !important;
+    }
+
+    .popup-grid__desc {
+        font-size: 0.9rem !important;
+        line-height: 1.4 !important;
+        margin-bottom: 15px !important;
+    }
+}
+
+/* Мобильные телефоны (≤650px) — одна колонка, картинка меньше, шрифт компактнее */
+@media (max-width: 650px) {
+    .popup__content {
+        padding: 15px !important;
+        max-width: 95% !important;
+    }
+
+    .popup-grid {
+        grid-template-columns: 1fr !important;
+        gap: 10px !important;
+    }
+
+    .popup-grid__img-box {
+        height: auto !important;
+        aspect-ratio: 1 / 1 !important;
+        max-width: 260px !important;       /* ограничиваем размер, чтобы не занимала весь экран */
+        margin: 0 auto !important;
+    }
+
+    .popup-grid__img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+
+    .popup-grid__title {
+        font-size: 1.1rem !important;
+        margin-bottom: 4px !important;
+        text-align: center !important;
+    }
+
+    .popup-grid__desc {
+        font-size: 0.82rem !important;
+        line-height: 1.3 !important;
+        margin-bottom: 8px !important;
+        text-align: center !important;
+    }
+
+    .popup__close {
+        top: 8px !important;
+        right: 10px !important;
+        font-size: 1.5rem !important;
     }
 }
