@@ -1673,6 +1673,7 @@
     "description": "",
     "img": "images/napivfab/teftely_kur.webp"
   },
+
   {
     "id": 88,
     "name": "Восминіг Королівський PULO сирий цілий",
@@ -1996,6 +1997,24 @@
     ],
     "description": "",
     "img": "images/moreprod/krab_palichki_vodniy_mir.webp"
+  },
+  {
+    "id": 371 ,
+    "name": "Мідії в/м Чілі 100/200",
+    "type": "moreprod",
+    "price": 471,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/moreprod/midia_chili_100_200.webp"
   },
   {
     "id": 106,
@@ -3316,7 +3335,7 @@
     "id": 179,
     "name": "Сир \"Козій\" Фріко (ваговий) (Голландія)",
     "type": "bakaleya",
-    "price": 1023,
+    "price": 1141,
     "oldPrice": null,
     "unit": "кг",
     "step": 0.1,
@@ -4753,6 +4772,42 @@
     "img": "images/kopch_sol/hamsa_suhiy_posol.webp"
   },
   {
+    "id": 369 ,
+    "name": "Лящ стейк в'ялений",
+    "type": "vyal_sush",
+    "price": 680,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/lesch_steik_vial.webp"
+  },
+{
+    "id": 370 ,
+    "name": "Лящ стейк в'ялений ХВОСТ",
+    "type": "vyal_sush",
+    "price": 400,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/vyal_sush/lesch_steik_vial_hvost.webp"
+  },
+  {
     "id": 255,
     "name": "Атерина в'ялена.",
     "type": "vyal_sush",
@@ -5740,7 +5795,25 @@
       { "type": "new", "text": "Новинка", "active": false }
     ],
     "description": "",
-    "img": "images/sira_marin/triska_rozheva_tushka.webp"
+    "img": "images/sira_marin/triska_rozheva_tushka_800.webp"
+  },
+  {
+    "id": 372 ,
+    "name": "Тріска рожева тушка Б/Г 500/700",
+    "type": "sira_marin",
+    "price": 263,
+    "oldPrice": null,
+    "unit": "кг",
+    "step": 0.1,
+    "available": true,
+    "missingText": null,
+    "badges": [
+      { "type": "sale", "text": "Акція %", "active": false },
+      { "type": "hit", "text": "Хіт", "active": false },
+      { "type": "new", "text": "Новинка", "active": false }
+    ],
+    "description": "",
+    "img": "images/sira_marin/triska_rozheva_tushka_500_700.webp"
   },
   {
     "id": 309,
